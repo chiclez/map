@@ -1,20 +1,18 @@
-import pandas as pd
-import numpy as np
-import itertools
-from geopy.distance import geodesic
-from scipy.optimize import linprog
-import os 
-import folium
-import requests
-import json
-import csv
-import time
-import progressbar
-from requests.adapters import HTTPAdapter
+import concurrent.futures
 from console_progressbar import ProgressBar
+import csv
+from geopy.distance import geodesic
+import itertools
+import json
+import numpy as np
+import os 
+import pandas as pd
+import progressbar
+import requests
+from requests.adapters import HTTPAdapter
+import time
 from tqdm import tqdm
 from urllib.parse import urlparse
-import concurrent.futures
 
 def distance_calc (url):
 
@@ -42,7 +40,7 @@ def distance_calc (url):
 
     return
 
-def tsp_calc (url):
+def tsp_calc (url, combination):
 
     time.sleep(5)
 
@@ -54,8 +52,8 @@ def tsp_calc (url):
     #with open('tsp.json', 'w') as json_file: 
     #    json.dump(res, json_file, indent = 4)
 
-    distance = round(res['trips'][0]['distance']/1000,3)
-    duration = round(res['trips'][0]['duration']/60,3)
+    distance = round(res['trips'][0]['distance']/1000,2)
+    duration = round(res['trips'][0]['duration']/60,2)
     leg1 = res['waypoints'][1]['waypoint_index']
     leg2 = res['waypoints'][2]['waypoint_index']
 
@@ -63,17 +61,31 @@ def tsp_calc (url):
     csvName = f"tsp_nCr_{timestr}.csv"
 
     with open(csvName, 'a') as file:    
-         file.write(f"{distance},{duration},0,{leg1},{leg2}\n")
+         file.write(f"{combination},{distance},{duration},0,{leg1},{leg2}\n")
          #time.sleep(2)
 
     return
 
 def Combinations():
-    header = "Find Combinations Python script"
+    '''
+    This script will calculate the combinations for the Travelling salesman problem
+    for Edinburgh's JustEat bike sharing service using a multithreading approach.
+    It computes the nC2 combinations, where n = number of stations found in the
+    input file and r is fixed to be 2 (to avoid crashing our server...)
+    This script heavily relies on a Docker OSRM server as well... 
+
+    Input:
+    open_data csv: This can be found in Edinburgh's Just Eat site
+
+    Output:
+    tsp.csv: A csv file with all the required information for Mosel
+            i.e. distance, duration, node visits
+    '''
+
+    header = "Travelling Salesman Problem (TSP) Combinations"
     print(header)
     print("="*len(header))
-    print("This script will create the combination csv files for Mosel consumption \n")
-    print("Enter the full path csv file location (i.e. C:/Documents/08.csv). Press Enter when done.")
+    print("Enter the full path csv file location (i.e. C:\Documents\08.csv). Press Enter when done.")
     csvFile = input()
        
     curDir = os.getcwd()
@@ -105,14 +117,15 @@ def Combinations():
     coordinates = groupData["pickupCoordinates"].tolist()
 
     nCr = list(itertools.combinations(groupData['pickupCoordinates'], 2))
-
-#    out = csv.writer(open("nCr.csv","w"), delimiter=',',quoting=csv.QUOTE_ALL)
+    nCr_stations = list(itertools.combinations(groupData['start_station_id'], 2))
 
     with open('nCr.csv', 'w', newline='\n') as f:
         writer = csv.writer(f)
         writer.writerows(nCr)
 
-#    out.writerow(data)
+    with open('nCr_stations.csv', 'w', newline='\n') as stations:
+        writer = csv.writer(stations)
+        writer.writerows(nCr_stations)
 
     tspUrls = []
     depot = "-3.157453,55.973447"
@@ -121,27 +134,30 @@ def Combinations():
         tspUrl = "http://127.0.0.1:5000/trip/v1/driving/"
         group = f"{nCr[i][0]};{nCr[i][1]}"
         pickupUrl = f"{tspUrl}{depot};{group}?source=first"
+
         tspUrls.append(pickupUrl)
 
-    print(tspUrls[0])
+    print("Combinations found: {len(tspUrls)}")
 
-    print("Computing TSP")
+    combinations = [i for i in range(0, len(tspUrls))]
+
+    print("Computing TSP for each combination")
 
     with concurrent.futures.ThreadPoolExecutor() as executor:
-        results = list(tqdm(executor.map(tsp_calc, tspUrls), total=len(tspUrls)))    
+        results = list(tqdm(executor.map(tsp_calc, tspUrls, combinations), total=len(tspUrls)))    
 
-    print(time.perf_counter())
+    print("Done")
+    print(f"Computing time: {time.perf_counter()}")
 
     return
 
 Combinations()
 
-
-def Run():
+def PopularSpotsRoutes():
 
     '''
     This function will read a csv file and will create a csv that Mosel can read
-   with the most popular paths and stations in a certain week. 
+   with the most popular routes and stations in a certain week. 
    The csv files will be output in the same directory as the working directory of
    this Python script
 
@@ -366,7 +382,6 @@ def Run():
 
 
 
-Run()
 
 ## Map 
 #world_map = folium.Map()
