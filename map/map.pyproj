@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f2a2e360-4591-4c2f-84da-d9b1413618e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>map.py</StartupFile>
+    <StartupFile>findLocs.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

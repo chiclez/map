@@ -1,0 +1,40 @@
+{
+    "code": "Ok",
+    "routes": [
+        {
+            "legs": [
+                {
+                    "steps": [],
+                    "distance": 1231,
+                    "duration": 191.9,
+                    "summary": "",
+                    "weight": 191.9
+                }
+            ],
+            "distance": 1231,
+            "duration": 191.9,
+            "weight_name": "routability",
+            "weight": 191.9
+        }
+    ],
+    "waypoints": [
+        {
+            "hint": "w6wPgPqsD4AWAAAAFQAAACgAAAAAAAAAXH-EQYVoZ0Gej-NBAAAAABYAAAAVAAAAKAAAAAAAAADvAAAADRHP__fDVQNEEM__1MNVAwEAbxVDd7ds",
+            "distance": 13.140645,
+            "name": "Charlotte Square",
+            "location": [
+                -3.206899,
+                55.952375
+            ]
+        },
+        {
+            "hint": "_XYPgGh3D4AAAAAADQAAACQAAAAIAAAAeiaMPiIXEEF_GcpBpL6wQAAAAAANAAAAJAAAAAgAAADvAAAAIQjP_02gVQPeB8__wKBVAwMAvw9Dd7ds",
+            "distance": 13.471993,
+            "name": "Fountainbridge",
+            "location": [
+                -3.209183,
+                55.943245
+            ]
+        }
+    ]
+}
