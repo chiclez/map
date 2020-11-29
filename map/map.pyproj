@@ -11,6 +11,9 @@
     <OutputPath>.</OutputPath>
     <Name>map</Name>
     <RootNamespace>map</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>1, "D:\Documents\MSc\MMCS\Project\raw_data\2020_11.csv", "D:\Documents\MSc\MMCS\Project\raw_data\regions.txt"</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>

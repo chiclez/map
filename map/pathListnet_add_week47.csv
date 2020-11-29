@@ -1,0 +1,1585 @@
+start_station_id,end_station_id,start_station_name,end_station_name,start_station_latitude,start_station_longitude,end_station_latitude,end_station_longitude,count
+171,171,George Square,George Square,55.94308,-3.18831,55.94308,-3.18831,1
+171,225,George Square,Waverley Court,55.94308,-3.18831,55.95173,-3.18418,1
+171,247,George Square,Charlotte Square,55.94308,-3.18831,55.95234,-3.2071,1
+171,248,George Square,Bristo Square,55.94308,-3.18831,55.94583,-3.18905,1
+171,264,George Square,Pollock Halls,55.94308,-3.18831,55.94008,-3.17175,5
+171,265,George Square,Meadows East,55.94308,-3.18831,55.93981,-3.18274,4
+171,358,George Square,Leith Walk,55.94308,-3.18831,55.96504,-3.17669,1
+171,1024,George Square,Meadow Place,55.94308,-3.18831,55.94024,-3.19464,3
+171,1051,George Square,Warrender Park Road,55.94308,-3.18831,55.93837,-3.19803,1
+171,1091,George Square,Holyrood Road,55.94308,-3.18831,55.94956,-3.18041,2
+171,1102,George Square,Haymarket Station,55.94308,-3.18831,55.94557,-3.21818,1
+171,1727,George Square,Causewayside,55.94308,-3.18831,55.93651,-3.18017,1
+171,1728,George Square,Portobello - Kings Road,55.94308,-3.18831,55.95792,-3.11833,2
+171,1730,George Square,East London Street,55.94308,-3.18831,55.95995,-3.1872,1
+171,1744,George Square,Morningside Road,55.94308,-3.18831,55.92799,-3.20975,1
+171,1767,George Square,Bruntsfield Links,55.94308,-3.18831,55.93712,-3.20643,2
+171,1800,George Square,Joppa,55.94308,-3.18831,55.94895,-3.09473,4
+171,1808,George Square,Gorgie Road,55.94308,-3.18831,55.93874,-3.22991,2
+171,1813,George Square,Milton Road - Edinburgh College,55.94308,-3.18831,55.94407,-3.09856,1
+171,2268,George Square,Picardy Place,55.94308,-3.18831,55.95654,-3.18625,1
+183,183,Waverley Bridge,Waverley Bridge,55.95198,-3.19189,55.95198,-3.19189,3
+183,225,Waverley Bridge,Waverley Court,55.95198,-3.19189,55.95173,-3.18418,1
+183,246,Waverley Bridge,Royal Commonwealth Pool,55.95198,-3.19189,55.939,-3.17392,1
+183,250,Waverley Bridge,Victoria Quay,55.95198,-3.19189,55.97762,-3.17413,5
+183,262,Waverley Bridge,Canonmills,55.95198,-3.19189,55.9628,-3.19628,1
+183,264,Waverley Bridge,Pollock Halls,55.95198,-3.19189,55.94008,-3.17175,4
+183,265,Waverley Bridge,Meadows East,55.95198,-3.19189,55.93981,-3.18274,1
+183,358,Waverley Bridge,Leith Walk,55.95198,-3.19189,55.96504,-3.17669,2
+183,1019,Waverley Bridge,Grassmarket,55.95198,-3.19189,55.9471,-3.19725,1
+183,1024,Waverley Bridge,Meadow Place,55.95198,-3.19189,55.94024,-3.19464,1
+183,1025,Waverley Bridge,Dundee Terrace,55.95198,-3.19189,55.93971,-3.22059,1
+183,1038,Waverley Bridge,South Trinity Road,55.95198,-3.19189,55.97133,-3.20796,2
+183,1039,Waverley Bridge,Lothian Road,55.95198,-3.19189,55.94741,-3.20577,1
+183,1042,Waverley Bridge,Kings Buildings - Murchison House,55.95198,-3.19189,55.92446,-3.17873,1
+183,1090,Waverley Bridge,Hillside Crescent,55.95198,-3.19189,55.95787,-3.17589,1
+183,1091,Waverley Bridge,Holyrood Road,55.95198,-3.19189,55.94956,-3.18041,2
+183,1092,Waverley Bridge,Dalry Road Lidl,55.95198,-3.19189,55.94179,-3.22242,1
+183,1096,Waverley Bridge,West Crosscauseway,55.95198,-3.19189,55.94384,-3.18495,1
+183,1097,Waverley Bridge,Gladstone Terrace,55.95198,-3.19189,55.93796,-3.18502,1
+183,1102,Waverley Bridge,Haymarket Station,55.95198,-3.19189,55.94557,-3.21818,2
+183,1720,Waverley Bridge,Dundas Street,55.95198,-3.19189,55.96076,-3.20128,1
+183,1721,Waverley Bridge,Tollcross,55.95198,-3.19189,55.94425,-3.2031,1
+183,1727,Waverley Bridge,Causewayside,55.95198,-3.19189,55.93651,-3.18017,2
+183,1728,Waverley Bridge,Portobello - Kings Road,55.95198,-3.19189,55.95792,-3.11833,1
+183,1729,Waverley Bridge,McDonald Road,55.95198,-3.19189,55.96403,-3.18518,1
+183,1731,Waverley Bridge,Pleasance Courtyard,55.95198,-3.19189,55.94749,-3.18111,1
+183,1744,Waverley Bridge,Morningside Road,55.95198,-3.19189,55.92799,-3.20975,1
+183,1749,Waverley Bridge,Dean Street,55.95198,-3.19189,55.95728,-3.21429,1
+183,1756,Waverley Bridge,Western General Hospital,55.95198,-3.19189,55.96284,-3.23414,4
+183,1757,Waverley Bridge,Meggetland,55.95198,-3.19189,55.92759,-3.23367,1
+183,1765,Waverley Bridge,Haymarket Terrace,55.95198,-3.19189,55.94606,-3.22302,1
+183,1769,Waverley Bridge,Brunswick Place,55.95198,-3.19189,55.96085,-3.18099,1
+183,1808,Waverley Bridge,Gorgie Road,55.95198,-3.19189,55.93874,-3.22991,1
+183,1814,Waverley Bridge,Abbeyhill,55.95198,-3.19189,55.95525,-3.17222,1
+183,1824,Waverley Bridge,Duke Street,55.95198,-3.19189,55.96901,-3.16739,2
+183,2268,Waverley Bridge,Picardy Place,55.95198,-3.19189,55.95654,-3.18625,1
+189,189,City Chambers,City Chambers,55.95011,-3.19026,55.95011,-3.19026,1
+189,249,City Chambers,Fountainbridge,55.95011,-3.19026,55.94336,-3.20925,1
+189,253,City Chambers,Kings Building 2,55.95011,-3.19026,55.9232,-3.17165,3
+189,254,City Chambers,Kings Building 3,55.95011,-3.19026,55.92348,-3.17538,1
+189,256,City Chambers,St Andrews House,55.95011,-3.19026,55.95316,-3.18168,2
+189,265,City Chambers,Meadows East,55.95011,-3.19026,55.93981,-3.18274,3
+189,289,City Chambers,Castle Street,55.95011,-3.19026,55.9515,-3.20318,1
+189,1025,City Chambers,Dundee Terrace,55.95011,-3.19026,55.93971,-3.22059,1
+189,1028,City Chambers,Hunter Square,55.95011,-3.19026,55.9498,-3.1878,1
+189,1055,City Chambers,Roseburn Street,55.95011,-3.19026,55.94443,-3.2345,1
+189,1726,City Chambers,Simon Square,55.95011,-3.19026,55.94486,-3.18259,1
+189,1727,City Chambers,Causewayside,55.95011,-3.19026,55.93651,-3.18017,2
+189,1728,City Chambers,Portobello - Kings Road,55.95011,-3.19026,55.95792,-3.11833,3
+189,1763,City Chambers,Comely Bank Road,55.95011,-3.19026,55.95941,-3.21566,2
+189,1765,City Chambers,Haymarket Terrace,55.95011,-3.19026,55.94606,-3.22302,1
+189,1769,City Chambers,Brunswick Place,55.95011,-3.19026,55.96085,-3.18099,1
+189,1770,City Chambers,Ellersly Road,55.95011,-3.19026,55.94505,-3.25088,1
+189,1814,City Chambers,Abbeyhill,55.95011,-3.19026,55.95525,-3.17222,2
+189,2265,City Chambers,Musselburgh Brunton Hall,55.95011,-3.19026,55.94396,-3.05831,1
+189,2268,City Chambers,Picardy Place,55.95011,-3.19026,55.95654,-3.18625,3
+225,183,Waverley Court,Waverley Bridge,55.95173,-3.18418,55.95198,-3.19189,1
+225,225,Waverley Court,Waverley Court,55.95173,-3.18418,55.95173,-3.18418,3
+225,1092,Waverley Court,Dalry Road Lidl,55.95173,-3.18418,55.94179,-3.22242,1
+225,1738,Waverley Court,Wester Coates Terrace,55.95173,-3.18418,55.94565,-3.23185,1
+225,1769,Waverley Court,Brunswick Place,55.95173,-3.18418,55.96085,-3.18099,1
+225,1814,Waverley Court,Abbeyhill,55.95173,-3.18418,55.95525,-3.17222,2
+225,2268,Waverley Court,Picardy Place,55.95173,-3.18418,55.95654,-3.18625,1
+246,171,Royal Commonwealth Pool,George Square,55.939,-3.17392,55.94308,-3.18831,1
+246,183,Royal Commonwealth Pool,Waverley Bridge,55.939,-3.17392,55.95198,-3.19189,1
+246,189,Royal Commonwealth Pool,City Chambers,55.939,-3.17392,55.95011,-3.19026,1
+246,246,Royal Commonwealth Pool,Royal Commonwealth Pool,55.939,-3.17392,55.939,-3.17392,1
+246,248,Royal Commonwealth Pool,Bristo Square,55.939,-3.17392,55.94583,-3.18905,2
+246,253,Royal Commonwealth Pool,Kings Building 2,55.939,-3.17392,55.9232,-3.17165,2
+246,254,Royal Commonwealth Pool,Kings Building 3,55.939,-3.17392,55.92348,-3.17538,2
+246,358,Royal Commonwealth Pool,Leith Walk,55.939,-3.17392,55.96504,-3.17669,2
+246,1017,Royal Commonwealth Pool,Crichton Street,55.939,-3.17392,55.94478,-3.18691,1
+246,1042,Royal Commonwealth Pool,Kings Buildings - Murchison House,55.939,-3.17392,55.92446,-3.17873,2
+246,1050,Royal Commonwealth Pool,EICC,55.939,-3.17392,55.94607,-3.2104,1
+246,1052,Royal Commonwealth Pool,Surgeons Hall,55.939,-3.17392,55.94664,-3.18547,3
+246,1091,Royal Commonwealth Pool,Holyrood Road,55.939,-3.17392,55.94956,-3.18041,4
+246,1721,Royal Commonwealth Pool,Tollcross,55.939,-3.17392,55.94425,-3.2031,1
+246,1726,Royal Commonwealth Pool,Simon Square,55.939,-3.17392,55.94486,-3.18259,3
+246,1727,Royal Commonwealth Pool,Causewayside,55.939,-3.17392,55.93651,-3.18017,1
+246,1728,Royal Commonwealth Pool,Portobello - Kings Road,55.939,-3.17392,55.95792,-3.11833,4
+246,1729,Royal Commonwealth Pool,McDonald Road,55.939,-3.17392,55.96403,-3.18518,1
+246,1756,Royal Commonwealth Pool,Western General Hospital,55.939,-3.17392,55.96284,-3.23414,1
+246,1763,Royal Commonwealth Pool,Comely Bank Road,55.939,-3.17392,55.95941,-3.21566,4
+246,1767,Royal Commonwealth Pool,Bruntsfield Links,55.939,-3.17392,55.93712,-3.20643,3
+246,1808,Royal Commonwealth Pool,Gorgie Road,55.939,-3.17392,55.93874,-3.22991,1
+246,1814,Royal Commonwealth Pool,Abbeyhill,55.939,-3.17392,55.95525,-3.17222,1
+246,1818,Royal Commonwealth Pool,Dynamic Earth,55.939,-3.17392,55.95109,-3.17572,2
+247,183,Charlotte Square,Waverley Bridge,55.95234,-3.2071,55.95198,-3.19189,5
+247,189,Charlotte Square,City Chambers,55.95234,-3.2071,55.95011,-3.19026,1
+247,247,Charlotte Square,Charlotte Square,55.95234,-3.2071,55.95234,-3.2071,2
+247,249,Charlotte Square,Fountainbridge,55.95234,-3.2071,55.94336,-3.20925,2
+247,259,Charlotte Square,St Andrew Square,55.95234,-3.2071,55.95491,-3.19244,1
+247,262,Charlotte Square,Canonmills,55.95234,-3.2071,55.9628,-3.19628,2
+247,285,Charlotte Square,Ocean Terminal,55.95234,-3.2071,55.98129,-3.17635,1
+247,358,Charlotte Square,Leith Walk,55.95234,-3.2071,55.96504,-3.17669,3
+247,1024,Charlotte Square,Meadow Place,55.95234,-3.2071,55.94024,-3.19464,1
+247,1025,Charlotte Square,Dundee Terrace,55.95234,-3.2071,55.93971,-3.22059,1
+247,1028,Charlotte Square,Hunter Square,55.95234,-3.2071,55.9498,-3.1878,2
+247,1039,Charlotte Square,Lothian Road,55.95234,-3.2071,55.94741,-3.20577,1
+247,1091,Charlotte Square,Holyrood Road,55.95234,-3.2071,55.94956,-3.18041,3
+247,1092,Charlotte Square,Dalry Road Lidl,55.95234,-3.2071,55.94179,-3.22242,3
+247,1098,Charlotte Square,Marchmont Crescent,55.95234,-3.2071,55.93643,-3.19415,2
+247,1720,Charlotte Square,Dundas Street,55.95234,-3.2071,55.96076,-3.20128,1
+247,1721,Charlotte Square,Tollcross,55.95234,-3.2071,55.94425,-3.2031,3
+247,1722,Charlotte Square,Cramond Foreshore,55.95234,-3.2071,55.98003,-3.30064,2
+247,1748,Charlotte Square,Colinton Road,55.95234,-3.2071,55.93342,-3.2124,1
+247,1765,Charlotte Square,Haymarket Terrace,55.95234,-3.2071,55.94606,-3.22302,1
+247,1808,Charlotte Square,Gorgie Road,55.95234,-3.2071,55.93874,-3.22991,1
+247,1824,Charlotte Square,Duke Street,55.95234,-3.2071,55.96901,-3.16739,1
+247,2259,Charlotte Square,Leith Walk North,55.95234,-3.2071,55.96792,-3.17359,1
+247,2268,Charlotte Square,Picardy Place,55.95234,-3.2071,55.95654,-3.18625,1
+248,183,Bristo Square,Waverley Bridge,55.94583,-3.18905,55.95198,-3.19189,1
+248,246,Bristo Square,Royal Commonwealth Pool,55.94583,-3.18905,55.939,-3.17392,1
+248,248,Bristo Square,Bristo Square,55.94583,-3.18905,55.94583,-3.18905,3
+248,252,Bristo Square,Kings Buildings 1,55.94583,-3.18905,55.92419,-3.17383,1
+248,260,Bristo Square,Lauriston Place,55.94583,-3.18905,55.94477,-3.19727,1
+248,262,Bristo Square,Canonmills,55.94583,-3.18905,55.9628,-3.19628,2
+248,264,Bristo Square,Pollock Halls,55.94583,-3.18905,55.94008,-3.17175,3
+248,265,Bristo Square,Meadows East,55.94583,-3.18905,55.93981,-3.18274,2
+248,289,Bristo Square,Castle Street,55.94583,-3.18905,55.9515,-3.20318,2
+248,358,Bristo Square,Leith Walk,55.94583,-3.18905,55.96504,-3.17669,1
+248,1017,Bristo Square,Crichton Street,55.94583,-3.18905,55.94478,-3.18691,1
+248,1024,Bristo Square,Meadow Place,55.94583,-3.18905,55.94024,-3.19464,2
+248,1025,Bristo Square,Dundee Terrace,55.94583,-3.18905,55.93971,-3.22059,4
+248,1039,Bristo Square,Lothian Road,55.94583,-3.18905,55.94741,-3.20577,1
+248,1090,Bristo Square,Hillside Crescent,55.94583,-3.18905,55.95787,-3.17589,1
+248,1098,Bristo Square,Marchmont Crescent,55.94583,-3.18905,55.93643,-3.19415,1
+248,1102,Bristo Square,Haymarket Station,55.94583,-3.18905,55.94557,-3.21818,1
+248,1721,Bristo Square,Tollcross,55.94583,-3.18905,55.94425,-3.2031,3
+248,1728,Bristo Square,Portobello - Kings Road,55.94583,-3.18905,55.95792,-3.11833,2
+248,1731,Bristo Square,Pleasance Courtyard,55.94583,-3.18905,55.94749,-3.18111,1
+248,1743,Bristo Square,Logie Green Road,55.94583,-3.18905,55.96406,-3.1957,1
+248,1749,Bristo Square,Dean Street,55.94583,-3.18905,55.95728,-3.21429,1
+248,1756,Bristo Square,Western General Hospital,55.94583,-3.18905,55.96284,-3.23414,2
+248,1757,Bristo Square,Meggetland,55.94583,-3.18905,55.92759,-3.23367,1
+248,1767,Bristo Square,Bruntsfield Links,55.94583,-3.18905,55.93712,-3.20643,3
+248,1768,Bristo Square,Thirlestane Road,55.94583,-3.18905,55.93532,-3.19876,1
+248,1800,Bristo Square,Joppa,55.94583,-3.18905,55.94895,-3.09473,1
+248,1808,Bristo Square,Gorgie Road,55.94583,-3.18905,55.93874,-3.22991,3
+248,1813,Bristo Square,Milton Road - Edinburgh College,55.94583,-3.18905,55.94407,-3.09856,1
+248,1814,Bristo Square,Abbeyhill,55.94583,-3.18905,55.95525,-3.17222,1
+248,1818,Bristo Square,Dynamic Earth,55.94583,-3.18905,55.95109,-3.17572,3
+248,1823,Bristo Square,Boroughmuir,55.94583,-3.18905,55.94007,-3.21534,1
+248,1824,Bristo Square,Duke Street,55.94583,-3.18905,55.96901,-3.16739,2
+248,2268,Bristo Square,Picardy Place,55.94583,-3.18905,55.95654,-3.18625,1
+249,171,Fountainbridge,George Square,55.94336,-3.20925,55.94308,-3.18831,1
+249,183,Fountainbridge,Waverley Bridge,55.94336,-3.20925,55.95198,-3.19189,1
+249,246,Fountainbridge,Royal Commonwealth Pool,55.94336,-3.20925,55.939,-3.17392,1
+249,248,Fountainbridge,Bristo Square,55.94336,-3.20925,55.94583,-3.18905,2
+249,249,Fountainbridge,Fountainbridge,55.94336,-3.20925,55.94336,-3.20925,7
+249,250,Fountainbridge,Victoria Quay,55.94336,-3.20925,55.97762,-3.17413,1
+249,253,Fountainbridge,Kings Building 2,55.94336,-3.20925,55.9232,-3.17165,1
+249,260,Fountainbridge,Lauriston Place,55.94336,-3.20925,55.94477,-3.19727,1
+249,265,Fountainbridge,Meadows East,55.94336,-3.20925,55.93981,-3.18274,3
+249,358,Fountainbridge,Leith Walk,55.94336,-3.20925,55.96504,-3.17669,1
+249,1019,Fountainbridge,Grassmarket,55.94336,-3.20925,55.9471,-3.19725,1
+249,1024,Fountainbridge,Meadow Place,55.94336,-3.20925,55.94024,-3.19464,1
+249,1025,Fountainbridge,Dundee Terrace,55.94336,-3.20925,55.93971,-3.22059,3
+249,1051,Fountainbridge,Warrender Park Road,55.94336,-3.20925,55.93837,-3.19803,1
+249,1091,Fountainbridge,Holyrood Road,55.94336,-3.20925,55.94956,-3.18041,1
+249,1720,Fountainbridge,Dundas Street,55.94336,-3.20925,55.96076,-3.20128,3
+249,1721,Fountainbridge,Tollcross,55.94336,-3.20925,55.94425,-3.2031,3
+249,1726,Fountainbridge,Simon Square,55.94336,-3.20925,55.94486,-3.18259,1
+249,1728,Fountainbridge,Portobello - Kings Road,55.94336,-3.20925,55.95792,-3.11833,2
+249,1743,Fountainbridge,Logie Green Road,55.94336,-3.20925,55.96406,-3.1957,2
+249,1765,Fountainbridge,Haymarket Terrace,55.94336,-3.20925,55.94606,-3.22302,1
+249,1798,Fountainbridge,Chambers Street,55.94336,-3.20925,55.9476,-3.18892,2
+249,1819,Fountainbridge,Heriot Watt - Edinburgh Business School,55.94336,-3.20925,55.90882,-3.32011,1
+249,1823,Fountainbridge,Boroughmuir,55.94336,-3.20925,55.94007,-3.21534,1
+250,250,Victoria Quay,Victoria Quay,55.97762,-3.17413,55.97762,-3.17413,6
+250,262,Victoria Quay,Canonmills,55.97762,-3.17413,55.9628,-3.19628,4
+250,264,Victoria Quay,Pollock Halls,55.97762,-3.17413,55.94008,-3.17175,1
+250,289,Victoria Quay,Castle Street,55.97762,-3.17413,55.9515,-3.20318,1
+250,358,Victoria Quay,Leith Walk,55.97762,-3.17413,55.96504,-3.17669,2
+250,1090,Victoria Quay,Hillside Crescent,55.97762,-3.17413,55.95787,-3.17589,1
+250,1728,Victoria Quay,Portobello - Kings Road,55.97762,-3.17413,55.95792,-3.11833,5
+250,1737,Victoria Quay,Inverleith Row,55.97762,-3.17413,55.96412,-3.20209,4
+250,1758,Victoria Quay,Queen Margaret University,55.97762,-3.17413,55.93198,-3.0731,1
+250,1765,Victoria Quay,Haymarket Terrace,55.97762,-3.17413,55.94606,-3.22302,1
+250,1766,Victoria Quay,Balgreen Road,55.97762,-3.17413,55.93894,-3.25111,1
+250,1813,Victoria Quay,Milton Road - Edinburgh College,55.97762,-3.17413,55.94407,-3.09856,1
+250,1814,Victoria Quay,Abbeyhill,55.97762,-3.17413,55.95525,-3.17222,1
+250,1818,Victoria Quay,Dynamic Earth,55.97762,-3.17413,55.95109,-3.17572,2
+250,1823,Victoria Quay,Boroughmuir,55.97762,-3.17413,55.94007,-3.21534,2
+250,1824,Victoria Quay,Duke Street,55.97762,-3.17413,55.96901,-3.16739,1
+250,2268,Victoria Quay,Picardy Place,55.97762,-3.17413,55.95654,-3.18625,1
+251,251,Waverley Station,Waverley Station,55.95264,-3.18753,55.95264,-3.18753,1
+251,264,Waverley Station,Pollock Halls,55.95264,-3.18753,55.94008,-3.17175,1
+251,285,Waverley Station,Ocean Terminal,55.95264,-3.18753,55.98129,-3.17635,1
+251,1102,Waverley Station,Haymarket Station,55.95264,-3.18753,55.94557,-3.21818,2
+251,1728,Waverley Station,Portobello - Kings Road,55.95264,-3.18753,55.95792,-3.11833,3
+251,1767,Waverley Station,Bruntsfield Links,55.95264,-3.18753,55.93712,-3.20643,3
+252,171,Kings Buildings 1,George Square,55.92419,-3.17383,55.94308,-3.18831,1
+252,1028,Kings Buildings 1,Hunter Square,55.92419,-3.17383,55.9498,-3.1878,1
+252,1038,Kings Buildings 1,South Trinity Road,55.92419,-3.17383,55.97133,-3.20796,1
+252,1727,Kings Buildings 1,Causewayside,55.92419,-3.17383,55.93651,-3.18017,2
+252,1737,Kings Buildings 1,Inverleith Row,55.92419,-3.17383,55.96412,-3.20209,1
+252,1744,Kings Buildings 1,Morningside Road,55.92419,-3.17383,55.92799,-3.20975,1
+252,1757,Kings Buildings 1,Meggetland,55.92419,-3.17383,55.92759,-3.23367,1
+252,1767,Kings Buildings 1,Bruntsfield Links,55.92419,-3.17383,55.93712,-3.20643,1
+252,1814,Kings Buildings 1,Abbeyhill,55.92419,-3.17383,55.95525,-3.17222,1
+252,2259,Kings Buildings 1,Leith Walk North,55.92419,-3.17383,55.96792,-3.17359,1
+253,189,Kings Building 2,City Chambers,55.9232,-3.17165,55.95011,-3.19026,4
+253,246,Kings Building 2,Royal Commonwealth Pool,55.9232,-3.17165,55.939,-3.17392,2
+253,248,Kings Building 2,Bristo Square,55.9232,-3.17165,55.94583,-3.18905,1
+253,253,Kings Building 2,Kings Building 2,55.9232,-3.17165,55.9232,-3.17165,1
+253,260,Kings Building 2,Lauriston Place,55.9232,-3.17165,55.94477,-3.19727,1
+253,262,Kings Building 2,Canonmills,55.9232,-3.17165,55.9628,-3.19628,2
+253,264,Kings Building 2,Pollock Halls,55.9232,-3.17165,55.94008,-3.17175,1
+253,265,Kings Building 2,Meadows East,55.9232,-3.17165,55.93981,-3.18274,3
+253,358,Kings Building 2,Leith Walk,55.9232,-3.17165,55.96504,-3.17669,2
+253,1019,Kings Building 2,Grassmarket,55.9232,-3.17165,55.9471,-3.19725,2
+253,1024,Kings Building 2,Meadow Place,55.9232,-3.17165,55.94024,-3.19464,4
+253,1025,Kings Building 2,Dundee Terrace,55.9232,-3.17165,55.93971,-3.22059,4
+253,1028,Kings Building 2,Hunter Square,55.9232,-3.17165,55.9498,-3.1878,1
+253,1092,Kings Building 2,Dalry Road Lidl,55.9232,-3.17165,55.94179,-3.22242,1
+253,1096,Kings Building 2,West Crosscauseway,55.9232,-3.17165,55.94384,-3.18495,11
+253,1743,Kings Building 2,Logie Green Road,55.9232,-3.17165,55.96406,-3.1957,1
+253,1744,Kings Building 2,Morningside Road,55.9232,-3.17165,55.92799,-3.20975,3
+253,1798,Kings Building 2,Chambers Street,55.9232,-3.17165,55.9476,-3.18892,1
+253,1814,Kings Building 2,Abbeyhill,55.9232,-3.17165,55.95525,-3.17222,1
+253,1823,Kings Building 2,Boroughmuir,55.9232,-3.17165,55.94007,-3.21534,1
+254,246,Kings Building 3,Royal Commonwealth Pool,55.92348,-3.17538,55.939,-3.17392,1
+254,262,Kings Building 3,Canonmills,55.92348,-3.17538,55.9628,-3.19628,2
+254,264,Kings Building 3,Pollock Halls,55.92348,-3.17538,55.94008,-3.17175,1
+254,265,Kings Building 3,Meadows East,55.92348,-3.17538,55.93981,-3.18274,4
+254,1017,Kings Building 3,Crichton Street,55.92348,-3.17538,55.94478,-3.18691,1
+254,1091,Kings Building 3,Holyrood Road,55.92348,-3.17538,55.94956,-3.18041,2
+254,1098,Kings Building 3,Marchmont Crescent,55.92348,-3.17538,55.93643,-3.19415,1
+254,1727,Kings Building 3,Causewayside,55.92348,-3.17538,55.93651,-3.18017,1
+256,183,St Andrews House,Waverley Bridge,55.95316,-3.18168,55.95198,-3.19189,1
+256,189,St Andrews House,City Chambers,55.95316,-3.18168,55.95011,-3.19026,2
+256,256,St Andrews House,St Andrews House,55.95316,-3.18168,55.95316,-3.18168,1
+256,262,St Andrews House,Canonmills,55.95316,-3.18168,55.9628,-3.19628,2
+256,1028,St Andrews House,Hunter Square,55.95316,-3.18168,55.9498,-3.1878,1
+256,1050,St Andrews House,EICC,55.95316,-3.18168,55.94607,-3.2104,5
+256,1052,St Andrews House,Surgeons Hall,55.95316,-3.18168,55.94664,-3.18547,1
+256,1096,St Andrews House,West Crosscauseway,55.95316,-3.18168,55.94384,-3.18495,1
+256,1728,St Andrews House,Portobello - Kings Road,55.95316,-3.18168,55.95792,-3.11833,1
+256,1767,St Andrews House,Bruntsfield Links,55.95316,-3.18168,55.93712,-3.20643,1
+256,1769,St Andrews House,Brunswick Place,55.95316,-3.18168,55.96085,-3.18099,1
+256,1808,St Andrews House,Gorgie Road,55.95316,-3.18168,55.93874,-3.22991,1
+256,1824,St Andrews House,Duke Street,55.95316,-3.18168,55.96901,-3.16739,1
+258,183,Stockbridge,Waverley Bridge,55.95857,-3.20807,55.95198,-3.19189,1
+258,248,Stockbridge,Bristo Square,55.95857,-3.20807,55.94583,-3.18905,1
+258,250,Stockbridge,Victoria Quay,55.95857,-3.20807,55.97762,-3.17413,3
+258,258,Stockbridge,Stockbridge,55.95857,-3.20807,55.95857,-3.20807,3
+258,262,Stockbridge,Canonmills,55.95857,-3.20807,55.9628,-3.19628,2
+258,358,Stockbridge,Leith Walk,55.95857,-3.20807,55.96504,-3.17669,2
+258,1038,Stockbridge,South Trinity Road,55.95857,-3.20807,55.97133,-3.20796,1
+258,1090,Stockbridge,Hillside Crescent,55.95857,-3.20807,55.95787,-3.17589,1
+258,1091,Stockbridge,Holyrood Road,55.95857,-3.20807,55.94956,-3.18041,1
+258,1720,Stockbridge,Dundas Street,55.95857,-3.20807,55.96076,-3.20128,2
+258,1721,Stockbridge,Tollcross,55.95857,-3.20807,55.94425,-3.2031,1
+258,1737,Stockbridge,Inverleith Row,55.95857,-3.20807,55.96412,-3.20209,1
+258,1743,Stockbridge,Logie Green Road,55.95857,-3.20807,55.96406,-3.1957,2
+258,1745,Stockbridge,Scotland Street,55.95857,-3.20807,55.96038,-3.19547,2
+258,1753,Stockbridge,Waitrose Comely Bank,55.95857,-3.20807,55.95954,-3.22343,1
+258,1756,Stockbridge,Western General Hospital,55.95857,-3.20807,55.96284,-3.23414,3
+258,1763,Stockbridge,Comely Bank Road,55.95857,-3.20807,55.95941,-3.21566,1
+258,1764,Stockbridge,Craigleith Road,55.95857,-3.20807,55.95658,-3.23794,1
+258,1769,Stockbridge,Brunswick Place,55.95857,-3.20807,55.96085,-3.18099,3
+258,1799,Stockbridge,Murrayfield,55.95857,-3.20807,55.94479,-3.24367,2
+258,1824,Stockbridge,Duke Street,55.95857,-3.20807,55.96901,-3.16739,4
+258,2259,Stockbridge,Leith Walk North,55.95857,-3.20807,55.96792,-3.17359,2
+259,171,St Andrew Square,George Square,55.95491,-3.19244,55.94308,-3.18831,1
+259,183,St Andrew Square,Waverley Bridge,55.95491,-3.19244,55.95198,-3.19189,2
+259,247,St Andrew Square,Charlotte Square,55.95491,-3.19244,55.95234,-3.2071,1
+259,250,St Andrew Square,Victoria Quay,55.95491,-3.19244,55.97762,-3.17413,3
+259,259,St Andrew Square,St Andrew Square,55.95491,-3.19244,55.95491,-3.19244,7
+259,358,St Andrew Square,Leith Walk,55.95491,-3.19244,55.96504,-3.17669,1
+259,1025,St Andrew Square,Dundee Terrace,55.95491,-3.19244,55.93971,-3.22059,1
+259,1038,St Andrew Square,South Trinity Road,55.95491,-3.19244,55.97133,-3.20796,4
+259,1039,St Andrew Square,Lothian Road,55.95491,-3.19244,55.94741,-3.20577,3
+259,1090,St Andrew Square,Hillside Crescent,55.95491,-3.19244,55.95787,-3.17589,1
+259,1091,St Andrew Square,Holyrood Road,55.95491,-3.19244,55.94956,-3.18041,2
+259,1727,St Andrew Square,Causewayside,55.95491,-3.19244,55.93651,-3.18017,1
+259,1728,St Andrew Square,Portobello - Kings Road,55.95491,-3.19244,55.95792,-3.11833,1
+259,1729,St Andrew Square,McDonald Road,55.95491,-3.19244,55.96403,-3.18518,1
+259,1756,St Andrew Square,Western General Hospital,55.95491,-3.19244,55.96284,-3.23414,3
+259,1765,St Andrew Square,Haymarket Terrace,55.95491,-3.19244,55.94606,-3.22302,2
+259,1814,St Andrew Square,Abbeyhill,55.95491,-3.19244,55.95525,-3.17222,1
+259,1821,St Andrew Square,Drumsheugh Place,55.95491,-3.19244,55.95159,-3.21235,1
+259,1823,St Andrew Square,Boroughmuir,55.95491,-3.19244,55.94007,-3.21534,1
+259,1824,St Andrew Square,Duke Street,55.95491,-3.19244,55.96901,-3.16739,3
+259,2259,St Andrew Square,Leith Walk North,55.95491,-3.19244,55.96792,-3.17359,2
+260,246,Lauriston Place,Royal Commonwealth Pool,55.94477,-3.19727,55.939,-3.17392,1
+260,248,Lauriston Place,Bristo Square,55.94477,-3.19727,55.94583,-3.18905,1
+260,252,Lauriston Place,Kings Buildings 1,55.94477,-3.19727,55.92419,-3.17383,1
+260,258,Lauriston Place,Stockbridge,55.94477,-3.19727,55.95857,-3.20807,3
+260,260,Lauriston Place,Lauriston Place,55.94477,-3.19727,55.94477,-3.19727,3
+260,265,Lauriston Place,Meadows East,55.94477,-3.19727,55.93981,-3.18274,6
+260,1017,Lauriston Place,Crichton Street,55.94477,-3.19727,55.94478,-3.18691,1
+260,1024,Lauriston Place,Meadow Place,55.94477,-3.19727,55.94024,-3.19464,3
+260,1025,Lauriston Place,Dundee Terrace,55.94477,-3.19727,55.93971,-3.22059,1
+260,1039,Lauriston Place,Lothian Road,55.94477,-3.19727,55.94741,-3.20577,1
+260,1052,Lauriston Place,Surgeons Hall,55.94477,-3.19727,55.94664,-3.18547,1
+260,1092,Lauriston Place,Dalry Road Lidl,55.94477,-3.19727,55.94179,-3.22242,2
+260,1096,Lauriston Place,West Crosscauseway,55.94477,-3.19727,55.94384,-3.18495,1
+260,1102,Lauriston Place,Haymarket Station,55.94477,-3.19727,55.94557,-3.21818,2
+260,1721,Lauriston Place,Tollcross,55.94477,-3.19727,55.94425,-3.2031,1
+260,1727,Lauriston Place,Causewayside,55.94477,-3.19727,55.93651,-3.18017,1
+260,1728,Lauriston Place,Portobello - Kings Road,55.94477,-3.19727,55.95792,-3.11833,2
+260,1744,Lauriston Place,Morningside Road,55.94477,-3.19727,55.92799,-3.20975,10
+260,1765,Lauriston Place,Haymarket Terrace,55.94477,-3.19727,55.94606,-3.22302,1
+260,1767,Lauriston Place,Bruntsfield Links,55.94477,-3.19727,55.93712,-3.20643,1
+260,1770,Lauriston Place,Ellersly Road,55.94477,-3.19727,55.94505,-3.25088,2
+260,1814,Lauriston Place,Abbeyhill,55.94477,-3.19727,55.95525,-3.17222,3
+260,1870,Lauriston Place,Hawes Pier,55.94477,-3.19727,55.99053,-3.3856,1
+260,2268,Lauriston Place,Picardy Place,55.94477,-3.19727,55.95654,-3.18625,3
+262,250,Canonmills,Victoria Quay,55.9628,-3.19628,55.97762,-3.17413,5
+262,253,Canonmills,Kings Building 2,55.9628,-3.19628,55.9232,-3.17165,1
+262,254,Canonmills,Kings Building 3,55.9628,-3.19628,55.92348,-3.17538,2
+262,256,Canonmills,St Andrews House,55.9628,-3.19628,55.95316,-3.18168,1
+262,258,Canonmills,Stockbridge,55.9628,-3.19628,55.95857,-3.20807,1
+262,259,Canonmills,St Andrew Square,55.9628,-3.19628,55.95491,-3.19244,1
+262,262,Canonmills,Canonmills,55.9628,-3.19628,55.9628,-3.19628,4
+262,285,Canonmills,Ocean Terminal,55.9628,-3.19628,55.98129,-3.17635,1
+262,358,Canonmills,Leith Walk,55.9628,-3.19628,55.96504,-3.17669,1
+262,1038,Canonmills,South Trinity Road,55.9628,-3.19628,55.97133,-3.20796,3
+262,1050,Canonmills,EICC,55.9628,-3.19628,55.94607,-3.2104,1
+262,1720,Canonmills,Dundas Street,55.9628,-3.19628,55.96076,-3.20128,1
+262,1722,Canonmills,Cramond Foreshore,55.9628,-3.19628,55.98003,-3.30064,3
+262,1730,Canonmills,East London Street,55.9628,-3.19628,55.95995,-3.1872,1
+262,1743,Canonmills,Logie Green Road,55.9628,-3.19628,55.96406,-3.1957,1
+262,1745,Canonmills,Scotland Street,55.9628,-3.19628,55.96038,-3.19547,2
+262,1756,Canonmills,Western General Hospital,55.9628,-3.19628,55.96284,-3.23414,3
+262,1764,Canonmills,Craigleith Road,55.9628,-3.19628,55.95658,-3.23794,1
+262,1765,Canonmills,Haymarket Terrace,55.9628,-3.19628,55.94606,-3.22302,1
+262,1769,Canonmills,Brunswick Place,55.9628,-3.19628,55.96085,-3.18099,3
+262,1824,Canonmills,Duke Street,55.9628,-3.19628,55.96901,-3.16739,1
+262,2259,Canonmills,Leith Walk North,55.9628,-3.19628,55.96792,-3.17359,1
+264,171,Pollock Halls,George Square,55.94008,-3.17175,55.94308,-3.18831,2
+264,183,Pollock Halls,Waverley Bridge,55.94008,-3.17175,55.95198,-3.19189,1
+264,189,Pollock Halls,City Chambers,55.94008,-3.17175,55.95011,-3.19026,3
+264,248,Pollock Halls,Bristo Square,55.94008,-3.17175,55.94583,-3.18905,3
+264,250,Pollock Halls,Victoria Quay,55.94008,-3.17175,55.97762,-3.17413,1
+264,253,Pollock Halls,Kings Building 2,55.94008,-3.17175,55.9232,-3.17165,4
+264,254,Pollock Halls,Kings Building 3,55.94008,-3.17175,55.92348,-3.17538,1
+264,259,Pollock Halls,St Andrew Square,55.94008,-3.17175,55.95491,-3.19244,1
+264,264,Pollock Halls,Pollock Halls,55.94008,-3.17175,55.94008,-3.17175,21
+264,265,Pollock Halls,Meadows East,55.94008,-3.17175,55.93981,-3.18274,5
+264,1017,Pollock Halls,Crichton Street,55.94008,-3.17175,55.94478,-3.18691,2
+264,1024,Pollock Halls,Meadow Place,55.94008,-3.17175,55.94024,-3.19464,1
+264,1028,Pollock Halls,Hunter Square,55.94008,-3.17175,55.9498,-3.1878,3
+264,1039,Pollock Halls,Lothian Road,55.94008,-3.17175,55.94741,-3.20577,2
+264,1052,Pollock Halls,Surgeons Hall,55.94008,-3.17175,55.94664,-3.18547,4
+264,1090,Pollock Halls,Hillside Crescent,55.94008,-3.17175,55.95787,-3.17589,1
+264,1091,Pollock Halls,Holyrood Road,55.94008,-3.17175,55.94956,-3.18041,7
+264,1093,Pollock Halls,Belford Road,55.94008,-3.17175,55.95197,-3.22612,1
+264,1096,Pollock Halls,West Crosscauseway,55.94008,-3.17175,55.94384,-3.18495,3
+264,1721,Pollock Halls,Tollcross,55.94008,-3.17175,55.94425,-3.2031,2
+264,1726,Pollock Halls,Simon Square,55.94008,-3.17175,55.94486,-3.18259,5
+264,1728,Pollock Halls,Portobello - Kings Road,55.94008,-3.17175,55.95792,-3.11833,10
+264,1729,Pollock Halls,McDonald Road,55.94008,-3.17175,55.96403,-3.18518,1
+264,1731,Pollock Halls,Pleasance Courtyard,55.94008,-3.17175,55.94749,-3.18111,3
+264,1743,Pollock Halls,Logie Green Road,55.94008,-3.17175,55.96406,-3.1957,1
+264,1748,Pollock Halls,Colinton Road,55.94008,-3.17175,55.93342,-3.2124,3
+264,1757,Pollock Halls,Meggetland,55.94008,-3.17175,55.92759,-3.23367,3
+264,1767,Pollock Halls,Bruntsfield Links,55.94008,-3.17175,55.93712,-3.20643,1
+264,1768,Pollock Halls,Thirlestane Road,55.94008,-3.17175,55.93532,-3.19876,2
+264,1769,Pollock Halls,Brunswick Place,55.94008,-3.17175,55.96085,-3.18099,1
+264,1798,Pollock Halls,Chambers Street,55.94008,-3.17175,55.9476,-3.18892,1
+264,1800,Pollock Halls,Joppa,55.94008,-3.17175,55.94895,-3.09473,1
+264,1813,Pollock Halls,Milton Road - Edinburgh College,55.94008,-3.17175,55.94407,-3.09856,2
+264,1818,Pollock Halls,Dynamic Earth,55.94008,-3.17175,55.95109,-3.17572,1
+264,1824,Pollock Halls,Duke Street,55.94008,-3.17175,55.96901,-3.16739,4
+264,2259,Pollock Halls,Leith Walk North,55.94008,-3.17175,55.96792,-3.17359,1
+264,2263,Pollock Halls,Musselburgh Lidl,55.94008,-3.17175,55.94388,-3.06675,3
+264,2268,Pollock Halls,Picardy Place,55.94008,-3.17175,55.95654,-3.18625,2
+265,171,Meadows East,George Square,55.93981,-3.18274,55.94308,-3.18831,5
+265,183,Meadows East,Waverley Bridge,55.93981,-3.18274,55.95198,-3.19189,2
+265,246,Meadows East,Royal Commonwealth Pool,55.93981,-3.18274,55.939,-3.17392,1
+265,247,Meadows East,Charlotte Square,55.93981,-3.18274,55.95234,-3.2071,1
+265,248,Meadows East,Bristo Square,55.93981,-3.18274,55.94583,-3.18905,4
+265,249,Meadows East,Fountainbridge,55.93981,-3.18274,55.94336,-3.20925,2
+265,252,Meadows East,Kings Buildings 1,55.93981,-3.18274,55.92419,-3.17383,3
+265,253,Meadows East,Kings Building 2,55.93981,-3.18274,55.9232,-3.17165,5
+265,254,Meadows East,Kings Building 3,55.93981,-3.18274,55.92348,-3.17538,2
+265,258,Meadows East,Stockbridge,55.93981,-3.18274,55.95857,-3.20807,2
+265,260,Meadows East,Lauriston Place,55.93981,-3.18274,55.94477,-3.19727,4
+265,264,Meadows East,Pollock Halls,55.93981,-3.18274,55.94008,-3.17175,2
+265,265,Meadows East,Meadows East,55.93981,-3.18274,55.93981,-3.18274,10
+265,289,Meadows East,Castle Street,55.93981,-3.18274,55.9515,-3.20318,1
+265,358,Meadows East,Leith Walk,55.93981,-3.18274,55.96504,-3.17669,2
+265,1017,Meadows East,Crichton Street,55.93981,-3.18274,55.94478,-3.18691,5
+265,1024,Meadows East,Meadow Place,55.93981,-3.18274,55.94024,-3.19464,18
+265,1025,Meadows East,Dundee Terrace,55.93981,-3.18274,55.93971,-3.22059,5
+265,1028,Meadows East,Hunter Square,55.93981,-3.18274,55.9498,-3.1878,1
+265,1039,Meadows East,Lothian Road,55.93981,-3.18274,55.94741,-3.20577,2
+265,1051,Meadows East,Warrender Park Road,55.93981,-3.18274,55.93837,-3.19803,3
+265,1052,Meadows East,Surgeons Hall,55.93981,-3.18274,55.94664,-3.18547,6
+265,1091,Meadows East,Holyrood Road,55.93981,-3.18274,55.94956,-3.18041,3
+265,1092,Meadows East,Dalry Road Lidl,55.93981,-3.18274,55.94179,-3.22242,2
+265,1097,Meadows East,Gladstone Terrace,55.93981,-3.18274,55.93796,-3.18502,2
+265,1098,Meadows East,Marchmont Crescent,55.93981,-3.18274,55.93643,-3.19415,2
+265,1721,Meadows East,Tollcross,55.93981,-3.18274,55.94425,-3.2031,6
+265,1726,Meadows East,Simon Square,55.93981,-3.18274,55.94486,-3.18259,2
+265,1727,Meadows East,Causewayside,55.93981,-3.18274,55.93651,-3.18017,4
+265,1729,Meadows East,McDonald Road,55.93981,-3.18274,55.96403,-3.18518,2
+265,1731,Meadows East,Pleasance Courtyard,55.93981,-3.18274,55.94749,-3.18111,10
+265,1739,Meadows East,Edinburgh Royal Infirmary,55.93981,-3.18274,55.92122,-3.13908,1
+265,1744,Meadows East,Morningside Road,55.93981,-3.18274,55.92799,-3.20975,3
+265,1765,Meadows East,Haymarket Terrace,55.93981,-3.18274,55.94606,-3.22302,1
+265,1767,Meadows East,Bruntsfield Links,55.93981,-3.18274,55.93712,-3.20643,4
+265,1798,Meadows East,Chambers Street,55.93981,-3.18274,55.9476,-3.18892,1
+265,1800,Meadows East,Joppa,55.93981,-3.18274,55.94895,-3.09473,2
+265,1808,Meadows East,Gorgie Road,55.93981,-3.18274,55.93874,-3.22991,1
+265,1814,Meadows East,Abbeyhill,55.93981,-3.18274,55.95525,-3.17222,4
+265,1820,Meadows East,Heriot Watt - Student Accommodation,55.93981,-3.18274,55.90841,-3.32878,1
+265,1821,Meadows East,Drumsheugh Place,55.93981,-3.18274,55.95159,-3.21235,1
+265,1823,Meadows East,Boroughmuir,55.93981,-3.18274,55.94007,-3.21534,9
+265,2259,Meadows East,Leith Walk North,55.93981,-3.18274,55.96792,-3.17359,1
+265,2268,Meadows East,Picardy Place,55.93981,-3.18274,55.95654,-3.18625,1
+285,250,Ocean Terminal,Victoria Quay,55.98129,-3.17635,55.97762,-3.17413,1
+285,258,Ocean Terminal,Stockbridge,55.98129,-3.17635,55.95857,-3.20807,1
+285,285,Ocean Terminal,Ocean Terminal,55.98129,-3.17635,55.98129,-3.17635,5
+285,1756,Ocean Terminal,Western General Hospital,55.98129,-3.17635,55.96284,-3.23414,1
+285,1814,Ocean Terminal,Abbeyhill,55.98129,-3.17635,55.95525,-3.17222,1
+285,1818,Ocean Terminal,Dynamic Earth,55.98129,-3.17635,55.95109,-3.17572,1
+285,2268,Ocean Terminal,Picardy Place,55.98129,-3.17635,55.95654,-3.18625,1
+289,249,Castle Street,Fountainbridge,55.9515,-3.20318,55.94336,-3.20925,1
+289,250,Castle Street,Victoria Quay,55.9515,-3.20318,55.97762,-3.17413,1
+289,258,Castle Street,Stockbridge,55.9515,-3.20318,55.95857,-3.20807,1
+289,265,Castle Street,Meadows East,55.9515,-3.20318,55.93981,-3.18274,1
+289,289,Castle Street,Castle Street,55.9515,-3.20318,55.9515,-3.20318,1
+289,1024,Castle Street,Meadow Place,55.9515,-3.20318,55.94024,-3.19464,1
+289,1025,Castle Street,Dundee Terrace,55.9515,-3.20318,55.93971,-3.22059,1
+289,1091,Castle Street,Holyrood Road,55.9515,-3.20318,55.94956,-3.18041,1
+289,1092,Castle Street,Dalry Road Lidl,55.9515,-3.20318,55.94179,-3.22242,2
+289,1720,Castle Street,Dundas Street,55.9515,-3.20318,55.96076,-3.20128,1
+289,1725,Castle Street,Edinburgh Zoo,55.9515,-3.20318,55.94212,-3.26929,2
+289,1727,Castle Street,Causewayside,55.9515,-3.20318,55.93651,-3.18017,1
+289,1748,Castle Street,Colinton Road,55.9515,-3.20318,55.93342,-3.2124,1
+289,1757,Castle Street,Meggetland,55.9515,-3.20318,55.92759,-3.23367,1
+289,1765,Castle Street,Haymarket Terrace,55.9515,-3.20318,55.94606,-3.22302,2
+289,1767,Castle Street,Bruntsfield Links,55.9515,-3.20318,55.93712,-3.20643,1
+289,1770,Castle Street,Ellersly Road,55.9515,-3.20318,55.94505,-3.25088,3
+289,1808,Castle Street,Gorgie Road,55.9515,-3.20318,55.93874,-3.22991,1
+289,2268,Castle Street,Picardy Place,55.9515,-3.20318,55.95654,-3.18625,1
+296,183,Castle Terrace,Waverley Bridge,55.94677,-3.20204,55.95198,-3.19189,1
+296,246,Castle Terrace,Royal Commonwealth Pool,55.94677,-3.20204,55.939,-3.17392,2
+296,248,Castle Terrace,Bristo Square,55.94677,-3.20204,55.94583,-3.18905,1
+296,249,Castle Terrace,Fountainbridge,55.94677,-3.20204,55.94336,-3.20925,1
+296,250,Castle Terrace,Victoria Quay,55.94677,-3.20204,55.97762,-3.17413,1
+296,253,Castle Terrace,Kings Building 2,55.94677,-3.20204,55.9232,-3.17165,1
+296,258,Castle Terrace,Stockbridge,55.94677,-3.20204,55.95857,-3.20807,1
+296,260,Castle Terrace,Lauriston Place,55.94677,-3.20204,55.94477,-3.19727,1
+296,264,Castle Terrace,Pollock Halls,55.94677,-3.20204,55.94008,-3.17175,2
+296,265,Castle Terrace,Meadows East,55.94677,-3.20204,55.93981,-3.18274,1
+296,296,Castle Terrace,Castle Terrace,55.94677,-3.20204,55.94677,-3.20204,1
+296,1091,Castle Terrace,Holyrood Road,55.94677,-3.20204,55.94956,-3.18041,2
+296,1092,Castle Terrace,Dalry Road Lidl,55.94677,-3.20204,55.94179,-3.22242,2
+296,1728,Castle Terrace,Portobello - Kings Road,55.94677,-3.20204,55.95792,-3.11833,2
+296,1731,Castle Terrace,Pleasance Courtyard,55.94677,-3.20204,55.94749,-3.18111,1
+296,1737,Castle Terrace,Inverleith Row,55.94677,-3.20204,55.96412,-3.20209,1
+296,1743,Castle Terrace,Logie Green Road,55.94677,-3.20204,55.96406,-3.1957,2
+296,1767,Castle Terrace,Bruntsfield Links,55.94677,-3.20204,55.93712,-3.20643,1
+296,1768,Castle Terrace,Thirlestane Road,55.94677,-3.20204,55.93532,-3.19876,1
+296,1798,Castle Terrace,Chambers Street,55.94677,-3.20204,55.9476,-3.18892,1
+296,1814,Castle Terrace,Abbeyhill,55.94677,-3.20204,55.95525,-3.17222,1
+296,1818,Castle Terrace,Dynamic Earth,55.94677,-3.20204,55.95109,-3.17572,1
+296,2259,Castle Terrace,Leith Walk North,55.94677,-3.20204,55.96792,-3.17359,1
+296,2268,Castle Terrace,Picardy Place,55.94677,-3.20204,55.95654,-3.18625,1
+349,250,Orchard Brae House,Victoria Quay,55.95508,-3.22363,55.97762,-3.17413,1
+349,1039,Orchard Brae House,Lothian Road,55.95508,-3.22363,55.94741,-3.20577,1
+349,1765,Orchard Brae House,Haymarket Terrace,55.95508,-3.22363,55.94606,-3.22302,1
+349,1821,Orchard Brae House,Drumsheugh Place,55.95508,-3.22363,55.95159,-3.21235,1
+358,183,Leith Walk,Waverley Bridge,55.96504,-3.17669,55.95198,-3.19189,1
+358,246,Leith Walk,Royal Commonwealth Pool,55.96504,-3.17669,55.939,-3.17392,1
+358,254,Leith Walk,Kings Building 3,55.96504,-3.17669,55.92348,-3.17538,2
+358,258,Leith Walk,Stockbridge,55.96504,-3.17669,55.95857,-3.20807,3
+358,259,Leith Walk,St Andrew Square,55.96504,-3.17669,55.95491,-3.19244,1
+358,262,Leith Walk,Canonmills,55.96504,-3.17669,55.9628,-3.19628,1
+358,358,Leith Walk,Leith Walk,55.96504,-3.17669,55.96504,-3.17669,7
+358,1019,Leith Walk,Grassmarket,55.96504,-3.17669,55.9471,-3.19725,1
+358,1055,Leith Walk,Roseburn Street,55.96504,-3.17669,55.94443,-3.2345,1
+358,1090,Leith Walk,Hillside Crescent,55.96504,-3.17669,55.95787,-3.17589,3
+358,1102,Leith Walk,Haymarket Station,55.96504,-3.17669,55.94557,-3.21818,1
+358,1720,Leith Walk,Dundas Street,55.96504,-3.17669,55.96076,-3.20128,1
+358,1728,Leith Walk,Portobello - Kings Road,55.96504,-3.17669,55.95792,-3.11833,2
+358,1729,Leith Walk,McDonald Road,55.96504,-3.17669,55.96403,-3.18518,1
+358,1730,Leith Walk,East London Street,55.96504,-3.17669,55.95995,-3.1872,2
+358,1737,Leith Walk,Inverleith Row,55.96504,-3.17669,55.96412,-3.20209,2
+358,1753,Leith Walk,Waitrose Comely Bank,55.96504,-3.17669,55.95954,-3.22343,1
+358,1765,Leith Walk,Haymarket Terrace,55.96504,-3.17669,55.94606,-3.22302,2
+358,1769,Leith Walk,Brunswick Place,55.96504,-3.17669,55.96085,-3.18099,2
+358,1814,Leith Walk,Abbeyhill,55.96504,-3.17669,55.95525,-3.17222,1
+358,1824,Leith Walk,Duke Street,55.96504,-3.17669,55.96901,-3.16739,7
+358,2259,Leith Walk,Leith Walk North,55.96504,-3.17669,55.96792,-3.17359,2
+358,2268,Leith Walk,Picardy Place,55.96504,-3.17669,55.95654,-3.18625,5
+1017,252,Crichton Street,Kings Buildings 1,55.94478,-3.18691,55.92419,-3.17383,1
+1017,253,Crichton Street,Kings Building 2,55.94478,-3.18691,55.9232,-3.17165,1
+1017,262,Crichton Street,Canonmills,55.94478,-3.18691,55.9628,-3.19628,2
+1017,264,Crichton Street,Pollock Halls,55.94478,-3.18691,55.94008,-3.17175,3
+1017,265,Crichton Street,Meadows East,55.94478,-3.18691,55.93981,-3.18274,2
+1017,358,Crichton Street,Leith Walk,55.94478,-3.18691,55.96504,-3.17669,2
+1017,1017,Crichton Street,Crichton Street,55.94478,-3.18691,55.94478,-3.18691,1
+1017,1024,Crichton Street,Meadow Place,55.94478,-3.18691,55.94024,-3.19464,4
+1017,1025,Crichton Street,Dundee Terrace,55.94478,-3.18691,55.93971,-3.22059,2
+1017,1051,Crichton Street,Warrender Park Road,55.94478,-3.18691,55.93837,-3.19803,3
+1017,1720,Crichton Street,Dundas Street,55.94478,-3.18691,55.96076,-3.20128,2
+1017,1721,Crichton Street,Tollcross,55.94478,-3.18691,55.94425,-3.2031,2
+1017,1729,Crichton Street,McDonald Road,55.94478,-3.18691,55.96403,-3.18518,1
+1017,1748,Crichton Street,Colinton Road,55.94478,-3.18691,55.93342,-3.2124,1
+1017,1753,Crichton Street,Waitrose Comely Bank,55.94478,-3.18691,55.95954,-3.22343,1
+1017,1756,Crichton Street,Western General Hospital,55.94478,-3.18691,55.96284,-3.23414,1
+1017,1763,Crichton Street,Comely Bank Road,55.94478,-3.18691,55.95941,-3.21566,3
+1017,1764,Crichton Street,Craigleith Road,55.94478,-3.18691,55.95658,-3.23794,1
+1017,1808,Crichton Street,Gorgie Road,55.94478,-3.18691,55.93874,-3.22991,1
+1017,1814,Crichton Street,Abbeyhill,55.94478,-3.18691,55.95525,-3.17222,1
+1017,1821,Crichton Street,Drumsheugh Place,55.94478,-3.18691,55.95159,-3.21235,3
+1017,1824,Crichton Street,Duke Street,55.94478,-3.18691,55.96901,-3.16739,1
+1017,2268,Crichton Street,Picardy Place,55.94478,-3.18691,55.95654,-3.18625,2
+1019,253,Grassmarket,Kings Building 2,55.9471,-3.19725,55.9232,-3.17165,2
+1019,259,Grassmarket,St Andrew Square,55.9471,-3.19725,55.95491,-3.19244,1
+1019,262,Grassmarket,Canonmills,55.9471,-3.19725,55.9628,-3.19628,1
+1019,285,Grassmarket,Ocean Terminal,55.9471,-3.19725,55.98129,-3.17635,2
+1019,289,Grassmarket,Castle Street,55.9471,-3.19725,55.9515,-3.20318,3
+1019,1019,Grassmarket,Grassmarket,55.9471,-3.19725,55.9471,-3.19725,1
+1019,1038,Grassmarket,South Trinity Road,55.9471,-3.19725,55.97133,-3.20796,1
+1019,1050,Grassmarket,EICC,55.9471,-3.19725,55.94607,-3.2104,1
+1019,1055,Grassmarket,Roseburn Street,55.9471,-3.19725,55.94443,-3.2345,1
+1019,1763,Grassmarket,Comely Bank Road,55.9471,-3.19725,55.95941,-3.21566,2
+1019,1808,Grassmarket,Gorgie Road,55.9471,-3.19725,55.93874,-3.22991,1
+1019,1821,Grassmarket,Drumsheugh Place,55.9471,-3.19725,55.95159,-3.21235,2
+1019,1822,Grassmarket,Edinburgh Park Station,55.9471,-3.19725,55.92738,-3.30744,1
+1019,1823,Grassmarket,Boroughmuir,55.9471,-3.19725,55.94007,-3.21534,2
+1024,171,Meadow Place,George Square,55.94024,-3.19464,55.94308,-3.18831,2
+1024,183,Meadow Place,Waverley Bridge,55.94024,-3.19464,55.95198,-3.19189,2
+1024,225,Meadow Place,Waverley Court,55.94024,-3.19464,55.95173,-3.18418,1
+1024,248,Meadow Place,Bristo Square,55.94024,-3.19464,55.94583,-3.18905,2
+1024,249,Meadow Place,Fountainbridge,55.94024,-3.19464,55.94336,-3.20925,4
+1024,252,Meadow Place,Kings Buildings 1,55.94024,-3.19464,55.92419,-3.17383,2
+1024,253,Meadow Place,Kings Building 2,55.94024,-3.19464,55.9232,-3.17165,1
+1024,256,Meadow Place,St Andrews House,55.94024,-3.19464,55.95316,-3.18168,1
+1024,258,Meadow Place,Stockbridge,55.94024,-3.19464,55.95857,-3.20807,4
+1024,260,Meadow Place,Lauriston Place,55.94024,-3.19464,55.94477,-3.19727,1
+1024,262,Meadow Place,Canonmills,55.94024,-3.19464,55.9628,-3.19628,1
+1024,265,Meadow Place,Meadows East,55.94024,-3.19464,55.93981,-3.18274,15
+1024,289,Meadow Place,Castle Street,55.94024,-3.19464,55.9515,-3.20318,4
+1024,358,Meadow Place,Leith Walk,55.94024,-3.19464,55.96504,-3.17669,1
+1024,1017,Meadow Place,Crichton Street,55.94024,-3.19464,55.94478,-3.18691,5
+1024,1024,Meadow Place,Meadow Place,55.94024,-3.19464,55.94024,-3.19464,8
+1024,1038,Meadow Place,South Trinity Road,55.94024,-3.19464,55.97133,-3.20796,1
+1024,1039,Meadow Place,Lothian Road,55.94024,-3.19464,55.94741,-3.20577,2
+1024,1051,Meadow Place,Warrender Park Road,55.94024,-3.19464,55.93837,-3.19803,1
+1024,1091,Meadow Place,Holyrood Road,55.94024,-3.19464,55.94956,-3.18041,3
+1024,1092,Meadow Place,Dalry Road Lidl,55.94024,-3.19464,55.94179,-3.22242,3
+1024,1096,Meadow Place,West Crosscauseway,55.94024,-3.19464,55.94384,-3.18495,1
+1024,1097,Meadow Place,Gladstone Terrace,55.94024,-3.19464,55.93796,-3.18502,3
+1024,1721,Meadow Place,Tollcross,55.94024,-3.19464,55.94425,-3.2031,2
+1024,1726,Meadow Place,Simon Square,55.94024,-3.19464,55.94486,-3.18259,4
+1024,1727,Meadow Place,Causewayside,55.94024,-3.19464,55.93651,-3.18017,4
+1024,1728,Meadow Place,Portobello - Kings Road,55.94024,-3.19464,55.95792,-3.11833,3
+1024,1729,Meadow Place,McDonald Road,55.94024,-3.19464,55.96403,-3.18518,1
+1024,1731,Meadow Place,Pleasance Courtyard,55.94024,-3.19464,55.94749,-3.18111,6
+1024,1748,Meadow Place,Colinton Road,55.94024,-3.19464,55.93342,-3.2124,1
+1024,1753,Meadow Place,Waitrose Comely Bank,55.94024,-3.19464,55.95954,-3.22343,2
+1024,1765,Meadow Place,Haymarket Terrace,55.94024,-3.19464,55.94606,-3.22302,2
+1024,1766,Meadow Place,Balgreen Road,55.94024,-3.19464,55.93894,-3.25111,1
+1024,1767,Meadow Place,Bruntsfield Links,55.94024,-3.19464,55.93712,-3.20643,3
+1024,1768,Meadow Place,Thirlestane Road,55.94024,-3.19464,55.93532,-3.19876,1
+1024,1798,Meadow Place,Chambers Street,55.94024,-3.19464,55.9476,-3.18892,1
+1024,1800,Meadow Place,Joppa,55.94024,-3.19464,55.94895,-3.09473,1
+1024,1808,Meadow Place,Gorgie Road,55.94024,-3.19464,55.93874,-3.22991,1
+1024,1814,Meadow Place,Abbeyhill,55.94024,-3.19464,55.95525,-3.17222,2
+1024,1818,Meadow Place,Dynamic Earth,55.94024,-3.19464,55.95109,-3.17572,1
+1024,1821,Meadow Place,Drumsheugh Place,55.94024,-3.19464,55.95159,-3.21235,1
+1024,2259,Meadow Place,Leith Walk North,55.94024,-3.19464,55.96792,-3.17359,1
+1024,2268,Meadow Place,Picardy Place,55.94024,-3.19464,55.95654,-3.18625,3
+1025,183,Dundee Terrace,Waverley Bridge,55.93971,-3.22059,55.95198,-3.19189,2
+1025,246,Dundee Terrace,Royal Commonwealth Pool,55.93971,-3.22059,55.939,-3.17392,1
+1025,248,Dundee Terrace,Bristo Square,55.93971,-3.22059,55.94583,-3.18905,1
+1025,249,Dundee Terrace,Fountainbridge,55.93971,-3.22059,55.94336,-3.20925,1
+1025,253,Dundee Terrace,Kings Building 2,55.93971,-3.22059,55.9232,-3.17165,1
+1025,254,Dundee Terrace,Kings Building 3,55.93971,-3.22059,55.92348,-3.17538,1
+1025,258,Dundee Terrace,Stockbridge,55.93971,-3.22059,55.95857,-3.20807,1
+1025,259,Dundee Terrace,St Andrew Square,55.93971,-3.22059,55.95491,-3.19244,4
+1025,265,Dundee Terrace,Meadows East,55.93971,-3.22059,55.93981,-3.18274,2
+1025,1024,Dundee Terrace,Meadow Place,55.93971,-3.22059,55.94024,-3.19464,2
+1025,1025,Dundee Terrace,Dundee Terrace,55.93971,-3.22059,55.93971,-3.22059,6
+1025,1039,Dundee Terrace,Lothian Road,55.93971,-3.22059,55.94741,-3.20577,6
+1025,1102,Dundee Terrace,Haymarket Station,55.93971,-3.22059,55.94557,-3.21818,1
+1025,1720,Dundee Terrace,Dundas Street,55.93971,-3.22059,55.96076,-3.20128,1
+1025,1721,Dundee Terrace,Tollcross,55.93971,-3.22059,55.94425,-3.2031,2
+1025,1730,Dundee Terrace,East London Street,55.93971,-3.22059,55.95995,-3.1872,2
+1025,1744,Dundee Terrace,Morningside Road,55.93971,-3.22059,55.92799,-3.20975,2
+1025,1753,Dundee Terrace,Waitrose Comely Bank,55.93971,-3.22059,55.95954,-3.22343,2
+1025,1757,Dundee Terrace,Meggetland,55.93971,-3.22059,55.92759,-3.23367,1
+1025,1763,Dundee Terrace,Comely Bank Road,55.93971,-3.22059,55.95941,-3.21566,1
+1025,1767,Dundee Terrace,Bruntsfield Links,55.93971,-3.22059,55.93712,-3.20643,1
+1025,1769,Dundee Terrace,Brunswick Place,55.93971,-3.22059,55.96085,-3.18099,2
+1025,1808,Dundee Terrace,Gorgie Road,55.93971,-3.22059,55.93874,-3.22991,1
+1025,1809,Dundee Terrace,Royal Edinburgh Hospital,55.93971,-3.22059,55.92782,-3.21331,1
+1025,1818,Dundee Terrace,Dynamic Earth,55.93971,-3.22059,55.95109,-3.17572,3
+1025,2259,Dundee Terrace,Leith Walk North,55.93971,-3.22059,55.96792,-3.17359,3
+1028,250,Hunter Square,Victoria Quay,55.9498,-3.1878,55.97762,-3.17413,1
+1028,259,Hunter Square,St Andrew Square,55.9498,-3.1878,55.95491,-3.19244,1
+1028,264,Hunter Square,Pollock Halls,55.9498,-3.1878,55.94008,-3.17175,2
+1028,358,Hunter Square,Leith Walk,55.9498,-3.1878,55.96504,-3.17669,3
+1028,1024,Hunter Square,Meadow Place,55.9498,-3.1878,55.94024,-3.19464,1
+1028,1025,Hunter Square,Dundee Terrace,55.9498,-3.1878,55.93971,-3.22059,1
+1028,1028,Hunter Square,Hunter Square,55.9498,-3.1878,55.9498,-3.1878,1
+1028,1038,Hunter Square,South Trinity Road,55.9498,-3.1878,55.97133,-3.20796,1
+1028,1039,Hunter Square,Lothian Road,55.9498,-3.1878,55.94741,-3.20577,1
+1028,1052,Hunter Square,Surgeons Hall,55.9498,-3.1878,55.94664,-3.18547,3
+1028,1726,Hunter Square,Simon Square,55.9498,-3.1878,55.94486,-3.18259,1
+1028,1727,Hunter Square,Causewayside,55.9498,-3.1878,55.93651,-3.18017,1
+1028,1728,Hunter Square,Portobello - Kings Road,55.9498,-3.1878,55.95792,-3.11833,2
+1028,1743,Hunter Square,Logie Green Road,55.9498,-3.1878,55.96406,-3.1957,1
+1028,1754,Hunter Square,Murrayfield Tram,55.9498,-3.1878,55.94191,-3.2378,1
+1028,1763,Hunter Square,Comely Bank Road,55.9498,-3.1878,55.95941,-3.21566,1
+1028,1766,Hunter Square,Balgreen Road,55.9498,-3.1878,55.93894,-3.25111,1
+1028,1767,Hunter Square,Bruntsfield Links,55.9498,-3.1878,55.93712,-3.20643,1
+1028,1808,Hunter Square,Gorgie Road,55.9498,-3.1878,55.93874,-3.22991,1
+1028,1814,Hunter Square,Abbeyhill,55.9498,-3.1878,55.95525,-3.17222,1
+1028,1823,Hunter Square,Boroughmuir,55.9498,-3.1878,55.94007,-3.21534,1
+1038,250,South Trinity Road,Victoria Quay,55.97133,-3.20796,55.97762,-3.17413,1
+1038,252,South Trinity Road,Kings Buildings 1,55.97133,-3.20796,55.92419,-3.17383,2
+1038,256,South Trinity Road,St Andrews House,55.97133,-3.20796,55.95316,-3.18168,1
+1038,262,South Trinity Road,Canonmills,55.97133,-3.20796,55.9628,-3.19628,1
+1038,289,South Trinity Road,Castle Street,55.97133,-3.20796,55.9515,-3.20318,1
+1038,349,South Trinity Road,Orchard Brae House,55.97133,-3.20796,55.95508,-3.22363,1
+1038,358,South Trinity Road,Leith Walk,55.97133,-3.20796,55.96504,-3.17669,1
+1038,1038,South Trinity Road,South Trinity Road,55.97133,-3.20796,55.97133,-3.20796,4
+1038,1090,South Trinity Road,Hillside Crescent,55.97133,-3.20796,55.95787,-3.17589,6
+1038,1720,South Trinity Road,Dundas Street,55.97133,-3.20796,55.96076,-3.20128,1
+1038,1737,South Trinity Road,Inverleith Row,55.97133,-3.20796,55.96412,-3.20209,1
+1038,1738,South Trinity Road,Wester Coates Terrace,55.97133,-3.20796,55.94565,-3.23185,1
+1038,1749,South Trinity Road,Dean Street,55.97133,-3.20796,55.95728,-3.21429,1
+1038,1754,South Trinity Road,Murrayfield Tram,55.97133,-3.20796,55.94191,-3.2378,1
+1038,1763,South Trinity Road,Comely Bank Road,55.97133,-3.20796,55.95941,-3.21566,2
+1038,1800,South Trinity Road,Joppa,55.97133,-3.20796,55.94895,-3.09473,2
+1038,2263,South Trinity Road,Musselburgh Lidl,55.97133,-3.20796,55.94388,-3.06675,1
+1039,248,Lothian Road,Bristo Square,55.94741,-3.20577,55.94583,-3.18905,2
+1039,259,Lothian Road,St Andrew Square,55.94741,-3.20577,55.95491,-3.19244,1
+1039,260,Lothian Road,Lauriston Place,55.94741,-3.20577,55.94477,-3.19727,2
+1039,265,Lothian Road,Meadows East,55.94741,-3.20577,55.93981,-3.18274,1
+1039,289,Lothian Road,Castle Street,55.94741,-3.20577,55.9515,-3.20318,1
+1039,296,Lothian Road,Castle Terrace,55.94741,-3.20577,55.94677,-3.20204,1
+1039,1017,Lothian Road,Crichton Street,55.94741,-3.20577,55.94478,-3.18691,2
+1039,1024,Lothian Road,Meadow Place,55.94741,-3.20577,55.94024,-3.19464,1
+1039,1025,Lothian Road,Dundee Terrace,55.94741,-3.20577,55.93971,-3.22059,1
+1039,1038,Lothian Road,South Trinity Road,55.94741,-3.20577,55.97133,-3.20796,2
+1039,1039,Lothian Road,Lothian Road,55.94741,-3.20577,55.94741,-3.20577,4
+1039,1051,Lothian Road,Warrender Park Road,55.94741,-3.20577,55.93837,-3.19803,2
+1039,1052,Lothian Road,Surgeons Hall,55.94741,-3.20577,55.94664,-3.18547,1
+1039,1091,Lothian Road,Holyrood Road,55.94741,-3.20577,55.94956,-3.18041,1
+1039,1092,Lothian Road,Dalry Road Lidl,55.94741,-3.20577,55.94179,-3.22242,1
+1039,1102,Lothian Road,Haymarket Station,55.94741,-3.20577,55.94557,-3.21818,2
+1039,1720,Lothian Road,Dundas Street,55.94741,-3.20577,55.96076,-3.20128,3
+1039,1721,Lothian Road,Tollcross,55.94741,-3.20577,55.94425,-3.2031,6
+1039,1722,Lothian Road,Cramond Foreshore,55.94741,-3.20577,55.98003,-3.30064,1
+1039,1744,Lothian Road,Morningside Road,55.94741,-3.20577,55.92799,-3.20975,2
+1039,1753,Lothian Road,Waitrose Comely Bank,55.94741,-3.20577,55.95954,-3.22343,1
+1039,1757,Lothian Road,Meggetland,55.94741,-3.20577,55.92759,-3.23367,4
+1039,1767,Lothian Road,Bruntsfield Links,55.94741,-3.20577,55.93712,-3.20643,1
+1039,1768,Lothian Road,Thirlestane Road,55.94741,-3.20577,55.93532,-3.19876,1
+1039,1814,Lothian Road,Abbeyhill,55.94741,-3.20577,55.95525,-3.17222,1
+1039,1821,Lothian Road,Drumsheugh Place,55.94741,-3.20577,55.95159,-3.21235,1
+1039,1824,Lothian Road,Duke Street,55.94741,-3.20577,55.96901,-3.16739,5
+1042,171,Kings Buildings - Murchison House,George Square,55.92446,-3.17873,55.94308,-3.18831,2
+1042,189,Kings Buildings - Murchison House,City Chambers,55.92446,-3.17873,55.95011,-3.19026,1
+1042,265,Kings Buildings - Murchison House,Meadows East,55.92446,-3.17873,55.93981,-3.18274,1
+1042,285,Kings Buildings - Murchison House,Ocean Terminal,55.92446,-3.17873,55.98129,-3.17635,1
+1042,1769,Kings Buildings - Murchison House,Brunswick Place,55.92446,-3.17873,55.96085,-3.18099,1
+1042,1818,Kings Buildings - Murchison House,Dynamic Earth,55.92446,-3.17873,55.95109,-3.17572,1
+1050,183,EICC,Waverley Bridge,55.94607,-3.2104,55.95198,-3.19189,1
+1050,249,EICC,Fountainbridge,55.94607,-3.2104,55.94336,-3.20925,6
+1050,256,EICC,St Andrews House,55.94607,-3.2104,55.95316,-3.18168,2
+1050,264,EICC,Pollock Halls,55.94607,-3.2104,55.94008,-3.17175,1
+1050,285,EICC,Ocean Terminal,55.94607,-3.2104,55.98129,-3.17635,1
+1050,289,EICC,Castle Street,55.94607,-3.2104,55.9515,-3.20318,1
+1050,358,EICC,Leith Walk,55.94607,-3.2104,55.96504,-3.17669,1
+1050,1024,EICC,Meadow Place,55.94607,-3.2104,55.94024,-3.19464,2
+1050,1028,EICC,Hunter Square,55.94607,-3.2104,55.9498,-3.1878,1
+1050,1050,EICC,EICC,55.94607,-3.2104,55.94607,-3.2104,8
+1050,1051,EICC,Warrender Park Road,55.94607,-3.2104,55.93837,-3.19803,2
+1050,1090,EICC,Hillside Crescent,55.94607,-3.2104,55.95787,-3.17589,1
+1050,1091,EICC,Holyrood Road,55.94607,-3.2104,55.94956,-3.18041,3
+1050,1092,EICC,Dalry Road Lidl,55.94607,-3.2104,55.94179,-3.22242,3
+1050,1093,EICC,Belford Road,55.94607,-3.2104,55.95197,-3.22612,1
+1050,1098,EICC,Marchmont Crescent,55.94607,-3.2104,55.93643,-3.19415,1
+1050,1102,EICC,Haymarket Station,55.94607,-3.2104,55.94557,-3.21818,1
+1050,1720,EICC,Dundas Street,55.94607,-3.2104,55.96076,-3.20128,1
+1050,1721,EICC,Tollcross,55.94607,-3.2104,55.94425,-3.2031,4
+1050,1738,EICC,Wester Coates Terrace,55.94607,-3.2104,55.94565,-3.23185,1
+1050,1748,EICC,Colinton Road,55.94607,-3.2104,55.93342,-3.2124,1
+1050,1753,EICC,Waitrose Comely Bank,55.94607,-3.2104,55.95954,-3.22343,1
+1050,1756,EICC,Western General Hospital,55.94607,-3.2104,55.96284,-3.23414,1
+1050,1769,EICC,Brunswick Place,55.94607,-3.2104,55.96085,-3.18099,1
+1050,1813,EICC,Milton Road - Edinburgh College,55.94607,-3.2104,55.94407,-3.09856,1
+1050,1818,EICC,Dynamic Earth,55.94607,-3.2104,55.95109,-3.17572,1
+1050,1821,EICC,Drumsheugh Place,55.94607,-3.2104,55.95159,-3.21235,1
+1050,2268,EICC,Picardy Place,55.94607,-3.2104,55.95654,-3.18625,1
+1051,171,Warrender Park Road,George Square,55.93837,-3.19803,55.94308,-3.18831,1
+1051,183,Warrender Park Road,Waverley Bridge,55.93837,-3.19803,55.95198,-3.19189,1
+1051,246,Warrender Park Road,Royal Commonwealth Pool,55.93837,-3.19803,55.939,-3.17392,1
+1051,248,Warrender Park Road,Bristo Square,55.93837,-3.19803,55.94583,-3.18905,1
+1051,259,Warrender Park Road,St Andrew Square,55.93837,-3.19803,55.95491,-3.19244,1
+1051,260,Warrender Park Road,Lauriston Place,55.93837,-3.19803,55.94477,-3.19727,1
+1051,265,Warrender Park Road,Meadows East,55.93837,-3.19803,55.93981,-3.18274,6
+1051,1017,Warrender Park Road,Crichton Street,55.93837,-3.19803,55.94478,-3.18691,2
+1051,1024,Warrender Park Road,Meadow Place,55.93837,-3.19803,55.94024,-3.19464,2
+1051,1050,Warrender Park Road,EICC,55.93837,-3.19803,55.94607,-3.2104,1
+1051,1051,Warrender Park Road,Warrender Park Road,55.93837,-3.19803,55.93837,-3.19803,5
+1051,1091,Warrender Park Road,Holyrood Road,55.93837,-3.19803,55.94956,-3.18041,1
+1051,1097,Warrender Park Road,Gladstone Terrace,55.93837,-3.19803,55.93796,-3.18502,1
+1051,1102,Warrender Park Road,Haymarket Station,55.93837,-3.19803,55.94557,-3.21818,2
+1051,1727,Warrender Park Road,Causewayside,55.93837,-3.19803,55.93651,-3.18017,1
+1051,1731,Warrender Park Road,Pleasance Courtyard,55.93837,-3.19803,55.94749,-3.18111,4
+1051,1767,Warrender Park Road,Bruntsfield Links,55.93837,-3.19803,55.93712,-3.20643,1
+1051,1768,Warrender Park Road,Thirlestane Road,55.93837,-3.19803,55.93532,-3.19876,1
+1051,1800,Warrender Park Road,Joppa,55.93837,-3.19803,55.94895,-3.09473,1
+1051,1821,Warrender Park Road,Drumsheugh Place,55.93837,-3.19803,55.95159,-3.21235,1
+1052,246,Surgeons Hall,Royal Commonwealth Pool,55.94664,-3.18547,55.939,-3.17392,2
+1052,248,Surgeons Hall,Bristo Square,55.94664,-3.18547,55.94583,-3.18905,2
+1052,249,Surgeons Hall,Fountainbridge,55.94664,-3.18547,55.94336,-3.20925,2
+1052,256,Surgeons Hall,St Andrews House,55.94664,-3.18547,55.95316,-3.18168,1
+1052,260,Surgeons Hall,Lauriston Place,55.94664,-3.18547,55.94477,-3.19727,1
+1052,265,Surgeons Hall,Meadows East,55.94664,-3.18547,55.93981,-3.18274,2
+1052,1017,Surgeons Hall,Crichton Street,55.94664,-3.18547,55.94478,-3.18691,1
+1052,1019,Surgeons Hall,Grassmarket,55.94664,-3.18547,55.9471,-3.19725,1
+1052,1024,Surgeons Hall,Meadow Place,55.94664,-3.18547,55.94024,-3.19464,1
+1052,1028,Surgeons Hall,Hunter Square,55.94664,-3.18547,55.9498,-3.1878,1
+1052,1051,Surgeons Hall,Warrender Park Road,55.94664,-3.18547,55.93837,-3.19803,1
+1052,1052,Surgeons Hall,Surgeons Hall,55.94664,-3.18547,55.94664,-3.18547,4
+1052,1090,Surgeons Hall,Hillside Crescent,55.94664,-3.18547,55.95787,-3.17589,1
+1052,1091,Surgeons Hall,Holyrood Road,55.94664,-3.18547,55.94956,-3.18041,1
+1052,1093,Surgeons Hall,Belford Road,55.94664,-3.18547,55.95197,-3.22612,1
+1052,1097,Surgeons Hall,Gladstone Terrace,55.94664,-3.18547,55.93796,-3.18502,1
+1052,1727,Surgeons Hall,Causewayside,55.94664,-3.18547,55.93651,-3.18017,2
+1052,1758,Surgeons Hall,Queen Margaret University,55.94664,-3.18547,55.93198,-3.0731,1
+1052,1767,Surgeons Hall,Bruntsfield Links,55.94664,-3.18547,55.93712,-3.20643,1
+1052,1769,Surgeons Hall,Brunswick Place,55.94664,-3.18547,55.96085,-3.18099,1
+1052,1821,Surgeons Hall,Drumsheugh Place,55.94664,-3.18547,55.95159,-3.21235,1
+1052,1824,Surgeons Hall,Duke Street,55.94664,-3.18547,55.96901,-3.16739,1
+1052,2268,Surgeons Hall,Picardy Place,55.94664,-3.18547,55.95654,-3.18625,1
+1055,249,Roseburn Street,Fountainbridge,55.94443,-3.2345,55.94336,-3.20925,1
+1055,262,Roseburn Street,Canonmills,55.94443,-3.2345,55.9628,-3.19628,1
+1055,1055,Roseburn Street,Roseburn Street,55.94443,-3.2345,55.94443,-3.2345,2
+1055,1754,Roseburn Street,Murrayfield Tram,55.94443,-3.2345,55.94191,-3.2378,1
+1055,1757,Roseburn Street,Meggetland,55.94443,-3.2345,55.92759,-3.23367,1
+1055,1765,Roseburn Street,Haymarket Terrace,55.94443,-3.2345,55.94606,-3.22302,1
+1055,1821,Roseburn Street,Drumsheugh Place,55.94443,-3.2345,55.95159,-3.21235,1
+1090,258,Hillside Crescent,Stockbridge,55.95787,-3.17589,55.95857,-3.20807,2
+1090,259,Hillside Crescent,St Andrew Square,55.95787,-3.17589,55.95491,-3.19244,2
+1090,285,Hillside Crescent,Ocean Terminal,55.95787,-3.17589,55.98129,-3.17635,1
+1090,358,Hillside Crescent,Leith Walk,55.95787,-3.17589,55.96504,-3.17669,1
+1090,1038,Hillside Crescent,South Trinity Road,55.95787,-3.17589,55.97133,-3.20796,4
+1090,1052,Hillside Crescent,Surgeons Hall,55.95787,-3.17589,55.94664,-3.18547,1
+1090,1090,Hillside Crescent,Hillside Crescent,55.95787,-3.17589,55.95787,-3.17589,2
+1090,1091,Hillside Crescent,Holyrood Road,55.95787,-3.17589,55.94956,-3.18041,1
+1090,1728,Hillside Crescent,Portobello - Kings Road,55.95787,-3.17589,55.95792,-3.11833,1
+1090,1729,Hillside Crescent,McDonald Road,55.95787,-3.17589,55.96403,-3.18518,2
+1090,1731,Hillside Crescent,Pleasance Courtyard,55.95787,-3.17589,55.94749,-3.18111,1
+1090,1756,Hillside Crescent,Western General Hospital,55.95787,-3.17589,55.96284,-3.23414,1
+1090,1758,Hillside Crescent,Queen Margaret University,55.95787,-3.17589,55.93198,-3.0731,2
+1090,1769,Hillside Crescent,Brunswick Place,55.95787,-3.17589,55.96085,-3.18099,2
+1090,1824,Hillside Crescent,Duke Street,55.95787,-3.17589,55.96901,-3.16739,1
+1090,2259,Hillside Crescent,Leith Walk North,55.95787,-3.17589,55.96792,-3.17359,1
+1091,171,Holyrood Road,George Square,55.94956,-3.18041,55.94308,-3.18831,2
+1091,246,Holyrood Road,Royal Commonwealth Pool,55.94956,-3.18041,55.939,-3.17392,4
+1091,248,Holyrood Road,Bristo Square,55.94956,-3.18041,55.94583,-3.18905,1
+1091,258,Holyrood Road,Stockbridge,55.94956,-3.18041,55.95857,-3.20807,4
+1091,264,Holyrood Road,Pollock Halls,55.94956,-3.18041,55.94008,-3.17175,3
+1091,265,Holyrood Road,Meadows East,55.94956,-3.18041,55.93981,-3.18274,4
+1091,358,Holyrood Road,Leith Walk,55.94956,-3.18041,55.96504,-3.17669,1
+1091,1017,Holyrood Road,Crichton Street,55.94956,-3.18041,55.94478,-3.18691,2
+1091,1019,Holyrood Road,Grassmarket,55.94956,-3.18041,55.9471,-3.19725,1
+1091,1024,Holyrood Road,Meadow Place,55.94956,-3.18041,55.94024,-3.19464,1
+1091,1050,Holyrood Road,EICC,55.94956,-3.18041,55.94607,-3.2104,2
+1091,1055,Holyrood Road,Roseburn Street,55.94956,-3.18041,55.94443,-3.2345,1
+1091,1090,Holyrood Road,Hillside Crescent,55.94956,-3.18041,55.95787,-3.17589,1
+1091,1091,Holyrood Road,Holyrood Road,55.94956,-3.18041,55.94956,-3.18041,8
+1091,1098,Holyrood Road,Marchmont Crescent,55.94956,-3.18041,55.93643,-3.19415,1
+1091,1721,Holyrood Road,Tollcross,55.94956,-3.18041,55.94425,-3.2031,1
+1091,1722,Holyrood Road,Cramond Foreshore,55.94956,-3.18041,55.98003,-3.30064,1
+1091,1726,Holyrood Road,Simon Square,55.94956,-3.18041,55.94486,-3.18259,2
+1091,1727,Holyrood Road,Causewayside,55.94956,-3.18041,55.93651,-3.18017,1
+1091,1728,Holyrood Road,Portobello - Kings Road,55.94956,-3.18041,55.95792,-3.11833,2
+1091,1731,Holyrood Road,Pleasance Courtyard,55.94956,-3.18041,55.94749,-3.18111,2
+1091,1737,Holyrood Road,Inverleith Row,55.94956,-3.18041,55.96412,-3.20209,1
+1091,1758,Holyrood Road,Queen Margaret University,55.94956,-3.18041,55.93198,-3.0731,1
+1091,1765,Holyrood Road,Haymarket Terrace,55.94956,-3.18041,55.94606,-3.22302,1
+1091,1767,Holyrood Road,Bruntsfield Links,55.94956,-3.18041,55.93712,-3.20643,2
+1091,1814,Holyrood Road,Abbeyhill,55.94956,-3.18041,55.95525,-3.17222,3
+1091,1870,Holyrood Road,Hawes Pier,55.94956,-3.18041,55.99053,-3.3856,1
+1091,2259,Holyrood Road,Leith Walk North,55.94956,-3.18041,55.96792,-3.17359,2
+1092,171,Dalry Road Lidl,George Square,55.94179,-3.22242,55.94308,-3.18831,1
+1092,250,Dalry Road Lidl,Victoria Quay,55.94179,-3.22242,55.97762,-3.17413,1
+1092,259,Dalry Road Lidl,St Andrew Square,55.94179,-3.22242,55.95491,-3.19244,1
+1092,1025,Dalry Road Lidl,Dundee Terrace,55.94179,-3.22242,55.93971,-3.22059,2
+1092,1028,Dalry Road Lidl,Hunter Square,55.94179,-3.22242,55.9498,-3.1878,1
+1092,1050,Dalry Road Lidl,EICC,55.94179,-3.22242,55.94607,-3.2104,2
+1092,1092,Dalry Road Lidl,Dalry Road Lidl,55.94179,-3.22242,55.94179,-3.22242,2
+1092,1093,Dalry Road Lidl,Belford Road,55.94179,-3.22242,55.95197,-3.22612,2
+1092,1728,Dalry Road Lidl,Portobello - Kings Road,55.94179,-3.22242,55.95792,-3.11833,1
+1092,1737,Dalry Road Lidl,Inverleith Row,55.94179,-3.22242,55.96412,-3.20209,1
+1092,1744,Dalry Road Lidl,Morningside Road,55.94179,-3.22242,55.92799,-3.20975,1
+1092,1753,Dalry Road Lidl,Waitrose Comely Bank,55.94179,-3.22242,55.95954,-3.22343,1
+1092,1757,Dalry Road Lidl,Meggetland,55.94179,-3.22242,55.92759,-3.23367,1
+1092,1763,Dalry Road Lidl,Comely Bank Road,55.94179,-3.22242,55.95941,-3.21566,1
+1092,1765,Dalry Road Lidl,Haymarket Terrace,55.94179,-3.22242,55.94606,-3.22302,1
+1092,1766,Dalry Road Lidl,Balgreen Road,55.94179,-3.22242,55.93894,-3.25111,1
+1092,1798,Dalry Road Lidl,Chambers Street,55.94179,-3.22242,55.9476,-3.18892,2
+1092,1808,Dalry Road Lidl,Gorgie Road,55.94179,-3.22242,55.93874,-3.22991,1
+1092,1821,Dalry Road Lidl,Drumsheugh Place,55.94179,-3.22242,55.95159,-3.21235,1
+1092,2259,Dalry Road Lidl,Leith Walk North,55.94179,-3.22242,55.96792,-3.17359,1
+1093,247,Belford Road,Charlotte Square,55.95197,-3.22612,55.95234,-3.2071,1
+1093,260,Belford Road,Lauriston Place,55.95197,-3.22612,55.94477,-3.19727,1
+1093,1093,Belford Road,Belford Road,55.95197,-3.22612,55.95197,-3.22612,1
+1093,1102,Belford Road,Haymarket Station,55.95197,-3.22612,55.94557,-3.21818,1
+1093,1722,Belford Road,Cramond Foreshore,55.95197,-3.22612,55.98003,-3.30064,1
+1093,1757,Belford Road,Meggetland,55.95197,-3.22612,55.92759,-3.23367,1
+1093,1808,Belford Road,Gorgie Road,55.95197,-3.22612,55.93874,-3.22991,1
+1096,183,West Crosscauseway,Waverley Bridge,55.94384,-3.18495,55.95198,-3.19189,5
+1096,247,West Crosscauseway,Charlotte Square,55.94384,-3.18495,55.95234,-3.2071,1
+1096,249,West Crosscauseway,Fountainbridge,55.94384,-3.18495,55.94336,-3.20925,1
+1096,253,West Crosscauseway,Kings Building 2,55.94384,-3.18495,55.9232,-3.17165,6
+1096,265,West Crosscauseway,Meadows East,55.94384,-3.18495,55.93981,-3.18274,4
+1096,289,West Crosscauseway,Castle Street,55.94384,-3.18495,55.9515,-3.20318,1
+1096,358,West Crosscauseway,Leith Walk,55.94384,-3.18495,55.96504,-3.17669,2
+1096,1024,West Crosscauseway,Meadow Place,55.94384,-3.18495,55.94024,-3.19464,7
+1096,1025,West Crosscauseway,Dundee Terrace,55.94384,-3.18495,55.93971,-3.22059,1
+1096,1039,West Crosscauseway,Lothian Road,55.94384,-3.18495,55.94741,-3.20577,2
+1096,1091,West Crosscauseway,Holyrood Road,55.94384,-3.18495,55.94956,-3.18041,2
+1096,1096,West Crosscauseway,West Crosscauseway,55.94384,-3.18495,55.94384,-3.18495,2
+1096,1721,West Crosscauseway,Tollcross,55.94384,-3.18495,55.94425,-3.2031,1
+1096,1739,West Crosscauseway,Edinburgh Royal Infirmary,55.94384,-3.18495,55.92122,-3.13908,1
+1096,1744,West Crosscauseway,Morningside Road,55.94384,-3.18495,55.92799,-3.20975,1
+1096,1745,West Crosscauseway,Scotland Street,55.94384,-3.18495,55.96038,-3.19547,1
+1096,1753,West Crosscauseway,Waitrose Comely Bank,55.94384,-3.18495,55.95954,-3.22343,1
+1096,1754,West Crosscauseway,Murrayfield Tram,55.94384,-3.18495,55.94191,-3.2378,1
+1096,1756,West Crosscauseway,Western General Hospital,55.94384,-3.18495,55.96284,-3.23414,2
+1096,1757,West Crosscauseway,Meggetland,55.94384,-3.18495,55.92759,-3.23367,1
+1096,1768,West Crosscauseway,Thirlestane Road,55.94384,-3.18495,55.93532,-3.19876,2
+1096,1808,West Crosscauseway,Gorgie Road,55.94384,-3.18495,55.93874,-3.22991,1
+1096,1814,West Crosscauseway,Abbeyhill,55.94384,-3.18495,55.95525,-3.17222,1
+1096,1818,West Crosscauseway,Dynamic Earth,55.94384,-3.18495,55.95109,-3.17572,1
+1096,1823,West Crosscauseway,Boroughmuir,55.94384,-3.18495,55.94007,-3.21534,1
+1096,2268,West Crosscauseway,Picardy Place,55.94384,-3.18495,55.95654,-3.18625,2
+1097,183,Gladstone Terrace,Waverley Bridge,55.93796,-3.18502,55.95198,-3.19189,1
+1097,250,Gladstone Terrace,Victoria Quay,55.93796,-3.18502,55.97762,-3.17413,1
+1097,265,Gladstone Terrace,Meadows East,55.93796,-3.18502,55.93981,-3.18274,4
+1097,1024,Gladstone Terrace,Meadow Place,55.93796,-3.18502,55.94024,-3.19464,1
+1097,1050,Gladstone Terrace,EICC,55.93796,-3.18502,55.94607,-3.2104,1
+1097,1051,Gladstone Terrace,Warrender Park Road,55.93796,-3.18502,55.93837,-3.19803,1
+1097,1097,Gladstone Terrace,Gladstone Terrace,55.93796,-3.18502,55.93796,-3.18502,1
+1097,1721,Gladstone Terrace,Tollcross,55.93796,-3.18502,55.94425,-3.2031,4
+1097,1767,Gladstone Terrace,Bruntsfield Links,55.93796,-3.18502,55.93712,-3.20643,1
+1097,1768,Gladstone Terrace,Thirlestane Road,55.93796,-3.18502,55.93532,-3.19876,4
+1097,1813,Gladstone Terrace,Milton Road - Edinburgh College,55.93796,-3.18502,55.94407,-3.09856,1
+1097,1821,Gladstone Terrace,Drumsheugh Place,55.93796,-3.18502,55.95159,-3.21235,1
+1097,1823,Gladstone Terrace,Boroughmuir,55.93796,-3.18502,55.94007,-3.21534,3
+1098,171,Marchmont Crescent,George Square,55.93643,-3.19415,55.94308,-3.18831,3
+1098,183,Marchmont Crescent,Waverley Bridge,55.93643,-3.19415,55.95198,-3.19189,2
+1098,248,Marchmont Crescent,Bristo Square,55.93643,-3.19415,55.94583,-3.18905,1
+1098,254,Marchmont Crescent,Kings Building 3,55.93643,-3.19415,55.92348,-3.17538,1
+1098,1024,Marchmont Crescent,Meadow Place,55.93643,-3.19415,55.94024,-3.19464,1
+1098,1091,Marchmont Crescent,Holyrood Road,55.93643,-3.19415,55.94956,-3.18041,1
+1098,1096,Marchmont Crescent,West Crosscauseway,55.93643,-3.19415,55.94384,-3.18495,1
+1098,1728,Marchmont Crescent,Portobello - Kings Road,55.93643,-3.19415,55.95792,-3.11833,1
+1098,1731,Marchmont Crescent,Pleasance Courtyard,55.93643,-3.19415,55.94749,-3.18111,2
+1098,1744,Marchmont Crescent,Morningside Road,55.93643,-3.19415,55.92799,-3.20975,2
+1098,1753,Marchmont Crescent,Waitrose Comely Bank,55.93643,-3.19415,55.95954,-3.22343,1
+1098,1767,Marchmont Crescent,Bruntsfield Links,55.93643,-3.19415,55.93712,-3.20643,1
+1098,1768,Marchmont Crescent,Thirlestane Road,55.93643,-3.19415,55.93532,-3.19876,1
+1098,1798,Marchmont Crescent,Chambers Street,55.93643,-3.19415,55.9476,-3.18892,1
+1102,171,Haymarket Station,George Square,55.94557,-3.21818,55.94308,-3.18831,2
+1102,183,Haymarket Station,Waverley Bridge,55.94557,-3.21818,55.95198,-3.19189,2
+1102,249,Haymarket Station,Fountainbridge,55.94557,-3.21818,55.94336,-3.20925,1
+1102,250,Haymarket Station,Victoria Quay,55.94557,-3.21818,55.97762,-3.17413,1
+1102,1024,Haymarket Station,Meadow Place,55.94557,-3.21818,55.94024,-3.19464,1
+1102,1038,Haymarket Station,South Trinity Road,55.94557,-3.21818,55.97133,-3.20796,1
+1102,1050,Haymarket Station,EICC,55.94557,-3.21818,55.94607,-3.2104,1
+1102,1051,Haymarket Station,Warrender Park Road,55.94557,-3.21818,55.93837,-3.19803,2
+1102,1092,Haymarket Station,Dalry Road Lidl,55.94557,-3.21818,55.94179,-3.22242,1
+1102,1102,Haymarket Station,Haymarket Station,55.94557,-3.21818,55.94557,-3.21818,1
+1102,1721,Haymarket Station,Tollcross,55.94557,-3.21818,55.94425,-3.2031,2
+1102,1722,Haymarket Station,Cramond Foreshore,55.94557,-3.21818,55.98003,-3.30064,2
+1102,1739,Haymarket Station,Edinburgh Royal Infirmary,55.94557,-3.21818,55.92122,-3.13908,1
+1102,1764,Haymarket Station,Craigleith Road,55.94557,-3.21818,55.95658,-3.23794,1
+1102,1765,Haymarket Station,Haymarket Terrace,55.94557,-3.21818,55.94606,-3.22302,1
+1102,1766,Haymarket Station,Balgreen Road,55.94557,-3.21818,55.93894,-3.25111,1
+1102,1808,Haymarket Station,Gorgie Road,55.94557,-3.21818,55.93874,-3.22991,2
+1102,1824,Haymarket Station,Duke Street,55.94557,-3.21818,55.96901,-3.16739,1
+1102,1859,Haymarket Station,Edinburgh Park Central,55.94557,-3.21818,55.93117,-3.31441,2
+1102,2259,Haymarket Station,Leith Walk North,55.94557,-3.21818,55.96792,-3.17359,2
+1720,250,Dundas Street,Victoria Quay,55.96076,-3.20128,55.97762,-3.17413,3
+1720,258,Dundas Street,Stockbridge,55.96076,-3.20128,55.95857,-3.20807,1
+1720,262,Dundas Street,Canonmills,55.96076,-3.20128,55.9628,-3.19628,1
+1720,264,Dundas Street,Pollock Halls,55.96076,-3.20128,55.94008,-3.17175,1
+1720,1038,Dundas Street,South Trinity Road,55.96076,-3.20128,55.97133,-3.20796,1
+1720,1039,Dundas Street,Lothian Road,55.96076,-3.20128,55.94741,-3.20577,1
+1720,1092,Dundas Street,Dalry Road Lidl,55.96076,-3.20128,55.94179,-3.22242,1
+1720,1720,Dundas Street,Dundas Street,55.96076,-3.20128,55.96076,-3.20128,5
+1720,1728,Dundas Street,Portobello - Kings Road,55.96076,-3.20128,55.95792,-3.11833,1
+1720,1737,Dundas Street,Inverleith Row,55.96076,-3.20128,55.96412,-3.20209,1
+1720,1739,Dundas Street,Edinburgh Royal Infirmary,55.96076,-3.20128,55.92122,-3.13908,3
+1720,1749,Dundas Street,Dean Street,55.96076,-3.20128,55.95728,-3.21429,1
+1720,1753,Dundas Street,Waitrose Comely Bank,55.96076,-3.20128,55.95954,-3.22343,1
+1720,1756,Dundas Street,Western General Hospital,55.96076,-3.20128,55.96284,-3.23414,1
+1720,1821,Dundas Street,Drumsheugh Place,55.96076,-3.20128,55.95159,-3.21235,1
+1720,2259,Dundas Street,Leith Walk North,55.96076,-3.20128,55.96792,-3.17359,1
+1720,2268,Dundas Street,Picardy Place,55.96076,-3.20128,55.95654,-3.18625,1
+1721,246,Tollcross,Royal Commonwealth Pool,55.94425,-3.2031,55.939,-3.17392,2
+1721,248,Tollcross,Bristo Square,55.94425,-3.2031,55.94583,-3.18905,1
+1721,249,Tollcross,Fountainbridge,55.94425,-3.2031,55.94336,-3.20925,5
+1721,250,Tollcross,Victoria Quay,55.94425,-3.2031,55.97762,-3.17413,1
+1721,258,Tollcross,Stockbridge,55.94425,-3.2031,55.95857,-3.20807,3
+1721,260,Tollcross,Lauriston Place,55.94425,-3.2031,55.94477,-3.19727,1
+1721,265,Tollcross,Meadows East,55.94425,-3.2031,55.93981,-3.18274,7
+1721,289,Tollcross,Castle Street,55.94425,-3.2031,55.9515,-3.20318,1
+1721,296,Tollcross,Castle Terrace,55.94425,-3.2031,55.94677,-3.20204,1
+1721,1019,Tollcross,Grassmarket,55.94425,-3.2031,55.9471,-3.19725,1
+1721,1024,Tollcross,Meadow Place,55.94425,-3.2031,55.94024,-3.19464,2
+1721,1025,Tollcross,Dundee Terrace,55.94425,-3.2031,55.93971,-3.22059,2
+1721,1039,Tollcross,Lothian Road,55.94425,-3.2031,55.94741,-3.20577,1
+1721,1042,Tollcross,Kings Buildings - Murchison House,55.94425,-3.2031,55.92446,-3.17873,1
+1721,1051,Tollcross,Warrender Park Road,55.94425,-3.2031,55.93837,-3.19803,1
+1721,1096,Tollcross,West Crosscauseway,55.94425,-3.2031,55.94384,-3.18495,4
+1721,1097,Tollcross,Gladstone Terrace,55.94425,-3.2031,55.93796,-3.18502,4
+1721,1102,Tollcross,Haymarket Station,55.94425,-3.2031,55.94557,-3.21818,2
+1721,1721,Tollcross,Tollcross,55.94425,-3.2031,55.94425,-3.2031,1
+1721,1726,Tollcross,Simon Square,55.94425,-3.2031,55.94486,-3.18259,1
+1721,1727,Tollcross,Causewayside,55.94425,-3.2031,55.93651,-3.18017,2
+1721,1754,Tollcross,Murrayfield Tram,55.94425,-3.2031,55.94191,-3.2378,1
+1721,1765,Tollcross,Haymarket Terrace,55.94425,-3.2031,55.94606,-3.22302,5
+1721,1767,Tollcross,Bruntsfield Links,55.94425,-3.2031,55.93712,-3.20643,1
+1721,1808,Tollcross,Gorgie Road,55.94425,-3.2031,55.93874,-3.22991,4
+1721,1814,Tollcross,Abbeyhill,55.94425,-3.2031,55.95525,-3.17222,1
+1721,1819,Tollcross,Heriot Watt - Edinburgh Business School,55.94425,-3.2031,55.90882,-3.32011,1
+1721,1821,Tollcross,Drumsheugh Place,55.94425,-3.2031,55.95159,-3.21235,1
+1721,1823,Tollcross,Boroughmuir,55.94425,-3.2031,55.94007,-3.21534,1
+1721,2268,Tollcross,Picardy Place,55.94425,-3.2031,55.95654,-3.18625,1
+1722,285,Cramond Foreshore,Ocean Terminal,55.98003,-3.30064,55.98129,-3.17635,1
+1722,1092,Cramond Foreshore,Dalry Road Lidl,55.98003,-3.30064,55.94179,-3.22242,1
+1722,1722,Cramond Foreshore,Cramond Foreshore,55.98003,-3.30064,55.98003,-3.30064,9
+1722,1729,Cramond Foreshore,McDonald Road,55.98003,-3.30064,55.96403,-3.18518,2
+1722,1730,Cramond Foreshore,East London Street,55.98003,-3.30064,55.95995,-3.1872,1
+1722,1807,Cramond Foreshore,Gamekeeper's Road,55.98003,-3.30064,55.96944,-3.30726,1
+1722,1808,Cramond Foreshore,Gorgie Road,55.98003,-3.30064,55.93874,-3.22991,1
+1722,1819,Cramond Foreshore,Heriot Watt - Edinburgh Business School,55.98003,-3.30064,55.90882,-3.32011,1
+1722,1821,Cramond Foreshore,Drumsheugh Place,55.98003,-3.30064,55.95159,-3.21235,1
+1725,260,Edinburgh Zoo,Lauriston Place,55.94212,-3.26929,55.94477,-3.19727,2
+1725,1090,Edinburgh Zoo,Hillside Crescent,55.94212,-3.26929,55.95787,-3.17589,1
+1725,1808,Edinburgh Zoo,Gorgie Road,55.94212,-3.26929,55.93874,-3.22991,1
+1726,253,Simon Square,Kings Building 2,55.94486,-3.18259,55.9232,-3.17165,2
+1726,260,Simon Square,Lauriston Place,55.94486,-3.18259,55.94477,-3.19727,1
+1726,262,Simon Square,Canonmills,55.94486,-3.18259,55.9628,-3.19628,1
+1726,264,Simon Square,Pollock Halls,55.94486,-3.18259,55.94008,-3.17175,2
+1726,358,Simon Square,Leith Walk,55.94486,-3.18259,55.96504,-3.17669,1
+1726,1019,Simon Square,Grassmarket,55.94486,-3.18259,55.9471,-3.19725,1
+1726,1024,Simon Square,Meadow Place,55.94486,-3.18259,55.94024,-3.19464,1
+1726,1025,Simon Square,Dundee Terrace,55.94486,-3.18259,55.93971,-3.22059,1
+1726,1726,Simon Square,Simon Square,55.94486,-3.18259,55.94486,-3.18259,2
+1726,1728,Simon Square,Portobello - Kings Road,55.94486,-3.18259,55.95792,-3.11833,1
+1726,1731,Simon Square,Pleasance Courtyard,55.94486,-3.18259,55.94749,-3.18111,2
+1726,1739,Simon Square,Edinburgh Royal Infirmary,55.94486,-3.18259,55.92122,-3.13908,1
+1726,1743,Simon Square,Logie Green Road,55.94486,-3.18259,55.96406,-3.1957,2
+1727,171,Causewayside,George Square,55.93651,-3.18017,55.94308,-3.18831,2
+1727,183,Causewayside,Waverley Bridge,55.93651,-3.18017,55.95198,-3.19189,1
+1727,246,Causewayside,Royal Commonwealth Pool,55.93651,-3.18017,55.939,-3.17392,1
+1727,248,Causewayside,Bristo Square,55.93651,-3.18017,55.94583,-3.18905,3
+1727,249,Causewayside,Fountainbridge,55.93651,-3.18017,55.94336,-3.20925,2
+1727,253,Causewayside,Kings Building 2,55.93651,-3.18017,55.9232,-3.17165,1
+1727,254,Causewayside,Kings Building 3,55.93651,-3.18017,55.92348,-3.17538,1
+1727,265,Causewayside,Meadows East,55.93651,-3.18017,55.93981,-3.18274,2
+1727,289,Causewayside,Castle Street,55.93651,-3.18017,55.9515,-3.20318,1
+1727,1019,Causewayside,Grassmarket,55.93651,-3.18017,55.9471,-3.19725,1
+1727,1024,Causewayside,Meadow Place,55.93651,-3.18017,55.94024,-3.19464,2
+1727,1025,Causewayside,Dundee Terrace,55.93651,-3.18017,55.93971,-3.22059,1
+1727,1042,Causewayside,Kings Buildings - Murchison House,55.93651,-3.18017,55.92446,-3.17873,2
+1727,1052,Causewayside,Surgeons Hall,55.93651,-3.18017,55.94664,-3.18547,2
+1727,1096,Causewayside,West Crosscauseway,55.93651,-3.18017,55.94384,-3.18495,1
+1727,1102,Causewayside,Haymarket Station,55.93651,-3.18017,55.94557,-3.21818,2
+1727,1721,Causewayside,Tollcross,55.93651,-3.18017,55.94425,-3.2031,1
+1727,1727,Causewayside,Causewayside,55.93651,-3.18017,55.93651,-3.18017,6
+1727,1728,Causewayside,Portobello - Kings Road,55.93651,-3.18017,55.95792,-3.11833,2
+1727,1744,Causewayside,Morningside Road,55.93651,-3.18017,55.92799,-3.20975,1
+1727,1768,Causewayside,Thirlestane Road,55.93651,-3.18017,55.93532,-3.19876,2
+1727,1800,Causewayside,Joppa,55.93651,-3.18017,55.94895,-3.09473,1
+1727,1808,Causewayside,Gorgie Road,55.93651,-3.18017,55.93874,-3.22991,1
+1727,2259,Causewayside,Leith Walk North,55.93651,-3.18017,55.96792,-3.17359,1
+1727,2268,Causewayside,Picardy Place,55.93651,-3.18017,55.95654,-3.18625,1
+1728,183,Portobello - Kings Road,Waverley Bridge,55.95792,-3.11833,55.95198,-3.19189,1
+1728,246,Portobello - Kings Road,Royal Commonwealth Pool,55.95792,-3.11833,55.939,-3.17392,1
+1728,250,Portobello - Kings Road,Victoria Quay,55.95792,-3.11833,55.97762,-3.17413,2
+1728,264,Portobello - Kings Road,Pollock Halls,55.95792,-3.11833,55.94008,-3.17175,4
+1728,285,Portobello - Kings Road,Ocean Terminal,55.95792,-3.11833,55.98129,-3.17635,1
+1728,1024,Portobello - Kings Road,Meadow Place,55.95792,-3.11833,55.94024,-3.19464,3
+1728,1038,Portobello - Kings Road,South Trinity Road,55.95792,-3.11833,55.97133,-3.20796,1
+1728,1039,Portobello - Kings Road,Lothian Road,55.95792,-3.11833,55.94741,-3.20577,2
+1728,1090,Portobello - Kings Road,Hillside Crescent,55.95792,-3.11833,55.95787,-3.17589,2
+1728,1091,Portobello - Kings Road,Holyrood Road,55.95792,-3.11833,55.94956,-3.18041,1
+1728,1097,Portobello - Kings Road,Gladstone Terrace,55.95792,-3.11833,55.93796,-3.18502,1
+1728,1727,Portobello - Kings Road,Causewayside,55.95792,-3.11833,55.93651,-3.18017,1
+1728,1728,Portobello - Kings Road,Portobello - Kings Road,55.95792,-3.11833,55.95792,-3.11833,8
+1728,1729,Portobello - Kings Road,McDonald Road,55.95792,-3.11833,55.96403,-3.18518,1
+1728,1737,Portobello - Kings Road,Inverleith Row,55.95792,-3.11833,55.96412,-3.20209,1
+1728,1745,Portobello - Kings Road,Scotland Street,55.95792,-3.11833,55.96038,-3.19547,1
+1728,1769,Portobello - Kings Road,Brunswick Place,55.95792,-3.11833,55.96085,-3.18099,1
+1728,1800,Portobello - Kings Road,Joppa,55.95792,-3.11833,55.94895,-3.09473,3
+1728,1814,Portobello - Kings Road,Abbeyhill,55.95792,-3.11833,55.95525,-3.17222,3
+1728,1818,Portobello - Kings Road,Dynamic Earth,55.95792,-3.11833,55.95109,-3.17572,1
+1728,1823,Portobello - Kings Road,Boroughmuir,55.95792,-3.11833,55.94007,-3.21534,1
+1728,1824,Portobello - Kings Road,Duke Street,55.95792,-3.11833,55.96901,-3.16739,9
+1728,2259,Portobello - Kings Road,Leith Walk North,55.95792,-3.11833,55.96792,-3.17359,1
+1728,2263,Portobello - Kings Road,Musselburgh Lidl,55.95792,-3.11833,55.94388,-3.06675,1
+1729,258,McDonald Road,Stockbridge,55.96403,-3.18518,55.95857,-3.20807,2
+1729,358,McDonald Road,Leith Walk,55.96403,-3.18518,55.96504,-3.17669,2
+1729,1038,McDonald Road,South Trinity Road,55.96403,-3.18518,55.97133,-3.20796,1
+1729,1050,McDonald Road,EICC,55.96403,-3.18518,55.94607,-3.2104,1
+1729,1052,McDonald Road,Surgeons Hall,55.96403,-3.18518,55.94664,-3.18547,1
+1729,1722,McDonald Road,Cramond Foreshore,55.96403,-3.18518,55.98003,-3.30064,3
+1729,1727,McDonald Road,Causewayside,55.96403,-3.18518,55.93651,-3.18017,1
+1729,1728,McDonald Road,Portobello - Kings Road,55.96403,-3.18518,55.95792,-3.11833,1
+1729,1729,McDonald Road,McDonald Road,55.96403,-3.18518,55.96403,-3.18518,2
+1729,1737,McDonald Road,Inverleith Row,55.96403,-3.18518,55.96412,-3.20209,2
+1729,1743,McDonald Road,Logie Green Road,55.96403,-3.18518,55.96406,-3.1957,1
+1729,1756,McDonald Road,Western General Hospital,55.96403,-3.18518,55.96284,-3.23414,1
+1729,1769,McDonald Road,Brunswick Place,55.96403,-3.18518,55.96085,-3.18099,2
+1729,1818,McDonald Road,Dynamic Earth,55.96403,-3.18518,55.95109,-3.17572,1
+1729,1824,McDonald Road,Duke Street,55.96403,-3.18518,55.96901,-3.16739,1
+1730,258,East London Street,Stockbridge,55.95995,-3.1872,55.95857,-3.20807,2
+1730,262,East London Street,Canonmills,55.95995,-3.1872,55.9628,-3.19628,1
+1730,358,East London Street,Leith Walk,55.95995,-3.1872,55.96504,-3.17669,2
+1730,1730,East London Street,East London Street,55.95995,-3.1872,55.95995,-3.1872,1
+1730,1753,East London Street,Waitrose Comely Bank,55.95995,-3.1872,55.95954,-3.22343,1
+1730,1756,East London Street,Western General Hospital,55.95995,-3.1872,55.96284,-3.23414,5
+1730,1764,East London Street,Craigleith Road,55.95995,-3.1872,55.95658,-3.23794,1
+1730,1769,East London Street,Brunswick Place,55.95995,-3.1872,55.96085,-3.18099,1
+1730,1824,East London Street,Duke Street,55.95995,-3.1872,55.96901,-3.16739,4
+1731,246,Pleasance Courtyard,Royal Commonwealth Pool,55.94749,-3.18111,55.939,-3.17392,2
+1731,253,Pleasance Courtyard,Kings Building 2,55.94749,-3.18111,55.9232,-3.17165,1
+1731,258,Pleasance Courtyard,Stockbridge,55.94749,-3.18111,55.95857,-3.20807,1
+1731,259,Pleasance Courtyard,St Andrew Square,55.94749,-3.18111,55.95491,-3.19244,1
+1731,264,Pleasance Courtyard,Pollock Halls,55.94749,-3.18111,55.94008,-3.17175,6
+1731,265,Pleasance Courtyard,Meadows East,55.94749,-3.18111,55.93981,-3.18274,9
+1731,296,Pleasance Courtyard,Castle Terrace,55.94749,-3.18111,55.94677,-3.20204,1
+1731,1024,Pleasance Courtyard,Meadow Place,55.94749,-3.18111,55.94024,-3.19464,2
+1731,1096,Pleasance Courtyard,West Crosscauseway,55.94749,-3.18111,55.94384,-3.18495,1
+1731,1098,Pleasance Courtyard,Marchmont Crescent,55.94749,-3.18111,55.93643,-3.19415,2
+1731,1726,Pleasance Courtyard,Simon Square,55.94749,-3.18111,55.94486,-3.18259,1
+1731,1731,Pleasance Courtyard,Pleasance Courtyard,55.94749,-3.18111,55.94749,-3.18111,2
+1731,1739,Pleasance Courtyard,Edinburgh Royal Infirmary,55.94749,-3.18111,55.92122,-3.13908,2
+1731,1757,Pleasance Courtyard,Meggetland,55.94749,-3.18111,55.92759,-3.23367,1
+1731,1767,Pleasance Courtyard,Bruntsfield Links,55.94749,-3.18111,55.93712,-3.20643,1
+1731,1814,Pleasance Courtyard,Abbeyhill,55.94749,-3.18111,55.95525,-3.17222,3
+1737,183,Inverleith Row,Waverley Bridge,55.96412,-3.20209,55.95198,-3.19189,1
+1737,1038,Inverleith Row,South Trinity Road,55.96412,-3.20209,55.97133,-3.20796,4
+1737,1051,Inverleith Row,Warrender Park Road,55.96412,-3.20209,55.93837,-3.19803,1
+1737,1745,Inverleith Row,Scotland Street,55.96412,-3.20209,55.96038,-3.19547,2
+1737,1753,Inverleith Row,Waitrose Comely Bank,55.96412,-3.20209,55.95954,-3.22343,3
+1737,1756,Inverleith Row,Western General Hospital,55.96412,-3.20209,55.96284,-3.23414,3
+1737,1769,Inverleith Row,Brunswick Place,55.96412,-3.20209,55.96085,-3.18099,2
+1737,1799,Inverleith Row,Murrayfield,55.96412,-3.20209,55.94479,-3.24367,1
+1737,1808,Inverleith Row,Gorgie Road,55.96412,-3.20209,55.93874,-3.22991,1
+1737,1814,Inverleith Row,Abbeyhill,55.96412,-3.20209,55.95525,-3.17222,1
+1737,1877,Inverleith Row,Port Edgar Marina,55.96412,-3.20209,55.99296,-3.40716,1
+1738,258,Wester Coates Terrace,Stockbridge,55.94565,-3.23185,55.95857,-3.20807,1
+1738,1038,Wester Coates Terrace,South Trinity Road,55.94565,-3.23185,55.97133,-3.20796,1
+1738,1055,Wester Coates Terrace,Roseburn Street,55.94565,-3.23185,55.94443,-3.2345,1
+1738,2259,Wester Coates Terrace,Leith Walk North,55.94565,-3.23185,55.96792,-3.17359,1
+1739,260,Edinburgh Royal Infirmary,Lauriston Place,55.92122,-3.13908,55.94477,-3.19727,1
+1739,1098,Edinburgh Royal Infirmary,Marchmont Crescent,55.92122,-3.13908,55.93643,-3.19415,1
+1739,1720,Edinburgh Royal Infirmary,Dundas Street,55.92122,-3.13908,55.96076,-3.20128,3
+1739,1744,Edinburgh Royal Infirmary,Morningside Road,55.92122,-3.13908,55.92799,-3.20975,1
+1739,1745,Edinburgh Royal Infirmary,Scotland Street,55.92122,-3.13908,55.96038,-3.19547,1
+1739,1758,Edinburgh Royal Infirmary,Queen Margaret University,55.92122,-3.13908,55.93198,-3.0731,1
+1739,1769,Edinburgh Royal Infirmary,Brunswick Place,55.92122,-3.13908,55.96085,-3.18099,1
+1743,249,Logie Green Road,Fountainbridge,55.96406,-3.1957,55.94336,-3.20925,2
+1743,258,Logie Green Road,Stockbridge,55.96406,-3.1957,55.95857,-3.20807,1
+1743,262,Logie Green Road,Canonmills,55.96406,-3.1957,55.9628,-3.19628,4
+1743,296,Logie Green Road,Castle Terrace,55.96406,-3.1957,55.94677,-3.20204,2
+1743,1017,Logie Green Road,Crichton Street,55.96406,-3.1957,55.94478,-3.18691,1
+1743,1097,Logie Green Road,Gladstone Terrace,55.96406,-3.1957,55.93796,-3.18502,1
+1743,1729,Logie Green Road,McDonald Road,55.96406,-3.1957,55.96403,-3.18518,1
+1743,1743,Logie Green Road,Logie Green Road,55.96406,-3.1957,55.96406,-3.1957,3
+1743,1753,Logie Green Road,Waitrose Comely Bank,55.96406,-3.1957,55.95954,-3.22343,1
+1743,1756,Logie Green Road,Western General Hospital,55.96406,-3.1957,55.96284,-3.23414,2
+1743,1764,Logie Green Road,Craigleith Road,55.96406,-3.1957,55.95658,-3.23794,2
+1743,1769,Logie Green Road,Brunswick Place,55.96406,-3.1957,55.96085,-3.18099,1
+1743,1798,Logie Green Road,Chambers Street,55.96406,-3.1957,55.9476,-3.18892,1
+1743,1821,Logie Green Road,Drumsheugh Place,55.96406,-3.1957,55.95159,-3.21235,2
+1743,1824,Logie Green Road,Duke Street,55.96406,-3.1957,55.96901,-3.16739,4
+1744,171,Morningside Road,George Square,55.92799,-3.20975,55.94308,-3.18831,1
+1744,183,Morningside Road,Waverley Bridge,55.92799,-3.20975,55.95198,-3.19189,1
+1744,246,Morningside Road,Royal Commonwealth Pool,55.92799,-3.20975,55.939,-3.17392,2
+1744,247,Morningside Road,Charlotte Square,55.92799,-3.20975,55.95234,-3.2071,1
+1744,248,Morningside Road,Bristo Square,55.92799,-3.20975,55.94583,-3.18905,1
+1744,250,Morningside Road,Victoria Quay,55.92799,-3.20975,55.97762,-3.17413,1
+1744,253,Morningside Road,Kings Building 2,55.92799,-3.20975,55.9232,-3.17165,4
+1744,259,Morningside Road,St Andrew Square,55.92799,-3.20975,55.95491,-3.19244,1
+1744,260,Morningside Road,Lauriston Place,55.92799,-3.20975,55.94477,-3.19727,9
+1744,1024,Morningside Road,Meadow Place,55.92799,-3.20975,55.94024,-3.19464,1
+1744,1025,Morningside Road,Dundee Terrace,55.92799,-3.20975,55.93971,-3.22059,1
+1744,1039,Morningside Road,Lothian Road,55.92799,-3.20975,55.94741,-3.20577,1
+1744,1091,Morningside Road,Holyrood Road,55.92799,-3.20975,55.94956,-3.18041,1
+1744,1092,Morningside Road,Dalry Road Lidl,55.92799,-3.20975,55.94179,-3.22242,1
+1744,1727,Morningside Road,Causewayside,55.92799,-3.20975,55.93651,-3.18017,3
+1744,1728,Morningside Road,Portobello - Kings Road,55.92799,-3.20975,55.95792,-3.11833,1
+1744,1744,Morningside Road,Morningside Road,55.92799,-3.20975,55.92799,-3.20975,7
+1744,1748,Morningside Road,Colinton Road,55.92799,-3.20975,55.93342,-3.2124,2
+1744,1749,Morningside Road,Dean Street,55.92799,-3.20975,55.95728,-3.21429,1
+1744,1756,Morningside Road,Western General Hospital,55.92799,-3.20975,55.96284,-3.23414,1
+1744,1767,Morningside Road,Bruntsfield Links,55.92799,-3.20975,55.93712,-3.20643,6
+1744,1808,Morningside Road,Gorgie Road,55.92799,-3.20975,55.93874,-3.22991,1
+1744,1814,Morningside Road,Abbeyhill,55.92799,-3.20975,55.95525,-3.17222,1
+1744,1823,Morningside Road,Boroughmuir,55.92799,-3.20975,55.94007,-3.21534,2
+1744,1824,Morningside Road,Duke Street,55.92799,-3.20975,55.96901,-3.16739,1
+1745,250,Scotland Street,Victoria Quay,55.96038,-3.19547,55.97762,-3.17413,1
+1745,262,Scotland Street,Canonmills,55.96038,-3.19547,55.9628,-3.19628,2
+1745,264,Scotland Street,Pollock Halls,55.96038,-3.19547,55.94008,-3.17175,1
+1745,285,Scotland Street,Ocean Terminal,55.96038,-3.19547,55.98129,-3.17635,3
+1745,1720,Scotland Street,Dundas Street,55.96038,-3.19547,55.96076,-3.20128,1
+1745,1739,Scotland Street,Edinburgh Royal Infirmary,55.96038,-3.19547,55.92122,-3.13908,1
+1745,1743,Scotland Street,Logie Green Road,55.96038,-3.19547,55.96406,-3.1957,1
+1745,1745,Scotland Street,Scotland Street,55.96038,-3.19547,55.96038,-3.19547,2
+1745,1763,Scotland Street,Comely Bank Road,55.96038,-3.19547,55.95941,-3.21566,1
+1745,2259,Scotland Street,Leith Walk North,55.96038,-3.19547,55.96792,-3.17359,2
+1747,1808,Corstorphine Road,Gorgie Road,55.94167,-3.27152,55.93874,-3.22991,1
+1747,1859,Corstorphine Road,Edinburgh Park Central,55.94167,-3.27152,55.93117,-3.31441,1
+1748,171,Colinton Road,George Square,55.93342,-3.2124,55.94308,-3.18831,1
+1748,183,Colinton Road,Waverley Bridge,55.93342,-3.2124,55.95198,-3.19189,2
+1748,248,Colinton Road,Bristo Square,55.93342,-3.2124,55.94583,-3.18905,1
+1748,252,Colinton Road,Kings Buildings 1,55.93342,-3.2124,55.92419,-3.17383,1
+1748,264,Colinton Road,Pollock Halls,55.93342,-3.2124,55.94008,-3.17175,5
+1748,265,Colinton Road,Meadows East,55.93342,-3.2124,55.93981,-3.18274,3
+1748,1019,Colinton Road,Grassmarket,55.93342,-3.2124,55.9471,-3.19725,1
+1748,1050,Colinton Road,EICC,55.93342,-3.2124,55.94607,-3.2104,1
+1748,1051,Colinton Road,Warrender Park Road,55.93342,-3.2124,55.93837,-3.19803,2
+1748,1052,Colinton Road,Surgeons Hall,55.93342,-3.2124,55.94664,-3.18547,1
+1748,1092,Colinton Road,Dalry Road Lidl,55.93342,-3.2124,55.94179,-3.22242,1
+1748,1757,Colinton Road,Meggetland,55.93342,-3.2124,55.92759,-3.23367,1
+1748,1764,Colinton Road,Craigleith Road,55.93342,-3.2124,55.95658,-3.23794,1
+1748,1767,Colinton Road,Bruntsfield Links,55.93342,-3.2124,55.93712,-3.20643,1
+1749,250,Dean Street,Victoria Quay,55.95728,-3.21429,55.97762,-3.17413,1
+1749,1757,Dean Street,Meggetland,55.95728,-3.21429,55.92759,-3.23367,1
+1753,258,Waitrose Comely Bank,Stockbridge,55.95954,-3.22343,55.95857,-3.20807,2
+1753,262,Waitrose Comely Bank,Canonmills,55.95954,-3.22343,55.9628,-3.19628,2
+1753,349,Waitrose Comely Bank,Orchard Brae House,55.95954,-3.22343,55.95508,-3.22363,1
+1753,358,Waitrose Comely Bank,Leith Walk,55.95954,-3.22343,55.96504,-3.17669,2
+1753,1017,Waitrose Comely Bank,Crichton Street,55.95954,-3.22343,55.94478,-3.18691,1
+1753,1092,Waitrose Comely Bank,Dalry Road Lidl,55.95954,-3.22343,55.94179,-3.22242,1
+1753,1102,Waitrose Comely Bank,Haymarket Station,55.95954,-3.22343,55.94557,-3.21818,1
+1753,1727,Waitrose Comely Bank,Causewayside,55.95954,-3.22343,55.93651,-3.18017,1
+1753,1730,Waitrose Comely Bank,East London Street,55.95954,-3.22343,55.95995,-3.1872,1
+1753,1737,Waitrose Comely Bank,Inverleith Row,55.95954,-3.22343,55.96412,-3.20209,2
+1753,1743,Waitrose Comely Bank,Logie Green Road,55.95954,-3.22343,55.96406,-3.1957,2
+1753,1753,Waitrose Comely Bank,Waitrose Comely Bank,55.95954,-3.22343,55.95954,-3.22343,2
+1753,1754,Waitrose Comely Bank,Murrayfield Tram,55.95954,-3.22343,55.94191,-3.2378,1
+1753,1756,Waitrose Comely Bank,Western General Hospital,55.95954,-3.22343,55.96284,-3.23414,2
+1753,1757,Waitrose Comely Bank,Meggetland,55.95954,-3.22343,55.92759,-3.23367,1
+1753,1807,Waitrose Comely Bank,Gamekeeper's Road,55.95954,-3.22343,55.96944,-3.30726,1
+1753,1809,Waitrose Comely Bank,Royal Edinburgh Hospital,55.95954,-3.22343,55.92782,-3.21331,2
+1753,1815,Waitrose Comely Bank,Sighthill - Edinburgh College,55.95954,-3.22343,55.92668,-3.28948,1
+1753,1824,Waitrose Comely Bank,Duke Street,55.95954,-3.22343,55.96901,-3.16739,1
+1753,2268,Waitrose Comely Bank,Picardy Place,55.95954,-3.22343,55.95654,-3.18625,2
+1754,285,Murrayfield Tram,Ocean Terminal,55.94191,-3.2378,55.98129,-3.17635,1
+1754,289,Murrayfield Tram,Castle Street,55.94191,-3.2378,55.9515,-3.20318,1
+1754,358,Murrayfield Tram,Leith Walk,55.94191,-3.2378,55.96504,-3.17669,1
+1754,1102,Murrayfield Tram,Haymarket Station,55.94191,-3.2378,55.94557,-3.21818,1
+1754,1744,Murrayfield Tram,Morningside Road,55.94191,-3.2378,55.92799,-3.20975,1
+1754,1753,Murrayfield Tram,Waitrose Comely Bank,55.94191,-3.2378,55.95954,-3.22343,1
+1754,1754,Murrayfield Tram,Murrayfield Tram,55.94191,-3.2378,55.94191,-3.2378,1
+1754,1764,Murrayfield Tram,Craigleith Road,55.94191,-3.2378,55.95658,-3.23794,1
+1754,1765,Murrayfield Tram,Haymarket Terrace,55.94191,-3.2378,55.94606,-3.22302,1
+1754,1808,Murrayfield Tram,Gorgie Road,55.94191,-3.2378,55.93874,-3.22991,1
+1754,1822,Murrayfield Tram,Edinburgh Park Station,55.94191,-3.2378,55.92738,-3.30744,1
+1754,2268,Murrayfield Tram,Picardy Place,55.94191,-3.2378,55.95654,-3.18625,1
+1756,247,Western General Hospital,Charlotte Square,55.96284,-3.23414,55.95234,-3.2071,1
+1756,258,Western General Hospital,Stockbridge,55.96284,-3.23414,55.95857,-3.20807,4
+1756,259,Western General Hospital,St Andrew Square,55.96284,-3.23414,55.95491,-3.19244,1
+1756,262,Western General Hospital,Canonmills,55.96284,-3.23414,55.9628,-3.19628,1
+1756,349,Western General Hospital,Orchard Brae House,55.96284,-3.23414,55.95508,-3.22363,1
+1756,358,Western General Hospital,Leith Walk,55.96284,-3.23414,55.96504,-3.17669,3
+1756,1038,Western General Hospital,South Trinity Road,55.96284,-3.23414,55.97133,-3.20796,1
+1756,1102,Western General Hospital,Haymarket Station,55.96284,-3.23414,55.94557,-3.21818,1
+1756,1722,Western General Hospital,Cramond Foreshore,55.96284,-3.23414,55.98003,-3.30064,1
+1756,1729,Western General Hospital,McDonald Road,55.96284,-3.23414,55.96403,-3.18518,3
+1756,1737,Western General Hospital,Inverleith Row,55.96284,-3.23414,55.96412,-3.20209,3
+1756,1743,Western General Hospital,Logie Green Road,55.96284,-3.23414,55.96406,-3.1957,1
+1756,1753,Western General Hospital,Waitrose Comely Bank,55.96284,-3.23414,55.95954,-3.22343,2
+1756,1756,Western General Hospital,Western General Hospital,55.96284,-3.23414,55.96284,-3.23414,2
+1756,1763,Western General Hospital,Comely Bank Road,55.96284,-3.23414,55.95941,-3.21566,1
+1756,1765,Western General Hospital,Haymarket Terrace,55.96284,-3.23414,55.94606,-3.22302,1
+1756,1767,Western General Hospital,Bruntsfield Links,55.96284,-3.23414,55.93712,-3.20643,1
+1756,1769,Western General Hospital,Brunswick Place,55.96284,-3.23414,55.96085,-3.18099,3
+1757,247,Meggetland,Charlotte Square,55.92759,-3.23367,55.95234,-3.2071,1
+1757,253,Meggetland,Kings Building 2,55.92759,-3.23367,55.9232,-3.17165,1
+1757,289,Meggetland,Castle Street,55.92759,-3.23367,55.9515,-3.20318,3
+1757,1039,Meggetland,Lothian Road,55.92759,-3.23367,55.94741,-3.20577,1
+1757,1055,Meggetland,Roseburn Street,55.92759,-3.23367,55.94443,-3.2345,1
+1757,1091,Meggetland,Holyrood Road,55.92759,-3.23367,55.94956,-3.18041,1
+1757,1092,Meggetland,Dalry Road Lidl,55.92759,-3.23367,55.94179,-3.22242,1
+1757,1727,Meggetland,Causewayside,55.92759,-3.23367,55.93651,-3.18017,1
+1757,1744,Meggetland,Morningside Road,55.92759,-3.23367,55.92799,-3.20975,2
+1757,1757,Meggetland,Meggetland,55.92759,-3.23367,55.92759,-3.23367,1
+1757,1767,Meggetland,Bruntsfield Links,55.92759,-3.23367,55.93712,-3.20643,1
+1757,1823,Meggetland,Boroughmuir,55.92759,-3.23367,55.94007,-3.21534,2
+1758,250,Queen Margaret University,Victoria Quay,55.93198,-3.0731,55.97762,-3.17413,1
+1758,1090,Queen Margaret University,Hillside Crescent,55.93198,-3.0731,55.95787,-3.17589,1
+1758,1728,Queen Margaret University,Portobello - Kings Road,55.93198,-3.0731,55.95792,-3.11833,2
+1758,1758,Queen Margaret University,Queen Margaret University,55.93198,-3.0731,55.93198,-3.0731,1
+1758,1800,Queen Margaret University,Joppa,55.93198,-3.0731,55.94895,-3.09473,1
+1758,1824,Queen Margaret University,Duke Street,55.93198,-3.0731,55.96901,-3.16739,2
+1758,2263,Queen Margaret University,Musselburgh Lidl,55.93198,-3.0731,55.94388,-3.06675,3
+1763,183,Comely Bank Road,Waverley Bridge,55.95941,-3.21566,55.95198,-3.19189,1
+1763,246,Comely Bank Road,Royal Commonwealth Pool,55.95941,-3.21566,55.939,-3.17392,1
+1763,250,Comely Bank Road,Victoria Quay,55.95941,-3.21566,55.97762,-3.17413,2
+1763,1052,Comely Bank Road,Surgeons Hall,55.95941,-3.21566,55.94664,-3.18547,1
+1763,1737,Comely Bank Road,Inverleith Row,55.95941,-3.21566,55.96412,-3.20209,1
+1763,1753,Comely Bank Road,Waitrose Comely Bank,55.95941,-3.21566,55.95954,-3.22343,2
+1763,1756,Comely Bank Road,Western General Hospital,55.95941,-3.21566,55.96284,-3.23414,1
+1763,1763,Comely Bank Road,Comely Bank Road,55.95941,-3.21566,55.95941,-3.21566,1
+1763,1764,Comely Bank Road,Craigleith Road,55.95941,-3.21566,55.95658,-3.23794,1
+1763,1769,Comely Bank Road,Brunswick Place,55.95941,-3.21566,55.96085,-3.18099,2
+1763,1800,Comely Bank Road,Joppa,55.95941,-3.21566,55.94895,-3.09473,1
+1763,1813,Comely Bank Road,Milton Road - Edinburgh College,55.95941,-3.21566,55.94407,-3.09856,1
+1764,1092,Craigleith Road,Dalry Road Lidl,55.95658,-3.23794,55.94179,-3.22242,1
+1764,1720,Craigleith Road,Dundas Street,55.95658,-3.23794,55.96076,-3.20128,2
+1764,1749,Craigleith Road,Dean Street,55.95658,-3.23794,55.95728,-3.21429,1
+1764,1754,Craigleith Road,Murrayfield Tram,55.95658,-3.23794,55.94191,-3.2378,2
+1764,1764,Craigleith Road,Craigleith Road,55.95658,-3.23794,55.95658,-3.23794,1
+1764,1808,Craigleith Road,Gorgie Road,55.95658,-3.23794,55.93874,-3.22991,1
+1764,1824,Craigleith Road,Duke Street,55.95658,-3.23794,55.96901,-3.16739,1
+1765,183,Haymarket Terrace,Waverley Bridge,55.94606,-3.22302,55.95198,-3.19189,1
+1765,256,Haymarket Terrace,St Andrews House,55.94606,-3.22302,55.95316,-3.18168,3
+1765,258,Haymarket Terrace,Stockbridge,55.94606,-3.22302,55.95857,-3.20807,2
+1765,259,Haymarket Terrace,St Andrew Square,55.94606,-3.22302,55.95491,-3.19244,2
+1765,260,Haymarket Terrace,Lauriston Place,55.94606,-3.22302,55.94477,-3.19727,1
+1765,285,Haymarket Terrace,Ocean Terminal,55.94606,-3.22302,55.98129,-3.17635,1
+1765,289,Haymarket Terrace,Castle Street,55.94606,-3.22302,55.9515,-3.20318,1
+1765,1019,Haymarket Terrace,Grassmarket,55.94606,-3.22302,55.9471,-3.19725,1
+1765,1050,Haymarket Terrace,EICC,55.94606,-3.22302,55.94607,-3.2104,1
+1765,1052,Haymarket Terrace,Surgeons Hall,55.94606,-3.22302,55.94664,-3.18547,1
+1765,1092,Haymarket Terrace,Dalry Road Lidl,55.94606,-3.22302,55.94179,-3.22242,2
+1765,1722,Haymarket Terrace,Cramond Foreshore,55.94606,-3.22302,55.98003,-3.30064,2
+1765,1747,Haymarket Terrace,Corstorphine Road,55.94606,-3.22302,55.94167,-3.27152,1
+1765,1753,Haymarket Terrace,Waitrose Comely Bank,55.94606,-3.22302,55.95954,-3.22343,1
+1765,1754,Haymarket Terrace,Murrayfield Tram,55.94606,-3.22302,55.94191,-3.2378,1
+1765,1756,Haymarket Terrace,Western General Hospital,55.94606,-3.22302,55.96284,-3.23414,2
+1765,1763,Haymarket Terrace,Comely Bank Road,55.94606,-3.22302,55.95941,-3.21566,1
+1765,1770,Haymarket Terrace,Ellersly Road,55.94606,-3.22302,55.94505,-3.25088,2
+1765,1807,Haymarket Terrace,Gamekeeper's Road,55.94606,-3.22302,55.96944,-3.30726,2
+1765,1808,Haymarket Terrace,Gorgie Road,55.94606,-3.22302,55.93874,-3.22991,1
+1765,1815,Haymarket Terrace,Sighthill - Edinburgh College,55.94606,-3.22302,55.92668,-3.28948,1
+1765,1818,Haymarket Terrace,Dynamic Earth,55.94606,-3.22302,55.95109,-3.17572,6
+1765,1821,Haymarket Terrace,Drumsheugh Place,55.94606,-3.22302,55.95159,-3.21235,2
+1765,1822,Haymarket Terrace,Edinburgh Park Station,55.94606,-3.22302,55.92738,-3.30744,2
+1766,1019,Balgreen Road,Grassmarket,55.93894,-3.25111,55.9471,-3.19725,1
+1766,1754,Balgreen Road,Murrayfield Tram,55.93894,-3.25111,55.94191,-3.2378,1
+1767,171,Bruntsfield Links,George Square,55.93712,-3.20643,55.94308,-3.18831,5
+1767,183,Bruntsfield Links,Waverley Bridge,55.93712,-3.20643,55.95198,-3.19189,4
+1767,248,Bruntsfield Links,Bristo Square,55.93712,-3.20643,55.94583,-3.18905,1
+1767,249,Bruntsfield Links,Fountainbridge,55.93712,-3.20643,55.94336,-3.20925,1
+1767,252,Bruntsfield Links,Kings Buildings 1,55.93712,-3.20643,55.92419,-3.17383,1
+1767,253,Bruntsfield Links,Kings Building 2,55.93712,-3.20643,55.9232,-3.17165,1
+1767,259,Bruntsfield Links,St Andrew Square,55.93712,-3.20643,55.95491,-3.19244,3
+1767,260,Bruntsfield Links,Lauriston Place,55.93712,-3.20643,55.94477,-3.19727,3
+1767,264,Bruntsfield Links,Pollock Halls,55.93712,-3.20643,55.94008,-3.17175,2
+1767,265,Bruntsfield Links,Meadows East,55.93712,-3.20643,55.93981,-3.18274,12
+1767,285,Bruntsfield Links,Ocean Terminal,55.93712,-3.20643,55.98129,-3.17635,1
+1767,289,Bruntsfield Links,Castle Street,55.93712,-3.20643,55.9515,-3.20318,1
+1767,358,Bruntsfield Links,Leith Walk,55.93712,-3.20643,55.96504,-3.17669,1
+1767,1024,Bruntsfield Links,Meadow Place,55.93712,-3.20643,55.94024,-3.19464,6
+1767,1028,Bruntsfield Links,Hunter Square,55.93712,-3.20643,55.9498,-3.1878,1
+1767,1039,Bruntsfield Links,Lothian Road,55.93712,-3.20643,55.94741,-3.20577,2
+1767,1051,Bruntsfield Links,Warrender Park Road,55.93712,-3.20643,55.93837,-3.19803,2
+1767,1091,Bruntsfield Links,Holyrood Road,55.93712,-3.20643,55.94956,-3.18041,1
+1767,1092,Bruntsfield Links,Dalry Road Lidl,55.93712,-3.20643,55.94179,-3.22242,1
+1767,1096,Bruntsfield Links,West Crosscauseway,55.93712,-3.20643,55.94384,-3.18495,2
+1767,1097,Bruntsfield Links,Gladstone Terrace,55.93712,-3.20643,55.93796,-3.18502,1
+1767,1721,Bruntsfield Links,Tollcross,55.93712,-3.20643,55.94425,-3.2031,1
+1767,1726,Bruntsfield Links,Simon Square,55.93712,-3.20643,55.94486,-3.18259,2
+1767,1744,Bruntsfield Links,Morningside Road,55.93712,-3.20643,55.92799,-3.20975,6
+1767,1767,Bruntsfield Links,Bruntsfield Links,55.93712,-3.20643,55.93712,-3.20643,2
+1767,1768,Bruntsfield Links,Thirlestane Road,55.93712,-3.20643,55.93532,-3.19876,1
+1767,1800,Bruntsfield Links,Joppa,55.93712,-3.20643,55.94895,-3.09473,1
+1767,1815,Bruntsfield Links,Sighthill - Edinburgh College,55.93712,-3.20643,55.92668,-3.28948,1
+1767,1819,Bruntsfield Links,Heriot Watt - Edinburgh Business School,55.93712,-3.20643,55.90882,-3.32011,1
+1767,1821,Bruntsfield Links,Drumsheugh Place,55.93712,-3.20643,55.95159,-3.21235,2
+1767,1824,Bruntsfield Links,Duke Street,55.93712,-3.20643,55.96901,-3.16739,1
+1767,2268,Bruntsfield Links,Picardy Place,55.93712,-3.20643,55.95654,-3.18625,1
+1768,171,Thirlestane Road,George Square,55.93532,-3.19876,55.94308,-3.18831,2
+1768,247,Thirlestane Road,Charlotte Square,55.93532,-3.19876,55.95234,-3.2071,2
+1768,248,Thirlestane Road,Bristo Square,55.93532,-3.19876,55.94583,-3.18905,1
+1768,260,Thirlestane Road,Lauriston Place,55.93532,-3.19876,55.94477,-3.19727,1
+1768,264,Thirlestane Road,Pollock Halls,55.93532,-3.19876,55.94008,-3.17175,2
+1768,265,Thirlestane Road,Meadows East,55.93532,-3.19876,55.93981,-3.18274,3
+1768,1098,Thirlestane Road,Marchmont Crescent,55.93532,-3.19876,55.93643,-3.19415,1
+1768,1727,Thirlestane Road,Causewayside,55.93532,-3.19876,55.93651,-3.18017,1
+1768,1739,Thirlestane Road,Edinburgh Royal Infirmary,55.93532,-3.19876,55.92122,-3.13908,1
+1768,1744,Thirlestane Road,Morningside Road,55.93532,-3.19876,55.92799,-3.20975,1
+1768,1748,Thirlestane Road,Colinton Road,55.93532,-3.19876,55.93342,-3.2124,2
+1768,1756,Thirlestane Road,Western General Hospital,55.93532,-3.19876,55.96284,-3.23414,2
+1768,1757,Thirlestane Road,Meggetland,55.93532,-3.19876,55.92759,-3.23367,2
+1768,1767,Thirlestane Road,Bruntsfield Links,55.93532,-3.19876,55.93712,-3.20643,1
+1768,1768,Thirlestane Road,Thirlestane Road,55.93532,-3.19876,55.93532,-3.19876,3
+1769,250,Brunswick Place,Victoria Quay,55.96085,-3.18099,55.97762,-3.17413,1
+1769,258,Brunswick Place,Stockbridge,55.96085,-3.18099,55.95857,-3.20807,1
+1769,259,Brunswick Place,St Andrew Square,55.96085,-3.18099,55.95491,-3.19244,3
+1769,296,Brunswick Place,Castle Terrace,55.96085,-3.18099,55.94677,-3.20204,1
+1769,1028,Brunswick Place,Hunter Square,55.96085,-3.18099,55.9498,-3.1878,2
+1769,1038,Brunswick Place,South Trinity Road,55.96085,-3.18099,55.97133,-3.20796,1
+1769,1092,Brunswick Place,Dalry Road Lidl,55.96085,-3.18099,55.94179,-3.22242,1
+1769,1728,Brunswick Place,Portobello - Kings Road,55.96085,-3.18099,55.95792,-3.11833,2
+1769,1729,Brunswick Place,McDonald Road,55.96085,-3.18099,55.96403,-3.18518,1
+1769,1739,Brunswick Place,Edinburgh Royal Infirmary,55.96085,-3.18099,55.92122,-3.13908,1
+1769,1756,Brunswick Place,Western General Hospital,55.96085,-3.18099,55.96284,-3.23414,4
+1769,1763,Brunswick Place,Comely Bank Road,55.96085,-3.18099,55.95941,-3.21566,1
+1769,1769,Brunswick Place,Brunswick Place,55.96085,-3.18099,55.96085,-3.18099,5
+1769,1807,Brunswick Place,Gamekeeper's Road,55.96085,-3.18099,55.96944,-3.30726,1
+1769,1824,Brunswick Place,Duke Street,55.96085,-3.18099,55.96901,-3.16739,7
+1769,2259,Brunswick Place,Leith Walk North,55.96085,-3.18099,55.96792,-3.17359,1
+1769,2268,Brunswick Place,Picardy Place,55.96085,-3.18099,55.95654,-3.18625,3
+1770,248,Ellersly Road,Bristo Square,55.94505,-3.25088,55.94583,-3.18905,1
+1770,289,Ellersly Road,Castle Street,55.94505,-3.25088,55.9515,-3.20318,2
+1770,1770,Ellersly Road,Ellersly Road,55.94505,-3.25088,55.94505,-3.25088,1
+1770,1815,Ellersly Road,Sighthill - Edinburgh College,55.94505,-3.25088,55.92668,-3.28948,1
+1770,1821,Ellersly Road,Drumsheugh Place,55.94505,-3.25088,55.95159,-3.21235,1
+1770,1866,Ellersly Road,The Loan,55.94505,-3.25088,55.9899,-3.39777,2
+1798,246,Chambers Street,Royal Commonwealth Pool,55.9476,-3.18892,55.939,-3.17392,1
+1798,249,Chambers Street,Fountainbridge,55.9476,-3.18892,55.94336,-3.20925,1
+1798,253,Chambers Street,Kings Building 2,55.9476,-3.18892,55.9232,-3.17165,2
+1798,258,Chambers Street,Stockbridge,55.9476,-3.18892,55.95857,-3.20807,1
+1798,265,Chambers Street,Meadows East,55.9476,-3.18892,55.93981,-3.18274,2
+1798,296,Chambers Street,Castle Terrace,55.9476,-3.18892,55.94677,-3.20204,1
+1798,1024,Chambers Street,Meadow Place,55.9476,-3.18892,55.94024,-3.19464,1
+1798,1098,Chambers Street,Marchmont Crescent,55.9476,-3.18892,55.93643,-3.19415,1
+1798,1725,Chambers Street,Edinburgh Zoo,55.9476,-3.18892,55.94212,-3.26929,1
+1798,1727,Chambers Street,Causewayside,55.9476,-3.18892,55.93651,-3.18017,3
+1798,1729,Chambers Street,McDonald Road,55.9476,-3.18892,55.96403,-3.18518,1
+1798,1744,Chambers Street,Morningside Road,55.9476,-3.18892,55.92799,-3.20975,2
+1798,1748,Chambers Street,Colinton Road,55.9476,-3.18892,55.93342,-3.2124,3
+1798,1757,Chambers Street,Meggetland,55.9476,-3.18892,55.92759,-3.23367,1
+1798,1763,Chambers Street,Comely Bank Road,55.9476,-3.18892,55.95941,-3.21566,1
+1798,1767,Chambers Street,Bruntsfield Links,55.9476,-3.18892,55.93712,-3.20643,1
+1798,1769,Chambers Street,Brunswick Place,55.9476,-3.18892,55.96085,-3.18099,3
+1798,1814,Chambers Street,Abbeyhill,55.9476,-3.18892,55.95525,-3.17222,3
+1798,1818,Chambers Street,Dynamic Earth,55.9476,-3.18892,55.95109,-3.17572,1
+1798,1824,Chambers Street,Duke Street,55.9476,-3.18892,55.96901,-3.16739,1
+1798,2268,Chambers Street,Picardy Place,55.9476,-3.18892,55.95654,-3.18625,1
+1799,250,Murrayfield,Victoria Quay,55.94479,-3.24367,55.97762,-3.17413,1
+1799,1017,Murrayfield,Crichton Street,55.94479,-3.24367,55.94478,-3.18691,1
+1799,1823,Murrayfield,Boroughmuir,55.94479,-3.24367,55.94007,-3.21534,2
+1799,1859,Murrayfield,Edinburgh Park Central,55.94479,-3.24367,55.93117,-3.31441,1
+1800,246,Joppa,Royal Commonwealth Pool,55.94895,-3.09473,55.939,-3.17392,2
+1800,1017,Joppa,Crichton Street,55.94895,-3.09473,55.94478,-3.18691,1
+1800,1024,Joppa,Meadow Place,55.94895,-3.09473,55.94024,-3.19464,1
+1800,1025,Joppa,Dundee Terrace,55.94895,-3.09473,55.93971,-3.22059,1
+1800,1028,Joppa,Hunter Square,55.94895,-3.09473,55.9498,-3.1878,1
+1800,1096,Joppa,West Crosscauseway,55.94895,-3.09473,55.94384,-3.18495,2
+1800,1729,Joppa,McDonald Road,55.94895,-3.09473,55.96403,-3.18518,1
+1800,1814,Joppa,Abbeyhill,55.94895,-3.09473,55.95525,-3.17222,1
+1800,1824,Joppa,Duke Street,55.94895,-3.09473,55.96901,-3.16739,2
+1800,2265,Joppa,Musselburgh Brunton Hall,55.94895,-3.09473,55.94396,-3.05831,1
+1807,1038,Gamekeeper's Road,South Trinity Road,55.96944,-3.30726,55.97133,-3.20796,2
+1807,1722,Gamekeeper's Road,Cramond Foreshore,55.96944,-3.30726,55.98003,-3.30064,1
+1807,1730,Gamekeeper's Road,East London Street,55.96944,-3.30726,55.95995,-3.1872,1
+1807,1864,Gamekeeper's Road,Borrowman Square,55.96944,-3.30726,55.98261,-3.38145,2
+1808,248,Gorgie Road,Bristo Square,55.93874,-3.22991,55.94583,-3.18905,1
+1808,250,Gorgie Road,Victoria Quay,55.93874,-3.22991,55.97762,-3.17413,2
+1808,265,Gorgie Road,Meadows East,55.93874,-3.22991,55.93981,-3.18274,1
+1808,289,Gorgie Road,Castle Street,55.93874,-3.22991,55.9515,-3.20318,1
+1808,358,Gorgie Road,Leith Walk,55.93874,-3.22991,55.96504,-3.17669,1
+1808,1024,Gorgie Road,Meadow Place,55.93874,-3.22991,55.94024,-3.19464,1
+1808,1038,Gorgie Road,South Trinity Road,55.93874,-3.22991,55.97133,-3.20796,1
+1808,1092,Gorgie Road,Dalry Road Lidl,55.93874,-3.22991,55.94179,-3.22242,1
+1808,1102,Gorgie Road,Haymarket Station,55.93874,-3.22991,55.94557,-3.21818,3
+1808,1721,Gorgie Road,Tollcross,55.93874,-3.22991,55.94425,-3.2031,3
+1808,1722,Gorgie Road,Cramond Foreshore,55.93874,-3.22991,55.98003,-3.30064,1
+1808,1757,Gorgie Road,Meggetland,55.93874,-3.22991,55.92759,-3.23367,1
+1808,1763,Gorgie Road,Comely Bank Road,55.93874,-3.22991,55.95941,-3.21566,1
+1808,1823,Gorgie Road,Boroughmuir,55.93874,-3.22991,55.94007,-3.21534,2
+1808,2259,Gorgie Road,Leith Walk North,55.93874,-3.22991,55.96792,-3.17359,1
+1809,1753,Royal Edinburgh Hospital,Waitrose Comely Bank,55.92782,-3.21331,55.95954,-3.22343,2
+1809,1756,Royal Edinburgh Hospital,Western General Hospital,55.92782,-3.21331,55.96284,-3.23414,1
+1813,250,Milton Road - Edinburgh College,Victoria Quay,55.94407,-3.09856,55.97762,-3.17413,1
+1813,265,Milton Road - Edinburgh College,Meadows East,55.94407,-3.09856,55.93981,-3.18274,1
+1813,1038,Milton Road - Edinburgh College,South Trinity Road,55.94407,-3.09856,55.97133,-3.20796,1
+1813,1728,Milton Road - Edinburgh College,Portobello - Kings Road,55.94407,-3.09856,55.95792,-3.11833,1
+1813,1749,Milton Road - Edinburgh College,Dean Street,55.94407,-3.09856,55.95728,-3.21429,2
+1813,1758,Milton Road - Edinburgh College,Queen Margaret University,55.94407,-3.09856,55.93198,-3.0731,1
+1813,1813,Milton Road - Edinburgh College,Milton Road - Edinburgh College,55.94407,-3.09856,55.94407,-3.09856,3
+1813,2263,Milton Road - Edinburgh College,Musselburgh Lidl,55.94407,-3.09856,55.94388,-3.06675,1
+1814,171,Abbeyhill,George Square,55.95525,-3.17222,55.94308,-3.18831,1
+1814,183,Abbeyhill,Waverley Bridge,55.95525,-3.17222,55.95198,-3.19189,1
+1814,225,Abbeyhill,Waverley Court,55.95525,-3.17222,55.95173,-3.18418,4
+1814,247,Abbeyhill,Charlotte Square,55.95525,-3.17222,55.95234,-3.2071,1
+1814,253,Abbeyhill,Kings Building 2,55.95525,-3.17222,55.9232,-3.17165,1
+1814,256,Abbeyhill,St Andrews House,55.95525,-3.17222,55.95316,-3.18168,1
+1814,259,Abbeyhill,St Andrew Square,55.95525,-3.17222,55.95491,-3.19244,1
+1814,260,Abbeyhill,Lauriston Place,55.95525,-3.17222,55.94477,-3.19727,1
+1814,264,Abbeyhill,Pollock Halls,55.95525,-3.17222,55.94008,-3.17175,1
+1814,265,Abbeyhill,Meadows East,55.95525,-3.17222,55.93981,-3.18274,2
+1814,285,Abbeyhill,Ocean Terminal,55.95525,-3.17222,55.98129,-3.17635,1
+1814,358,Abbeyhill,Leith Walk,55.95525,-3.17222,55.96504,-3.17669,1
+1814,1017,Abbeyhill,Crichton Street,55.95525,-3.17222,55.94478,-3.18691,1
+1814,1019,Abbeyhill,Grassmarket,55.95525,-3.17222,55.9471,-3.19725,3
+1814,1091,Abbeyhill,Holyrood Road,55.95525,-3.17222,55.94956,-3.18041,7
+1814,1721,Abbeyhill,Tollcross,55.95525,-3.17222,55.94425,-3.2031,1
+1814,1728,Abbeyhill,Portobello - Kings Road,55.95525,-3.17222,55.95792,-3.11833,1
+1814,1731,Abbeyhill,Pleasance Courtyard,55.95525,-3.17222,55.94749,-3.18111,4
+1814,1739,Abbeyhill,Edinburgh Royal Infirmary,55.95525,-3.17222,55.92122,-3.13908,2
+1814,1744,Abbeyhill,Morningside Road,55.95525,-3.17222,55.92799,-3.20975,1
+1814,1767,Abbeyhill,Bruntsfield Links,55.95525,-3.17222,55.93712,-3.20643,2
+1814,1798,Abbeyhill,Chambers Street,55.95525,-3.17222,55.9476,-3.18892,1
+1814,1800,Abbeyhill,Joppa,55.95525,-3.17222,55.94895,-3.09473,1
+1814,1808,Abbeyhill,Gorgie Road,55.95525,-3.17222,55.93874,-3.22991,1
+1814,1814,Abbeyhill,Abbeyhill,55.95525,-3.17222,55.95525,-3.17222,8
+1814,1818,Abbeyhill,Dynamic Earth,55.95525,-3.17222,55.95109,-3.17572,6
+1814,1824,Abbeyhill,Duke Street,55.95525,-3.17222,55.96901,-3.16739,1
+1815,1102,Sighthill - Edinburgh College,Haymarket Station,55.92668,-3.28948,55.94557,-3.21818,1
+1815,1815,Sighthill - Edinburgh College,Sighthill - Edinburgh College,55.92668,-3.28948,55.92668,-3.28948,3
+1818,183,Dynamic Earth,Waverley Bridge,55.95109,-3.17572,55.95198,-3.19189,1
+1818,246,Dynamic Earth,Royal Commonwealth Pool,55.95109,-3.17572,55.939,-3.17392,2
+1818,250,Dynamic Earth,Victoria Quay,55.95109,-3.17572,55.97762,-3.17413,1
+1818,253,Dynamic Earth,Kings Building 2,55.95109,-3.17572,55.9232,-3.17165,1
+1818,265,Dynamic Earth,Meadows East,55.95109,-3.17572,55.93981,-3.18274,1
+1818,1025,Dynamic Earth,Dundee Terrace,55.95109,-3.17572,55.93971,-3.22059,1
+1818,1050,Dynamic Earth,EICC,55.95109,-3.17572,55.94607,-3.2104,1
+1818,1091,Dynamic Earth,Holyrood Road,55.95109,-3.17572,55.94956,-3.18041,1
+1818,1096,Dynamic Earth,West Crosscauseway,55.95109,-3.17572,55.94384,-3.18495,1
+1818,1727,Dynamic Earth,Causewayside,55.95109,-3.17572,55.93651,-3.18017,1
+1818,1728,Dynamic Earth,Portobello - Kings Road,55.95109,-3.17572,55.95792,-3.11833,6
+1818,1731,Dynamic Earth,Pleasance Courtyard,55.95109,-3.17572,55.94749,-3.18111,1
+1818,1765,Dynamic Earth,Haymarket Terrace,55.95109,-3.17572,55.94606,-3.22302,5
+1818,1813,Dynamic Earth,Milton Road - Edinburgh College,55.95109,-3.17572,55.94407,-3.09856,2
+1818,1814,Dynamic Earth,Abbeyhill,55.95109,-3.17572,55.95525,-3.17222,2
+1818,1818,Dynamic Earth,Dynamic Earth,55.95109,-3.17572,55.95109,-3.17572,8
+1819,249,Heriot Watt - Edinburgh Business School,Fountainbridge,55.90882,-3.32011,55.94336,-3.20925,1
+1819,1721,Heriot Watt - Edinburgh Business School,Tollcross,55.90882,-3.32011,55.94425,-3.2031,1
+1819,1722,Heriot Watt - Edinburgh Business School,Cramond Foreshore,55.90882,-3.32011,55.98003,-3.30064,1
+1819,1819,Heriot Watt - Edinburgh Business School,Heriot Watt - Edinburgh Business School,55.90882,-3.32011,55.90882,-3.32011,6
+1819,1820,Heriot Watt - Edinburgh Business School,Heriot Watt - Student Accommodation,55.90882,-3.32011,55.90841,-3.32878,5
+1819,1822,Heriot Watt - Edinburgh Business School,Edinburgh Park Station,55.90882,-3.32011,55.92738,-3.30744,2
+1820,247,Heriot Watt - Student Accommodation,Charlotte Square,55.90841,-3.32878,55.95234,-3.2071,1
+1820,249,Heriot Watt - Student Accommodation,Fountainbridge,55.90841,-3.32878,55.94336,-3.20925,1
+1820,265,Heriot Watt - Student Accommodation,Meadows East,55.90841,-3.32878,55.93981,-3.18274,1
+1820,1754,Heriot Watt - Student Accommodation,Murrayfield Tram,55.90841,-3.32878,55.94191,-3.2378,1
+1820,1765,Heriot Watt - Student Accommodation,Haymarket Terrace,55.90841,-3.32878,55.94606,-3.22302,3
+1820,1819,Heriot Watt - Student Accommodation,Heriot Watt - Edinburgh Business School,55.90841,-3.32878,55.90882,-3.32011,2
+1820,1820,Heriot Watt - Student Accommodation,Heriot Watt - Student Accommodation,55.90841,-3.32878,55.90841,-3.32878,7
+1820,1822,Heriot Watt - Student Accommodation,Edinburgh Park Station,55.90841,-3.32878,55.92738,-3.30744,1
+1820,1823,Heriot Watt - Student Accommodation,Boroughmuir,55.90841,-3.32878,55.94007,-3.21534,1
+1821,247,Drumsheugh Place,Charlotte Square,55.95159,-3.21235,55.95234,-3.2071,1
+1821,249,Drumsheugh Place,Fountainbridge,55.95159,-3.21235,55.94336,-3.20925,1
+1821,258,Drumsheugh Place,Stockbridge,55.95159,-3.21235,55.95857,-3.20807,2
+1821,262,Drumsheugh Place,Canonmills,55.95159,-3.21235,55.9628,-3.19628,1
+1821,265,Drumsheugh Place,Meadows East,55.95159,-3.21235,55.93981,-3.18274,1
+1821,358,Drumsheugh Place,Leith Walk,55.95159,-3.21235,55.96504,-3.17669,1
+1821,1017,Drumsheugh Place,Crichton Street,55.95159,-3.21235,55.94478,-3.18691,2
+1821,1025,Drumsheugh Place,Dundee Terrace,55.95159,-3.21235,55.93971,-3.22059,1
+1821,1039,Drumsheugh Place,Lothian Road,55.95159,-3.21235,55.94741,-3.20577,1
+1821,1090,Drumsheugh Place,Hillside Crescent,55.95159,-3.21235,55.95787,-3.17589,2
+1821,1092,Drumsheugh Place,Dalry Road Lidl,55.95159,-3.21235,55.94179,-3.22242,1
+1821,1728,Drumsheugh Place,Portobello - Kings Road,55.95159,-3.21235,55.95792,-3.11833,2
+1821,1737,Drumsheugh Place,Inverleith Row,55.95159,-3.21235,55.96412,-3.20209,2
+1821,1764,Drumsheugh Place,Craigleith Road,55.95159,-3.21235,55.95658,-3.23794,1
+1821,1765,Drumsheugh Place,Haymarket Terrace,55.95159,-3.21235,55.94606,-3.22302,1
+1821,1807,Drumsheugh Place,Gamekeeper's Road,55.95159,-3.21235,55.96944,-3.30726,2
+1821,1808,Drumsheugh Place,Gorgie Road,55.95159,-3.21235,55.93874,-3.22991,1
+1821,1821,Drumsheugh Place,Drumsheugh Place,55.95159,-3.21235,55.95159,-3.21235,2
+1821,1824,Drumsheugh Place,Duke Street,55.95159,-3.21235,55.96901,-3.16739,1
+1822,1808,Edinburgh Park Station,Gorgie Road,55.92738,-3.30744,55.93874,-3.22991,1
+1822,1820,Edinburgh Park Station,Heriot Watt - Student Accommodation,55.92738,-3.30744,55.90841,-3.32878,1
+1822,1822,Edinburgh Park Station,Edinburgh Park Station,55.92738,-3.30744,55.92738,-3.30744,1
+1823,248,Boroughmuir,Bristo Square,55.94007,-3.21534,55.94583,-3.18905,1
+1823,249,Boroughmuir,Fountainbridge,55.94007,-3.21534,55.94336,-3.20925,1
+1823,252,Boroughmuir,Kings Buildings 1,55.94007,-3.21534,55.92419,-3.17383,2
+1823,258,Boroughmuir,Stockbridge,55.94007,-3.21534,55.95857,-3.20807,1
+1823,260,Boroughmuir,Lauriston Place,55.94007,-3.21534,55.94477,-3.19727,2
+1823,265,Boroughmuir,Meadows East,55.94007,-3.21534,55.93981,-3.18274,4
+1823,289,Boroughmuir,Castle Street,55.94007,-3.21534,55.9515,-3.20318,1
+1823,1025,Boroughmuir,Dundee Terrace,55.94007,-3.21534,55.93971,-3.22059,2
+1823,1039,Boroughmuir,Lothian Road,55.94007,-3.21534,55.94741,-3.20577,1
+1823,1096,Boroughmuir,West Crosscauseway,55.94007,-3.21534,55.94384,-3.18495,1
+1823,1097,Boroughmuir,Gladstone Terrace,55.94007,-3.21534,55.93796,-3.18502,2
+1823,1098,Boroughmuir,Marchmont Crescent,55.94007,-3.21534,55.93643,-3.19415,2
+1823,1720,Boroughmuir,Dundas Street,55.94007,-3.21534,55.96076,-3.20128,1
+1823,1728,Boroughmuir,Portobello - Kings Road,55.94007,-3.21534,55.95792,-3.11833,1
+1823,1744,Boroughmuir,Morningside Road,55.94007,-3.21534,55.92799,-3.20975,1
+1823,1756,Boroughmuir,Western General Hospital,55.94007,-3.21534,55.96284,-3.23414,1
+1823,1757,Boroughmuir,Meggetland,55.94007,-3.21534,55.92759,-3.23367,4
+1823,1767,Boroughmuir,Bruntsfield Links,55.94007,-3.21534,55.93712,-3.20643,1
+1823,1808,Boroughmuir,Gorgie Road,55.94007,-3.21534,55.93874,-3.22991,1
+1823,1823,Boroughmuir,Boroughmuir,55.94007,-3.21534,55.94007,-3.21534,2
+1824,259,Duke Street,St Andrew Square,55.96901,-3.16739,55.95491,-3.19244,2
+1824,349,Duke Street,Orchard Brae House,55.96901,-3.16739,55.95508,-3.22363,1
+1824,358,Duke Street,Leith Walk,55.96901,-3.16739,55.96504,-3.17669,1
+1824,1728,Duke Street,Portobello - Kings Road,55.96901,-3.16739,55.95792,-3.11833,7
+1824,1743,Duke Street,Logie Green Road,55.96901,-3.16739,55.96406,-3.1957,3
+1824,1745,Duke Street,Scotland Street,55.96901,-3.16739,55.96038,-3.19547,3
+1824,1758,Duke Street,Queen Margaret University,55.96901,-3.16739,55.93198,-3.0731,1
+1824,1800,Duke Street,Joppa,55.96901,-3.16739,55.94895,-3.09473,4
+1824,1824,Duke Street,Duke Street,55.96901,-3.16739,55.96901,-3.16739,2
+1824,2268,Duke Street,Picardy Place,55.96901,-3.16739,55.95654,-3.18625,1
+1859,1819,Edinburgh Park Central,Heriot Watt - Edinburgh Business School,55.93117,-3.31441,55.90882,-3.32011,1
+1859,1822,Edinburgh Park Central,Edinburgh Park Station,55.93117,-3.31441,55.92738,-3.30744,1
+1859,1859,Edinburgh Park Central,Edinburgh Park Central,55.93117,-3.31441,55.93117,-3.31441,1
+1860,1866,Ingliston Park & Ride,The Loan,55.93879,-3.35556,55.9899,-3.39777,2
+1864,1756,Borrowman Square,Western General Hospital,55.98261,-3.38145,55.96284,-3.23414,1
+1864,1864,Borrowman Square,Borrowman Square,55.98261,-3.38145,55.98261,-3.38145,2
+1864,1874,Borrowman Square,Tesco Ferrymuir,55.98261,-3.38145,55.98377,-3.40135,1
+1866,1860,The Loan,Ingliston Park & Ride,55.9899,-3.39777,55.93879,-3.35556,2
+1868,1866,Forth Bridge Visitors Centre,The Loan,55.98774,-3.40375,55.9899,-3.39777,1
+1868,1868,Forth Bridge Visitors Centre,Forth Bridge Visitors Centre,55.98774,-3.40375,55.98774,-3.40375,3
+1870,1869,Hawes Pier,Hopetoun Road,55.99053,-3.3856,55.99018,-3.4046,1
+1874,1864,Tesco Ferrymuir,Borrowman Square,55.98377,-3.40135,55.98261,-3.38145,1
+2259,250,Leith Walk North,Victoria Quay,55.96792,-3.17359,55.97762,-3.17413,1
+2259,258,Leith Walk North,Stockbridge,55.96792,-3.17359,55.95857,-3.20807,3
+2259,262,Leith Walk North,Canonmills,55.96792,-3.17359,55.9628,-3.19628,1
+2259,285,Leith Walk North,Ocean Terminal,55.96792,-3.17359,55.98129,-3.17635,3
+2259,358,Leith Walk North,Leith Walk,55.96792,-3.17359,55.96504,-3.17669,1
+2259,1025,Leith Walk North,Dundee Terrace,55.96792,-3.17359,55.93971,-3.22059,1
+2259,1090,Leith Walk North,Hillside Crescent,55.96792,-3.17359,55.95787,-3.17589,1
+2259,1096,Leith Walk North,West Crosscauseway,55.96792,-3.17359,55.94384,-3.18495,1
+2259,1720,Leith Walk North,Dundas Street,55.96792,-3.17359,55.96076,-3.20128,1
+2259,1721,Leith Walk North,Tollcross,55.96792,-3.17359,55.94425,-3.2031,1
+2259,1728,Leith Walk North,Portobello - Kings Road,55.96792,-3.17359,55.95792,-3.11833,2
+2259,1738,Leith Walk North,Wester Coates Terrace,55.96792,-3.17359,55.94565,-3.23185,1
+2259,1743,Leith Walk North,Logie Green Road,55.96792,-3.17359,55.96406,-3.1957,1
+2259,1769,Leith Walk North,Brunswick Place,55.96792,-3.17359,55.96085,-3.18099,1
+2259,1824,Leith Walk North,Duke Street,55.96792,-3.17359,55.96901,-3.16739,1
+2259,2259,Leith Walk North,Leith Walk North,55.96792,-3.17359,55.96792,-3.17359,2
+2259,2268,Leith Walk North,Picardy Place,55.96792,-3.17359,55.95654,-3.18625,2
+2263,1038,Musselburgh Lidl,South Trinity Road,55.94388,-3.06675,55.97133,-3.20796,1
+2263,1090,Musselburgh Lidl,Hillside Crescent,55.94388,-3.06675,55.95787,-3.17589,1
+2263,1728,Musselburgh Lidl,Portobello - Kings Road,55.94388,-3.06675,55.95792,-3.11833,1
+2263,1758,Musselburgh Lidl,Queen Margaret University,55.94388,-3.06675,55.93198,-3.0731,1
+2263,1813,Musselburgh Lidl,Milton Road - Edinburgh College,55.94388,-3.06675,55.94407,-3.09856,1
+2263,2263,Musselburgh Lidl,Musselburgh Lidl,55.94388,-3.06675,55.94388,-3.06675,5
+2265,2263,Musselburgh Brunton Hall,Musselburgh Lidl,55.94396,-3.05831,55.94388,-3.06675,1
+2268,183,Picardy Place,Waverley Bridge,55.95654,-3.18625,55.95198,-3.19189,1
+2268,225,Picardy Place,Waverley Court,55.95654,-3.18625,55.95173,-3.18418,1
+2268,247,Picardy Place,Charlotte Square,55.95654,-3.18625,55.95234,-3.2071,3
+2268,248,Picardy Place,Bristo Square,55.95654,-3.18625,55.94583,-3.18905,1
+2268,250,Picardy Place,Victoria Quay,55.95654,-3.18625,55.97762,-3.17413,4
+2268,253,Picardy Place,Kings Building 2,55.95654,-3.18625,55.9232,-3.17165,2
+2268,256,Picardy Place,St Andrews House,55.95654,-3.18625,55.95316,-3.18168,1
+2268,264,Picardy Place,Pollock Halls,55.95654,-3.18625,55.94008,-3.17175,2
+2268,265,Picardy Place,Meadows East,55.95654,-3.18625,55.93981,-3.18274,2
+2268,296,Picardy Place,Castle Terrace,55.95654,-3.18625,55.94677,-3.20204,2
+2268,358,Picardy Place,Leith Walk,55.95654,-3.18625,55.96504,-3.17669,6
+2268,1024,Picardy Place,Meadow Place,55.95654,-3.18625,55.94024,-3.19464,1
+2268,1050,Picardy Place,EICC,55.95654,-3.18625,55.94607,-3.2104,1
+2268,1091,Picardy Place,Holyrood Road,55.95654,-3.18625,55.94956,-3.18041,2
+2268,1093,Picardy Place,Belford Road,55.95654,-3.18625,55.95197,-3.22612,2
+2268,1096,Picardy Place,West Crosscauseway,55.95654,-3.18625,55.94384,-3.18495,1
+2268,1728,Picardy Place,Portobello - Kings Road,55.95654,-3.18625,55.95792,-3.11833,3
+2268,1729,Picardy Place,McDonald Road,55.95654,-3.18625,55.96403,-3.18518,1
+2268,1730,Picardy Place,East London Street,55.95654,-3.18625,55.95995,-3.1872,1
+2268,1753,Picardy Place,Waitrose Comely Bank,55.95654,-3.18625,55.95954,-3.22343,2
+2268,1767,Picardy Place,Bruntsfield Links,55.95654,-3.18625,55.93712,-3.20643,1
+2268,1769,Picardy Place,Brunswick Place,55.95654,-3.18625,55.96085,-3.18099,2
+2268,1798,Picardy Place,Chambers Street,55.95654,-3.18625,55.9476,-3.18892,1
+2268,1808,Picardy Place,Gorgie Road,55.95654,-3.18625,55.93874,-3.22991,1
+2268,1824,Picardy Place,Duke Street,55.95654,-3.18625,55.96901,-3.16739,4
+2268,2259,Picardy Place,Leith Walk North,55.95654,-3.18625,55.96792,-3.17359,4
+2268,2268,Picardy Place,Picardy Place,55.95654,-3.18625,55.95654,-3.18625,1
