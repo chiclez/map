@@ -1,0 +1,16 @@
+time,distance(km),fuel cost,duration(min),trip legs(station_id)
+8,20.17,1.79,46.79,Brunswick Place(1769),Victoria Quay(250),Holyrood Road(1091),Duke Street(1824),East London Street(1730),Pollock Halls(264),Bristo Square(248),Portobello - Kings Road(1728),Leith Walk(358),Pleasance Courtyard(1731)
+9,24.98,52.63,Royal Commonwealth Pool(246),Victoria Quay(250),Leith Walk North(2259),Portobello - Kings Road(1728),Edinburgh Royal Infirmary(1739),Abbeyhill(1814),Gladstone Terrace(1097),George Square(171),Kings Building 3(254),Kings Building 2(253)
+10,12.48,30.96,Pollock Halls(264),Royal Commonwealth Pool(246),Causewayside(1727),Surgeons Hall(1052),Kings Buildings 1(252),Chambers Street(1798),Hillside Crescent(1090),Waverley Court(225),Kings Building 2(253),Picardy Place(2268)
+11,24.21,52.31,Pollock Halls(264),George Square(171),Ocean Terminal(285),Gladstone Terrace(1097),Kings Building 2(253),Portobello - Kings Road(1728),Leith Walk North(2259),Picardy Place(2268),Duke Street(1824),McDonald Road(1729)
+12,17.09,41.3,Abbeyhill(1814),Crichton Street(1017),Duke Street(1824),Kings Building 2(253),Simon Square(1726),Victoria Quay(250),Bristo Square(248),Kings Buildings - Murchison House(1042),Waverley Court(225),St Andrews House(256)
+13,33.81,55.23,Picardy Place(2268),Queen Margaret University(1758),Musselburgh Lidl(2263),Leith Walk(358),Royal Commonwealth Pool(246),East London Street(1730),Pollock Halls(264),Holyrood Road(1091),Portobello - Kings Road(1728),Kings Building 2(253)
+14,10.63,27.28,West Crosscauseway(1096),Ocean Terminal(285),Simon Square(1726),Meadows East(265),George Square(171),Chambers Street(1798),Duke Street(1824),Abbeyhill(1814),Crichton Street(1017),St Andrews House(256)
+15,20.48,45.83,Royal Commonwealth Pool(246),Victoria Quay(250),Portobello - Kings Road(1728),Pollock Halls(264),Brunswick Place(1769),Waverley Court(225),Joppa(1800),Crichton Street(1017),George Square(171),Gladstone Terrace(1097)
+16,22.5,43.49,Surgeons Hall(1052),Duke Street(1824),Kings Building 3(254),McDonald Road(1729),Kings Building 2(253),Bristo Square(248),Leith Walk(358),Milton Road - Edinburgh College(1813),Chambers Street(1798)
+17,24.64,46.02,Surgeons Hall(1052),Pollock Halls(264),Abbeyhill(1814),Meadows East(265),Brunswick Place(1769),Hunter Square(1028),Gladstone Terrace(1097),George Square(171),Leith Walk North(2259),Musselburgh Lidl(2263)
+18,22.04,44.98,Leith Walk(358),Joppa(1800),George Square(171),Kings Building 2(253),Crichton Street(1017),West Crosscauseway(1096),Bristo Square(248),Royal Commonwealth Pool(246),Chambers Street(1798),Picardy Place(2268)
+19,10.62,27.12,Waverley Station(251),Victoria Quay(250),St Andrews House(256),Surgeons Hall(1052),West Crosscauseway(1096),Causewayside(1727),Duke Street(1824),Meadows East(265),Chambers Street(1798)
+
+The total fuel cost for this region is £21.66 for 243.65 km
+Happy ride!

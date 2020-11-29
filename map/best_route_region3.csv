@@ -1,0 +1,16 @@
+time,distance(km),fuel cost,duration(min),trip legs(station_id)
+7,13.9,1.24,35.7,Lauriston Place(260),Waverley Bridge(183),Drumsheugh Place(1821),Boroughmuir(1823),Dundee Terrace(1025),Castle Street(289),Tollcross(1721),Colinton Road(1748),Meadow Place(1024),Bruntsfield Links(1767)
+8,19.02,45.95,Stockbridge(258),Charlotte Square(247),South Trinity Road(1038),Dundee Terrace(1025),Comely Bank Road(1763),Haymarket Terrace(1765),EICC(1050),Western General Hospital(1756),Thirlestane Road(1768),Logie Green Road(1743)
+9,15.06,37.54,Warrender Park Road(1051),St Andrew Square(259),Meggetland(1757),Scotland Street(1745),Bruntsfield Links(1767),Colinton Road(1748),Morningside Road(1744),Grassmarket(1019),Fountainbridge(249),Thirlestane Road(1768)
+10,18.38,43.83,Meadow Place(1024),Stockbridge(258),Lothian Road(1039),Bruntsfield Links(1767),Western General Hospital(1756),Craigleith Road(1764),Comely Bank Road(1763),Waverley Bridge(183),Boroughmuir(1823),Castle Street(289)
+11,17.49,43.57,Canonmills(262),Meadow Place(1024),Thirlestane Road(1768),South Trinity Road(1038),Dundee Terrace(1025),Haymarket Station(1102),Fountainbridge(249),Tollcross(1721),Colinton Road(1748),Lauriston Place(260)
+12,15.55,39.6,City Chambers(189),Dundas Street(1720),Lauriston Place(260),Warrender Park Road(1051),Scotland Street(1745),Fountainbridge(249),Stockbridge(258),Castle Street(289),Morningside Road(1744),Logie Green Road(1743)
+13,15.71,36.72,Colinton Road(1748),Meadow Place(1024),Lothian Road(1039),Stockbridge(258),Western General Hospital(1756),Marchmont Crescent(1098),Castle Terrace(296),Lauriston Place(260),Dean Street(1749),EICC(1050)
+14,17.67,43.55,Logie Green Road(1743),St Andrew Square(259),Wester Coates Terrace(1738),Charlotte Square(247),EICC(1050),Lauriston Place(260),South Trinity Road(1038),Gorgie Road(1808),Dean Street(1749)
+15,15.99,39.64,Morningside Road(1744),Stockbridge(258),Tollcross(1721),Meggetland(1757),Comely Bank Road(1763),Drumsheugh Place(1821),Castle Terrace(296),Waverley Bridge(183),Bruntsfield Links(1767),City Chambers(189)
+16,16.78,39.21,Boroughmuir(1823),Comely Bank Road(1763),St Andrew Square(259),Lothian Road(1039),Dundee Terrace(1025),Charlotte Square(247),Tollcross(1721),Western General Hospital(1756),City Chambers(189),Dalry Road Lidl(1092)
+17,23.73,53.9,Drumsheugh Place(1821),Gorgie Road(1808),Haymarket Station(1102),Castle Street(289),Meggetland(1757),Western General Hospital(1756),Scotland Street(1745),City Chambers(189),Craigleith Road(1764),EICC(1050)
+18,14.34,35.78,Dalry Road Lidl(1092),South Trinity Road(1038),Dundee Terrace(1025),Boroughmuir(1823),Charlotte Square(247),Canonmills(262),Lauriston Place(260),Waverley Bridge(183),Meadow Place(1024),Fountainbridge(249)
+
+The total fuel cost for this region is £18.11 for 203.62 km
+Happy ride!

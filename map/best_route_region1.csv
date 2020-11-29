@@ -1,13 +1,29 @@
-time, distance(km),duration(min),trip legs(in station_id)
-11,39.33,65.36,1722,1864,1869
-12,64.98,95.3,1864,1722,1747,1820
-13,64.16,77.73,1874,1822,1722
-14,43.55,72.55,1747,1870,1877,1869
-15,58.52,92.61,1747,1819,1820,1874
-16,64.12,93.69,1722,1869,1747,1820,1822
-17,64.68,93.18,1866,1868,1864,1822,1747
-18,75.38,90.64,1868,1820,1869,1874,1864
-19,41.33,60.07,1869,1874
-20,52.45,67.43,1722
-21,25.63,52.37,1747
-22,39.71,56.35,1874
+time	km		£		min		stations	station name
+=====================================================
+9		29.4	2.6		45		2			Corstorphine Road		Port Edgar Marina
+
+10		28.6	2.5		25		1			Edinburgh Park Station
+
+11		29.4	2.6		26		1			Heriot Watt - Edinburgh Business School
+
+12		46.9	4.2		52		3			Port Edgar Marina		Heriot Watt - Edinburgh Business School		Gamekeeper's Road
+
+13		40.5	3.6		63		5			Heriot Watt - Student Accommodation		Port Edgar Marina		Gamekeeper's Road		Corstorphine Road		The Loan
+
+14		41.5	3.7		60		5			The Loan		Port Edgar Marina		Ingliston Park & Ride		Heriot Watt - Edinburgh Business School		Gamekeeper's Road
+
+15		44.9	4.0		49		3			Port Edgar Marina		Heriot Watt - Edinburgh Business School		The Loan
+
+16		42.0	3.7		57		5			Heriot Watt - Edinburgh Business School		The Loan		Port Edgar Marina		Cramond Foreshore		Hawes Pier
+
+17		49.9	4.4		61		6			Hawes Pier		Forth Bridge Visitors Centre		Borrowman Square		The Loan		Heriot Watt - Edinburgh Business School		Port Edgar Marina
+
+18		18.3	1.6		29		3			The Loan		Gamekeeper's Road		Hawes Pier
+
+19		44.7	4.0		48		3			Hopetoun Road		Heriot Watt - Edinburgh Business School		The Loan
+
+20		51.6	4.6		48		2			Port Edgar Marina		Heriot Watt - Edinburgh Business School
+
+
+The total fuel cost for this region is £41.5 for 467.7 km
+Happy ride!

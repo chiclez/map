@@ -125,21 +125,27 @@ def Combinations():
 
     return
 
-def GetBestRoute (data, hours, region):
+def GetBestRoute (data, hours, region, fuel):
 
     # Get the hours schedule for the region
     hourSchedule = hours["t"].tolist()
-    coordinates = data["coordinates"].tolist()
 
     firstHour = hourSchedule[0]
     lastHour = hourSchedule[-1] + 1
+
+    fileName = f"best_route_region{region}.csv"
+    
+    totalDistance = 0
+    totalFuelCost = 0
 
     # Call OSRM per hour in the schedule and write the output file containing the OSRM results
     for i in range(firstHour, lastHour):
 
         tspData = data.loc[data["t"] == i]
         stations = tspData["station_id"].tolist()
-        coordinates = tspData.drop(columns = ["t", "station_id"])
+        stationNames = tspData["station_name"].tolist()
+
+        coordinates = tspData.drop(columns=["t", "station_id", "station_name"])
         coordinates = pd.DataFrame(coordinates.values.reshape(1,-1))
 
         coordinates.to_csv("temp_stops.csv", index = False, header = False, sep = ";")
@@ -150,7 +156,7 @@ def GetBestRoute (data, hours, region):
         
         tspUrl = "http://127.0.0.1:5000/trip/v1/driving/"
         depot = "-3.157453,55.973447"
-        pickupUrl = f"{tspUrl}{depot};{tempStops}?source=first"
+        pickupUrl = f"{tspUrl}{depot};{tempStops}?roundtrip=false&source=first&destination=last"
         
         os.remove("temp_stops.csv")
 
@@ -160,34 +166,49 @@ def GetBestRoute (data, hours, region):
         res = r.json()
 
         #with open('distance.json', 'w') as json_file: json.dump(res, json_file, indent = 4)
+        vanFuelConsumption = 7.6/100  #  L/100 km
+        distance = round(res['trips'][0]['distance']/1000,1)
+        duration = int(res['trips'][0]['duration']/60)
+        fuelCost = round(distance*(vanFuelConsumption)*(fuel),1)  #in sterling per hour (or trip)
 
-        distance = round(res['trips'][0]['distance']/1000,2)
-        duration = round(res['trips'][0]['duration']/60,2)
+        totalStations = len(stations)
 
-        fileName = f"best_route_region{region}.csv"
+        totalDistance += distance
+        totalFuelCost += fuelCost
+
+        header = "time\tkm\t\t£\t\tmin\t\tstations\tstation name"
 
         if(i == firstHour):
 
             with open(fileName, 'w') as file:  
-                file.write("time, distance(km),duration(min),trip legs(in station_id)\n")
-                file.write(f"{i},{distance},{duration},")
+                file.write(header)
+                file.write("\n")
+                file.write("="*(len(header)+15))
+                file.write(f"\n{i}\t\t{distance}\t{fuelCost}\t\t{duration}\t\t{totalStations}\t\t\t")
+
         else:
             with open(fileName, 'a') as file:  
                 file.seek(0, os.SEEK_END)
-                file.write(f"\n{i},{distance},{duration},")
+                file.write(f"\n{i}\t\t{distance}\t{fuelCost}\t\t{duration}\t\t{totalStations}\t\t\t")
 
-        for j in range(1, len(stations)):
+        for j in range(0, len(stations)):
 
             leg = res['waypoints'][j]['waypoint_index'] - 1
             stop = stations[leg]
+            stopName = stationNames[leg]
 
             with open(fileName, 'a') as file:  
                 if(j == len(stations)-1):
-                    file.write(f"{stop}")
+                    file.write(f"{stopName}\n")
                 else:
-                    file.write(f"{stop},")
+                    file.write(f"{stopName}\t\t")
 
-    print(f"Created {fileName} file")
+    totalFuelCost = round(totalFuelCost, 1)
+    totalDistance = round(totalDistance, 1)
+
+    with open(fileName, 'a') as f:
+        f.write(f"\n\nThe total fuel cost for this region is £{totalFuelCost} for {totalDistance} km")
+        f.write("\nHappy ride!")
 
     return
 
@@ -385,6 +406,9 @@ def Tsp():
     print("Enter the full path csv file location for the unbalanced stations (i.e. C:/Documents/unbalanced.csv)")
     unbalanced = input()
 
+    print("Can I get today's fuel price? Please enter it in pounds per liter")
+    fuel = float(input())
+
     print("What region is this for? Valid values are 1, 2 and 3")
     region = input()
        
@@ -401,7 +425,7 @@ def Tsp():
     print("All good. Processing the file... \n")
 
     stationsDic = pd.read_csv(dictPath)
-    stationsDic = stationsDic.drop(columns = ["count", "station_name"])
+    stationsDic = stationsDic.drop(columns = ["count"])
 
     unbalancedStations = pd.read_csv(unbalancedPath)
 
@@ -410,7 +434,7 @@ def Tsp():
 
     hours = pd.DataFrame({'stations': tspData.groupby(["t"]).size()}).reset_index()
 
-    tsp = GetBestRoute(tspData, hours, region)
+    tsp = GetBestRoute(tspData, hours, region, fuel)
 
     return
 

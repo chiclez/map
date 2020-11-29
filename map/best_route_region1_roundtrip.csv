@@ -1,0 +1,16 @@
+time,distance(km),fuel cost,duration(min),trip legs(station_id)
+11,39.33,3.5,65.36,Hawes Pier(1870),Cramond Foreshore(1722),Borrowman Square(1864),Hopetoun Road(1869)
+12,64.98,95.3,Cramond Foreshore(1722),Borrowman Square(1864),Cramond Foreshore(1722),Corstorphine Road(1747),Heriot Watt - Student Accommodation(1820)
+13,64.16,77.73,Edinburgh Park Station(1822),Tesco Ferrymuir(1874),Edinburgh Park Station(1822),Cramond Foreshore(1722)
+14,43.55,72.55,Corstorphine Road(1747),Corstorphine Road(1747),Hawes Pier(1870),Port Edgar Marina(1877),Hopetoun Road(1869)
+15,58.52,92.61,Cramond Foreshore(1722),Corstorphine Road(1747),Heriot Watt - Edinburgh Business School(1819),Heriot Watt - Student Accommodation(1820),Tesco Ferrymuir(1874)
+16,64.12,93.69,Hopetoun Road(1869),Cramond Foreshore(1722),Hopetoun Road(1869),Corstorphine Road(1747),Heriot Watt - Student Accommodation(1820),Edinburgh Park Station(1822)
+17,64.68,93.18,Borrowman Square(1864),The Loan(1866),Forth Bridge Visitors Centre(1868),Borrowman Square(1864),Edinburgh Park Station(1822),Corstorphine Road(1747)
+18,75.38,90.64,Borrowman Square(1864),Forth Bridge Visitors Centre(1868),Heriot Watt - Student Accommodation(1820),Hopetoun Road(1869),Tesco Ferrymuir(1874),Borrowman Square(1864)
+19,41.33,60.07,Tesco Ferrymuir(1874),Hopetoun Road(1869),Tesco Ferrymuir(1874)
+20,52.45,67.43,Cramond Foreshore(1722),Cramond Foreshore(1722)
+21,25.63,52.37,Corstorphine Road(1747),Corstorphine Road(1747)
+22,39.71,56.35,Hopetoun Road(1869),Tesco Ferrymuir(1874)
+
+The total fuel cost for this region is £56.36 for 633.84 km
+Happy ride!
