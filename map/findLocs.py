@@ -385,9 +385,6 @@ def Tsp():
     print("Enter the full path csv file location for the unbalanced stations (i.e. C:/Documents/unbalanced.csv)")
     unbalanced = input()
 
-    print("Enter the full path csv file location for the Station dictionary (i.e. C:/Documents/stationsDic.csv)")
-    dict = input()
-
     print("What region is this for? Valid values are 1, 2 and 3")
     region = input()
        
@@ -395,15 +392,10 @@ def Tsp():
     unbalancedPath = os.path.abspath(unbalanced)
     unbalancedName = os.path.basename(unbalanced)
 
-    dictPath = os.path.abspath(dict)
-    dictName = os.path.basename(dict)
+    dictPath = os.path.join(curDir, "raw_data\stationsDic.csv")
 
     if os.path.isfile(unbalanced) != True:
         print (f"{unbalancedName} does not exist. Try again")
-        return
-
-    if os.path.isfile(dict) != True:
-        print (f"{dictName} does not exist. Try again")
         return
 
     print("All good. Processing the file... \n")

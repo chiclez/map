@@ -1,0 +1,111 @@
+coordinates,station_id,station_name,count
+"-3.05831,55.94396",2265,Musselburgh Brunton Hall,24
+"-3.06675,55.94388",2263,Musselburgh Lidl,105
+"-3.0731,55.93198",1758,Queen Margaret University,105
+"-3.09473,55.94895",1800,Joppa,124
+"-3.09856,55.94407",1813,Milton Road - Edinburgh College,55
+"-3.11833,55.95792",1728,Portobello - Kings Road,431
+"-3.13908,55.92122",1739,Edinburgh Royal Infirmary,67
+"-3.16739,55.96901",1824,Duke Street,231
+"-3.17165,55.9232",253,Kings Building 2,253
+"-3.17175,55.94008",264,Pollock Halls,372
+"-3.17222,55.95525",1814,Abbeyhill,317
+"-3.17359,55.96792",2259,Leith Walk North,163
+"-3.17383,55.92419",252,Kings Buildings 1,99
+"-3.17392,55.939",246,Royal Commonwealth Pool,261
+"-3.17413,55.97762",250,Victoria Quay,335
+"-3.17538,55.92348",254,Kings Building 3,95
+"-3.17572,55.95109",1818,Dynamic Earth,188
+"-3.17589,55.95787",1090,Hillside Crescent,194
+"-3.17635,55.98129",285,Ocean Terminal,185
+"-3.17669,55.96504",358,Leith Walk,451
+"-3.17873,55.92446",1042,Kings Buildings - Murchison House,43
+"-3.18017,55.93651",1727,Causewayside,286
+"-3.18041,55.94956",1091,Holyrood Road,218
+"-3.18099,55.96085",1769,Brunswick Place,264
+"-3.18111,55.94749",1731,Pleasance Courtyard,158
+"-3.18168,55.95316",256,St Andrews House,134
+"-3.18259,55.94486",1726,Simon Square,137
+"-3.18274,55.93981",265,Meadows East,883
+"-3.18418,55.95173",225,Waverley Court,86
+"-3.18495,55.94384",1096,West Crosscauseway,336
+"-3.18502,55.93796",1097,Gladstone Terrace,128
+"-3.18518,55.96403",1729,McDonald Road,226
+"-3.18547,55.94664",1052,Surgeons Hall,239
+"-3.18625,55.95654",2268,Picardy Place,232
+"-3.18691,55.94478",1017,Crichton Street,199
+"-3.1872,55.95995",1730,East London Street,186
+"-3.18753,55.95264",251,Waverley Station,33
+"-3.1878,55.9498",1028,Hunter Square,185
+"-3.18831,55.94308",171,George Square,198
+"-3.18892,55.9476",1798,Chambers Street,182
+"-3.18905,55.94583",248,Bristo Square,391
+"-3.19026,55.95011",189,City Chambers,198
+"-3.19189,55.95198",183,Waverley Bridge,454
+"-3.19244,55.95491",259,St Andrew Square,381
+"-3.19415,55.93643",1098,Marchmont Crescent,182
+"-3.19464,55.94024",1024,Meadow Place,632
+"-3.19547,55.96038",1745,Scotland Street,142
+"-3.1957,55.96406",1743,Logie Green Road,137
+"-3.19628,55.9628",262,Canonmills,249
+"-3.19725,55.9471",1019,Grassmarket,181
+"-3.19727,55.94477",260,Lauriston Place,295
+"-3.19803,55.93837",1051,Warrender Park Road,204
+"-3.19876,55.93532",1768,Thirlestane Road,162
+"-3.20128,55.96076",1720,Dundas Street,177
+"-3.20204,55.94677",296,Castle Terrace,177
+"-3.20209,55.96412",1737,Inverleith Row,150
+"-3.2031,55.94425",1721,Tollcross,340
+"-3.20318,55.9515",289,Castle Street,349
+"-3.20568,55.95262",1031,Eden Locke - Aparthotel (RESIDENTS ONLY),1
+"-3.20577,55.94741",1039,Lothian Road,336
+"-3.20643,55.93712",1767,Bruntsfield Links,454
+"-3.2071,55.95234",247,Charlotte Square,313
+"-3.20796,55.97133",1038,South Trinity Road,185
+"-3.20807,55.95857",258,Stockbridge,199
+"-3.20925,55.94336",249,Fountainbridge,301
+"-3.20975,55.92799",1744,Morningside Road,269
+"-3.2104,55.94607",1050,EICC,236
+"-3.21235,55.95159",1821,Drumsheugh Place,241
+"-3.2124,55.93342",1748,Colinton Road,133
+"-3.21331,55.92782",1809,Royal Edinburgh Hospital,19
+"-3.21429,55.95728",1749,Dean Street,60
+"-3.21534,55.94007",1823,Boroughmuir,283
+"-3.21566,55.95941",1763,Comely Bank Road,149
+"-3.21818,55.94557",1102,Haymarket Station,180
+"-3.22059,55.93971",1025,Dundee Terrace,404
+"-3.22242,55.94179",1092,Dalry Road Lidl,185
+"-3.22302,55.94606",1765,Haymarket Terrace,204
+"-3.22343,55.95954",1753,Waitrose Comely Bank,137
+"-3.22363,55.95508",349,Orchard Brae House,33
+"-3.22612,55.95197",1093,Belford Road,68
+"-3.22991,55.93874",1808,Gorgie Road,137
+"-3.23185,55.94565",1738,Wester Coates Terrace,73
+"-3.23192,55.96264",1752,IGMM - Western General,124
+"-3.23367,55.92759",1757,Meggetland,148
+"-3.23414,55.96284",1756,Western General Hospital,86
+"-3.2345,55.94443",1055,Roseburn Street,87
+"-3.2378,55.94191",1754,Murrayfield Tram,46
+"-3.23794,55.95658",1764,Craigleith Road,67
+"-3.24367,55.94479",1799,Murrayfield,30
+"-3.25088,55.94505",1770,Ellersly Road,73
+"-3.25111,55.93894",1766,Balgreen Road,28
+"-3.26929,55.94212",1725,Edinburgh Zoo,51
+"-3.27152,55.94167",1747,Corstorphine Road,47
+"-3.28948,55.92668",1815,Sighthill - Edinburgh College,10
+"-3.30064,55.98003",1722,Cramond Foreshore,191
+"-3.30726,55.96944",1807,Gamekeeper's Road,58
+"-3.30744,55.92738",1822,Edinburgh Park Station,63
+"-3.31441,55.93117",1859,Edinburgh Park Central,9
+"-3.32011,55.90882",1819,Heriot Watt - Edinburgh Business School,92
+"-3.32878,55.90841",1820,Heriot Watt - Student Accommodation,81
+"-3.35556,55.93879",1860,Ingliston Park & Ride,11
+"-3.38145,55.98261",1864,Borrowman Square,14
+"-3.38243,55.98676",1865,Dalmeny Station,29
+"-3.3856,55.99053",1870,Hawes Pier,90
+"-3.39421,55.98111",1871,Scotstoun House,2
+"-3.39777,55.9899",1866,The Loan,18
+"-3.40135,55.98377",1874,Tesco Ferrymuir,18
+"-3.40375,55.98774",1868,Forth Bridge Visitors Centre,16
+"-3.4046,55.99018",1869,Hopetoun Road,60
+"-3.40716,55.99296",1877,Port Edgar Marina,21
