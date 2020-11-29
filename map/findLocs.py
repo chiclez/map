@@ -14,32 +14,6 @@ import time
 from tqdm import tqdm
 from urllib.parse import urlparse
 
-def distance_calc (url):
-
-    timestr = time.strftime("%d%m%Y")
-    csvName = f"distances_{timestr}.csv"
-
-    #o = urlparse(url)
-
-    #if(o.path[18:] == o.params):
-    #    with open(csvName, 'a') as file:    
-    #        file.write("0.000\n")
-    #else:
-    time.sleep(5)
-    s = requests.Session()
-    s.mount(url, HTTPAdapter(max_retries=1))
-    r = s.get(url, timeout=1)
-    res = r.json()
-
-    #with open('distance.json', 'w') as json_file: json.dump(res, json_file, indent = 4)
-
-    distance = round(res['routes'][0]['distance']/1000,3)
-
-    with open(csvName, 'a') as file:    
-        file.write(f"{distance}\n")
-
-    return
-
 def tsp_calc (url, combination):
 
     time.sleep(5)
@@ -65,233 +39,6 @@ def tsp_calc (url, combination):
          #time.sleep(2)
 
     return
-
-def PopularSpotsRoutes():
-
-    '''
-    This function will read a csv file and will create a csv that Mosel can read
-   with the most popular routes and stations in a certain week. 
-   The csv files will be output in the same directory as the working directory of
-   this Python script
-
-   input:
-   csvFile = the csv file path containing the accumulated monthly data 
-               i.e. "C:\Documents\08.csv"
-   Day/Month selector = a flag that will indicate the function to calculate the
-                demandas and routes using either previous day or previous week data.
-                0 for day, and 1 for month.
-   weekNumber = required week number for calculating the demands and routes using
-                the OSRM API
-   weekDay = Previous day for calculating the demands and routes using the OSRM API
-
-   Output: None
-    '''
-
-    header = "Find Locations Python script"
-    print(header)
-    print("="*len(header))
-    print("This script will create the appropriate csv files for Mosel consumption \n")
-    print("Enter the full path csv file location (i.e. C:/Documents/08.csv). Press Enter when done.")
-    csvFile = input()
-    print("How do you want to calculate the demands and paths? Previous day: 0. Previous week: 1")
-    selector = int(input())
-    print("Do you want to calculate the TSP? 0: No. 1: Yes")
-    tsp = int(input())
-
-    if(type(selector) != int):
-        print("Invalid value for the selection")
-        return
-
-    elif(selector == 0):
-        print("Enter the day (i.e. for the 2nd of a month, type 02). Press Enter when done.")
-        monthDay = int(input())
-
-        if(type(monthDay) != int):
-            print("The number is invalid. Try again")
-            return
-
-    elif(selector == 1):
-        print("Enter the week number. Consider that there are 52 weeks in a year. Press Enter when done.")
-        weekNumber = int(input())
-
-        if(type(weekNumber) != int):
-            print("The number is invalid. Try again")
-            return
-
-    if(tsp == 1):
-        print("What time? Use 24 h format. For 4 pm use 16")
-        hour = int(input())
-        
-    curDir = os.getcwd()
-    filePath = os.path.abspath(csvFile)
-    fileName = os.path.basename(csvFile)
-
-    if os.path.isfile(csvFile) != True:
-        print (f"{fileName} does not exist. Try again")
-        return
-
-    print("All good. Processing the file... \n")
-
-    rawData = pd.read_csv(filePath, parse_dates = [1,2], 
-              dtype={'start_station_longitude': float, 'start_station_latitude': float, 
-                     'end_station_longitude': float, 'end_station_latitude': float})
-
-    rawData['start_station_longitude'] = (rawData['start_station_longitude'].round(5)).astype(str)
-    rawData['start_station_latitude'] = (rawData['start_station_latitude'].round(5)).astype(str) 
-    rawData['end_station_longitude'] = (rawData['end_station_longitude'].round(5)).astype(str)
-    rawData['end_station_latitude'] = (rawData['end_station_latitude'].round(5)).astype(str)
-
-    # Ensure the timestamps are true timestamps
-    start_date = pd.to_datetime(rawData['started_at'])
-    end_date = pd.to_datetime(rawData['ended_at'])
-
-    # Add Day of the Month, Day of the Week and Week number as columns
-    rawData['weekday_start_at'] = pd.to_datetime(rawData['started_at']).dt.dayofweek
-    rawData['weekday_ended_at'] = pd.to_datetime(rawData['ended_at']).dt.dayofweek
-    rawData['week_start_at'] = pd.to_datetime(rawData['started_at']).dt.isocalendar().week
-    rawData['week_ended_at'] = pd.to_datetime(rawData['ended_at']).dt.isocalendar().week
-    rawData['monthday_start_at'] = pd.to_datetime(rawData['started_at']).dt.day
-    rawData['monthday_ended_at'] = pd.to_datetime(rawData['ended_at']).dt.day
-    rawData['hour_started_at'] = pd.to_datetime(rawData['started_at']).dt.hour
-    rawData['hour_ended_at'] = pd.to_datetime(rawData['ended_at']).dt.hour
-
-    # Get coordinates in a suitable format for OSRM
-    rawData['pickupCoordinates'] = rawData[['start_station_longitude', 'start_station_latitude']].apply(lambda x: ','.join(x), axis=1)
-    rawData['dropCoordinates'] = rawData[['end_station_longitude', 'end_station_latitude']].apply(lambda x: ','.join(x), axis=1)
-
-    if(selector ==0):
-        #Get the previous day data
-        latestData = rawData.loc[rawData['monthday_start_at'] == int(monthDay)]
-        print(f"Calculating paths for day {monthDay}")
-    elif(selector == 1):
-        # Get the latest week
-        latestData = rawData.loc[rawData['week_start_at'] == int(weekNumber)]
-        print(f"Calculating paths for week {weekNumber}")
-
-    if(tsp == 1):
-        pickupData = rawData.loc[rawData['hour_started_at'] == int(hour)]
-        dropData = rawData.loc[rawData['hour_ended_at'] == int(hour)]
-
-        groupPickup = pd.DataFrame({'count': pickupData.groupby(["start_station_id", 
-                    "start_station_name", 'pickupCoordinates']).size()}).reset_index()
-        groupDrop = pd.DataFrame({'count': dropData.groupby(["end_station_id", 
-                    "end_station_name", 'dropCoordinates']).size()}).reset_index()
-
-        topPickup = groupPickup.nlargest(10,'count')
-        topDrop = groupDrop.nlargest(10,'count')
-
-        pick = f"{topPickup['pickupCoordinates'].values[1]};{topPickup['pickupCoordinates'].values[2]};{topPickup['pickupCoordinates'].values[3]};{topPickup['pickupCoordinates'].values[4]};{topPickup['pickupCoordinates'].values[5]};{topPickup['pickupCoordinates'].values[6]};{topPickup['pickupCoordinates'].values[7]};{topPickup['pickupCoordinates'].values[8]};{topPickup['pickupCoordinates'].values[9]}"
-        drop = f"{topDrop['dropCoordinates'].values[1]};{topDrop['dropCoordinates'].values[2]};{topDrop['dropCoordinates'].values[3]};{topDrop['dropCoordinates'].values[4]};{topDrop['dropCoordinates'].values[5]};{topDrop['dropCoordinates'].values[6]};{topDrop['dropCoordinates'].values[7]};{topDrop['dropCoordinates'].values[8]};{topDrop['dropCoordinates'].values[9]}"
-
-        depot = "-3.157453,55.973447"
-
-        tspUrl = "http://127.0.0.1:5000/trip/v1/driving/"
-        pickupUrl = f"{tspUrl}{depot};{pick}?source=first"
-        dropUrl = f"{tspUrl}{depot};{drop}?source=first"
-
-        tspUrls = [pickupUrl,dropUrl]
-
-        print("Computing TSP")
-
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            results = list(tqdm(executor.map(tsp_calc, tspUrls), total=len(tspUrls)))    
-
-        print(time.perf_counter())
-
-    elif(tsp ==0):
-
-        #Calculate the trips
-        tripList = pd.DataFrame({'count': 
-                latestData.groupby(["start_station_id", "end_station_id",
-                "start_station_name", "end_station_name", "start_station_latitude", 
-                "start_station_longitude", "end_station_latitude", 
-                "end_station_longitude"]).size()}).reset_index()
-
-        # Add distance and duration
-        pickupCoordinates = tripList[["start_station_longitude","start_station_latitude"]].to_numpy()
-        dropCoordinates = tripList[["end_station_longitude","end_station_latitude"]].to_numpy()
-    
-        datapoints = tripList.shape[0]
-        urls = []
-
-        bar = progressbar.ProgressBar(maxval=int(datapoints), \
-        widgets=[progressbar.Bar('#', '|', '|'), ' ', progressbar.Percentage()])
-        bar.start()
-    
-        for i in range(datapoints):
-
-            #baseUrl = "http://router.project-osrm.org/route/v1/driving/" #demo server
-            distanceUrl = "http://127.0.0.1:5000/route/v1/driving/" #local server
-
-            pickup = f"{pickupCoordinates[i,0]},{pickupCoordinates[i,1]}"
-            drop = f"{dropCoordinates[i,0]},{dropCoordinates[i,1]}"
-
-            url = f"{distanceUrl}{pickup};{drop}?overview=false"
-            urls.append(url)
-            bar.update(i+1)
-
-        bar.finish()
-
-        print("Computing the distances")
-
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-        #executor.map(distance_calc, urls)
-            results = list(tqdm(executor.map(distance_calc, urls), total=len(urls)))
-
-        print(time.perf_counter())
-
-        distances = pd.read_csv("distances.csv")
-        #latestData.join(pd.DataFrame(distances))
-
-    # Paths export
-    pathList = pd.DataFrame({'count': 
-                latestData.groupby(["start_station_id", "end_station_id",
-                "start_station_name", "end_station_name", "start_station_latitude", 
-                "start_station_longitude", "end_station_latitude", 
-                "end_station_longitude"]).size()}).reset_index()
-    sortedPathList = pathList.sort_values(by=['count'], ascending = False)
-
-    moselPath = pd.DataFrame({'count': latestData.groupby(["start_station_id", 
-                "end_station_id"]).size()}).reset_index()
-    moselPath = moselPath.sort_values(by=['count'], ascending = False)
-
-    # Start Station
-    hotspotStart = pd.DataFrame({'count': latestData.groupby(["start_station_id", 
-                    "start_station_name"]).size()}).reset_index()
-    sortedHotspotStart = hotspotStart.sort_values(by=['count'], ascending = False)
-
-    # Destination Station
-    hotspotDestination = pd.DataFrame({'count': latestData.groupby(["end_station_id", 
-                         "end_station_name"]).size()}).reset_index()
-    sortedHotspotDestionation = hotspotDestination.sort_values(by=['count'], 
-                            ascending = False)
-
-    # Generate the csv files for the required timeframe
-
-    if(selector == 0):
-        suffix = f"_day{monthDay}.csv"
-    elif(selector ==1):
-        suffix = f"_week{weekNumber}.csv"
-
-    pathList.to_csv(os.path.join(curDir, "pathList" + suffix), index = False)
-    moselPath.to_csv(os.path.join(curDir, "moselPath" + suffix), index = False)
-    hotspotStart.to_csv(os.path.join(curDir, "hotspotStart" + suffix), index = False)
-    hotspotDestination.to_csv(os.path.join(curDir, "hotspotDestination" + suffix), index = False)
-
-    sortedPathList.to_csv(os.path.join(curDir, "sorted_pathList" + suffix), index = False)
-    sortedHotspotStart.to_csv(os.path.join(curDir, "sorted_hotspotStart" + suffix), index = False)
-    sortedHotspotDestionation.to_csv(os.path.join(curDir, "sorted_hotspotDestination" + suffix), index = False)
-
-    print(f"Created the following csv files on the {curDir} directory:")
-    print(f"pathList{suffix}")
-    print(f"moselPath{suffix}")
-    print(f"hotspotStart{suffix}")
-    print(f"hotspotDestination{suffix}")
-    print(f"sorted_pathList{suffix}")
-    print(f"sorted_hotspotStart{suffix}")
-    print(f"sorted_hotspotDestination{suffix}")
-
-    return 
 
 def Combinations():
     '''
@@ -375,6 +122,72 @@ def Combinations():
 
     print("Done")
     print(f"Computing time: {time.perf_counter()}")
+
+    return
+
+def GetBestRoute (data, hours, region):
+
+    # Get the hours schedule for the region
+    hourSchedule = hours["t"].tolist()
+    coordinates = data["coordinates"].tolist()
+
+    firstHour = hourSchedule[0]
+    lastHour = hourSchedule[-1] + 1
+
+    # Call OSRM per hour in the schedule and write the output file containing the OSRM results
+    for i in range(firstHour, lastHour):
+
+        tspData = data.loc[data["t"] == i]
+        stations = tspData["station_id"].tolist()
+        coordinates = tspData.drop(columns = ["t", "station_id"])
+        coordinates = pd.DataFrame(coordinates.values.reshape(1,-1))
+
+        coordinates.to_csv("temp_stops.csv", index = False, header = False, sep = ";")
+
+        with open("temp_stops.csv", "r+") as f:
+            tempStops = f.read()
+            tempStops = tempStops.rstrip()
+        
+        tspUrl = "http://127.0.0.1:5000/trip/v1/driving/"
+        depot = "-3.157453,55.973447"
+        pickupUrl = f"{tspUrl}{depot};{tempStops}?source=first"
+        
+        os.remove("temp_stops.csv")
+
+        s = requests.Session()
+        s.mount(pickupUrl, HTTPAdapter(max_retries=5))
+        r = s.get(pickupUrl, timeout=5)
+        res = r.json()
+
+        #with open('distance.json', 'w') as json_file: json.dump(res, json_file, indent = 4)
+
+        distance = round(res['trips'][0]['distance']/1000,2)
+        duration = round(res['trips'][0]['duration']/60,2)
+
+        fileName = f"best_route_region{region}.csv"
+
+        if(i == firstHour):
+
+            with open(fileName, 'w') as file:  
+                file.write("time, distance(km),duration(min),trip legs(in station_id)\n")
+                file.write(f"{i},{distance},{duration},")
+        else:
+            with open(fileName, 'a') as file:  
+                file.seek(0, os.SEEK_END)
+                file.write(f"\n{i},{distance},{duration},")
+
+        for j in range(1, len(stations)):
+
+            leg = res['waypoints'][j]['waypoint_index'] - 1
+            stop = stations[leg]
+
+            with open(fileName, 'a') as file:  
+                if(j == len(stations)-1):
+                    file.write(f"{stop}")
+                else:
+                    file.write(f"{stop},")
+
+    print(f"Created {fileName} file")
 
     return
 
@@ -466,38 +279,47 @@ def Regions(divisionFile):
     region2 = allRegions.loc[allRegions["region"] == 2]
     region3 = allRegions.loc[allRegions["region"] == 3]
 
+    # Create the region array
+    region1 = region1.drop(columns = ["region"])
+    region2 = region2.drop(columns = ["region"])
+    region2 = region3.drop(columns = ["region"])
+
     return region1, region2, region3
 
-def OutputNet_Add(netAdd, bikeInit,region):
+def OutputNet_Add(netAdd, bikeInit, stations, region):
 
     curDir = os.getcwd()
     
-    netName = f"net_add_region{region}.dat"
-    bikeName = f"bike_init_region{region}.dat"
-
-    netAddFile = os.path.join(curDir, netName)
-    bikeInitFile = os.path.join(curDir, bikeName)
+    netAddFile = os.path.join(curDir, f"net_add_region{region}.dat")
+    bikeInitFile = os.path.join(curDir, f"bike_init_region{region}.dat")
+    stationFile = os.path.join(curDir, f"stations_region{region}.dat")
 
     netAdd.to_csv(netAddFile, index = False, header = False, sep = " ")
     bikeInit.to_csv(bikeInitFile, index = False, header = False, sep = " ")
+    stations.to_csv(stationFile, index = False, header = False, sep = " ")
     
     f1 = open(bikeInitFile)
+    f2 = open(stationFile)
 
     with open(netAddFile, "r+") as f:
-         old = f.read() # read everything in the file
-         bike_init = f1.read()
+         contents = f.read()
+         ini_bikes = f1.read()
+         station_id = f2.read()
          f.seek(0) # rewind
-         f.write("net_add: [" + old + "]\n") # write the new line before
-         f.write("ini_bikes: [" + bike_init + "]")
+         f.write("net_add: [" + contents + "]\n") 
+         f.write("ini_bikes: [" + ini_bikes + "]\n")
+         f.write("station_id: [" + station_id + "]")
 
     f1.close()
+    f2.close()
     os.remove(bikeInitFile)
+    os.remove(stationFile)
 
-    print(f"Created {netName}")
+    print(f"Created {netAddFile}")
 
     return
 
-def DataProcessing(filePath, weekNumber, divisionFile, tsp):
+def DataProcessing(filePath, weekNumber, tsp):
 
     '''
     Common DataProcessing instance for all functions
@@ -546,75 +368,57 @@ def DataProcessing(filePath, weekNumber, divisionFile, tsp):
 def Tsp():
     '''
     This script will calculate the combinations for the Travelling salesman problem
-    for Edinburgh's JustEat bike sharing service using a multithreading approach.
-    It computes the nC2 combinations, where n = number of stations found in the
-    input file and r is fixed to be 2 (to avoid crashing our server...)
-    This script heavily relies on a Docker OSRM server as well... 
+    for Edinburgh's JustEat bike sharing service using a Docker OSRM server per hour
 
     Input:
     open_data csv: This can be found in Edinburgh's Just Eat site
 
     Output:
-    tsp.csv: A csv file with all the required information for Mosel
+    best_route_region.csv: A csv file with all the required information for Mosel
             i.e. distance, duration, node visits
     '''
 
     header = "Travelling Salesman Problem (TSP) Combinations"
     print(header)
     print("-"*len(header))
-    print("Enter the full path csv file location (i.e. C:\Documents\08.csv). Press Enter when done.")
-    csvFile = input()
+
+    print("Enter the full path csv file location for the unbalanced stations (i.e. C:/Documents/unbalanced.csv)")
+    unbalanced = input()
+
+    print("Enter the full path csv file location for the Station dictionary (i.e. C:/Documents/stationsDic.csv)")
+    dict = input()
+
+    print("What region is this for? Valid values are 1, 2 and 3")
+    region = input()
        
     curDir = os.getcwd()
-    filePath = os.path.abspath(csvFile)
-    fileName = os.path.basename(csvFile)
+    unbalancedPath = os.path.abspath(unbalanced)
+    unbalancedName = os.path.basename(unbalanced)
 
-    if os.path.isfile(csvFile) != True:
-        print (f"{fileName} does not exist. Try again")
+    dictPath = os.path.abspath(dict)
+    dictName = os.path.basename(dict)
+
+    if os.path.isfile(unbalanced) != True:
+        print (f"{unbalancedName} does not exist. Try again")
+        return
+
+    if os.path.isfile(dict) != True:
+        print (f"{dictName} does not exist. Try again")
         return
 
     print("All good. Processing the file... \n")
 
-    groupData = DataProcessing(filePath, divisionFile = 0, weekNumber= 0, tsp = 1)
+    stationsDic = pd.read_csv(dictPath)
+    stationsDic = stationsDic.drop(columns = ["count", "station_name"])
 
-    print("Hi. I'm  here!")
-    print(groupData.head())
+    unbalancedStations = pd.read_csv(unbalancedPath)
 
-    groupData.to_csv("groupData.csv", index = False, header = True)
-    coordinates = groupData["pickupCoordinates"].tolist()
+    tspData = pd.merge(unbalancedStations,stationsDic, how = "inner", on="station_id")
+    tspData = tspData.sort_values(by = ["t"])
 
-    nCr = list(itertools.combinations(groupData['pickupCoordinates'], 2))
-    nCr_stations = list(itertools.combinations(groupData['start_station_id'], 2))
+    hours = pd.DataFrame({'stations': tspData.groupby(["t"]).size()}).reset_index()
 
-    with open('nCr.csv', 'w', newline='\n') as f:
-        writer = csv.writer(f)
-        writer.writerows(nCr)
-
-    with open('nCr_stations.csv', 'w', newline='\n') as stations:
-        writer = csv.writer(stations)
-        writer.writerows(nCr_stations)
-
-    tspUrls = []
-    depot = "-3.157453,55.973447"
-
-    for i in range(0, len(nCr)):
-        tspUrl = "http://127.0.0.1:5000/trip/v1/driving/"
-        group = f"{nCr[i][0]};{nCr[i][1]}"
-        pickupUrl = f"{tspUrl}{depot};{group}?source=first"
-
-        tspUrls.append(pickupUrl)
-
-    print("Combinations found: {len(tspUrls)}")
-
-    combinations = [i for i in range(0, len(tspUrls))]
-
-    print("Computing TSP for each combination")
-
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        results = list(tqdm(executor.map(tsp_calc, tspUrls, combinations), total=len(tspUrls)))    
-
-    print("Done")
-    print(f"Computing time: {time.perf_counter()}")
+    tsp = GetBestRoute(tspData, hours, region)
 
     return
 
@@ -669,69 +473,34 @@ def NetAdd():
 
     print("All good. Processing the file... \n")
 
+    #Process the csv files
     region1, region2, region3 = Regions(divisionFile)
-    latestData = DataProcessing(filePath, weekNumber, divisionFile, tsp = 0)
-    
+    latestData = DataProcessing(filePath, weekNumber, tsp = 0)
     netAdd = Dat_NetAdd(latestData)
 
-    netAdd_region1 = pd.merge(netAdd, region1, how = "inner", on = ["station_id"])
-    netAdd_region1 = netAdd_region1.drop(columns = ["station_id", "region"])
-    bikeInit_region1 = Dat_BikeInit(netAdd_region1)
+    # Split the data per region
+    netAddR1 = pd.merge(netAdd, region1, how = "inner", on = ["station_id"])
+    netAddR1 = netAddR1.drop(columns = ["station_id"])
 
-    netAdd_region2 = pd.merge(netAdd, region2, how = "inner", on = ["station_id"])
-    netAdd_region2 = netAdd_region2.drop(columns = ["station_id", "region"])
-    bikeInit_region2 = Dat_BikeInit(netAdd_region2)
+    netAddR2 = pd.merge(netAdd, region2, how = "inner", on = ["station_id"])
+    netAddR2 = netAddR2.drop(columns = ["station_id"])
 
-    netAdd_region3 = pd.merge(netAdd, region3, how = "inner", on = ["station_id"])
-    netAdd_region3 = netAdd_region3.drop(columns = ["station_id", "region"])
-    bikeInit_region3 = Dat_BikeInit(netAdd_region3)
+    netAddR3 = pd.merge(netAdd, region3, how = "inner", on = ["station_id"])
+    netAddR3 = netAddR3.drop(columns = ["station_id"])
 
-    # Generate the dat files for the required timeframe
+    # Create the init_bikes arrays
+    bikeInitR1 = Dat_BikeInit(netAddR1)
+    bikeInitR2 = Dat_BikeInit(netAddR2)
+    bikeInitR3 = Dat_BikeInit(netAddR3)
 
-    fileRegion1 = OutputNet_Add(netAdd_region1, bikeInit_region1, 1)
-    fileRegion2 = OutputNet_Add(netAdd_region2, bikeInit_region2, 2)
-    fileRegion3 = OutputNet_Add(netAdd_region3, bikeInit_region3, 3)
+    stationR1 = pd.DataFrame(region1.values.reshape(1,-1))
+    stationR2 = pd.DataFrame(region2.values.reshape(1,-1))
+    stationR3 = pd.DataFrame(region3.values.reshape(1,-1))
 
-    ## Paths export
-    #pathList = pd.DataFrame({'count': 
-    #            latestData.groupby(["start_station_id", "end_station_id",
-    #            "start_station_name", "end_station_name", "start_station_latitude", 
-    #            "start_station_longitude", "end_station_latitude", 
-    #            "end_station_longitude"]).size()}).reset_index()
-    #sortedPathList = pathList.sort_values(by=['count'], ascending = False)
-
-    #moselPath = pd.DataFrame({'count': latestData.groupby(["start_station_id", 
-    #            "end_station_id"]).size()}).reset_index()
-    #moselPath = moselPath.sort_values(by=['count'], ascending = False)
-
-    ## Start Station
-    #hotspotStart = pd.DataFrame({'count': latestData.groupby(["start_station_id", 
-    #                "start_station_name"]).size()}).reset_index()
-    #sortedHotspotStart = hotspotStart.sort_values(by=['count'], ascending = False)
-
-    ## Destination Station
-    #hotspotDestination = pd.DataFrame({'count': latestData.groupby(["end_station_id", 
-    #                     "end_station_name"]).size()}).reset_index()
-    #sortedHotspotDestionation = hotspotDestination.sort_values(by=['count'], 
-    #                        ascending = False)
-
-    #pathList.to_csv(os.path.join(curDir, "pathList" + suffix), index = False)
-    #moselPath.to_csv(os.path.join(curDir, "moselPath" + suffix), index = False)
-    #hotspotStart.to_csv(os.path.join(curDir, "hotspotStart" + suffix), index = False)
-    #hotspotDestination.to_csv(os.path.join(curDir, "hotspotDestination" + suffix), index = False)
-
-    #sortedPathList.to_csv(os.path.join(curDir, "sorted_pathList" + suffix), index = False)
-    #sortedHotspotStart.to_csv(os.path.join(curDir, "sorted_hotspotStart" + suffix), index = False)
-    #sortedHotspotDestionation.to_csv(os.path.join(curDir, "sorted_hotspotDestination" + suffix), index = False)
-
-    #print(f"Created the following csv files on the {curDir} directory:")
-    #print(f"pathList{suffix}")
-    #print(f"moselPath{suffix}")
-    #print(f"hotspotStart{suffix}")
-    #print(f"hotspotDestination{suffix}")
-    #print(f"sorted_pathList{suffix}")
-    #print(f"sorted_hotspotStart{suffix}")
-    #print(f"sorted_hotspotDestination{suffix}")
+    # Generate the net_add.dat files for the required timeframe per region
+    fileRegion1 = OutputNet_Add(netAddR1, bikeInitR1, stationR1, 1)
+    fileRegion2 = OutputNet_Add(netAddR2, bikeInitR2, stationR2, 2)
+    fileRegion3 = OutputNet_Add(netAddR3, bikeInitR3, stationR3, 3)
 
     return 
 
@@ -782,7 +551,7 @@ def CityDivision():
 
     print("All good. Processing the file... \n")
 
-    latestData = DataProcessing(filePath, weekNumber, divisionFile=0, tsp = 0)
+    latestData = DataProcessing(filePath, weekNumber, tsp = 0)
 
     latitude, longitude, net_flow_in, net_flow_out, station_id = Dat_CityDivision(latestData)
 
@@ -881,7 +650,6 @@ def Cli():
     return
 
 Cli()
-
 
 ## Map 
 #world_map = folium.Map()
