@@ -133,6 +133,10 @@ def GetBestRoute (data, hours, region, fuel):
     firstHour = hourSchedule[0]
     lastHour = hourSchedule[-1] + 1
 
+    workingHours = len(hourSchedule)
+    hourlySalary = 9.2
+    pay = round(hourlySalary*workingHours,2)
+
     fileName = f"best_route_region{region}.csv"
     
     totalDistance = 0
@@ -183,7 +187,7 @@ def GetBestRoute (data, hours, region, fuel):
             with open(fileName, 'w') as file:  
                 file.write(header)
                 file.write("\n")
-                file.write("="*(len(header)+15))
+                file.write("="*(len(header)+20))
                 file.write(f"\n{i}\t\t{distance}\t{fuelCost}\t\t{duration}\t\t{totalStations}\t\t\t")
 
         else:
@@ -201,13 +205,19 @@ def GetBestRoute (data, hours, region, fuel):
                 if(j == len(stations)-1):
                     file.write(f"{stopName}\n")
                 else:
-                    file.write(f"{stopName}\t\t")
+                    file.write(f"{stopName}|")
 
     totalFuelCost = round(totalFuelCost, 1)
     totalDistance = round(totalDistance, 1)
 
     with open(fileName, 'a') as f:
-        f.write(f"\n\nThe total fuel cost for this region is £{totalFuelCost} for {totalDistance} km")
+        header = f"\nRegion {region} summary\n"
+        f.write(header)
+        f.write("="*len(header))
+        f.write(f"\n\nTotal fuel cost: £{totalFuelCost}\n")
+        f.write(f"Total distance: {totalDistance} km\n")
+        f.write(f"Total working hours: {workingHours}h\n")
+        f.write(f"Total pay: £{pay}\n")
         f.write("\nHappy ride!")
 
     return
@@ -577,9 +587,13 @@ def CityDivision():
     net_flow_out = pd.DataFrame(net_flow_out.values.reshape(1,-1))
     station_id = pd.DataFrame(station_id.values.reshape(1,-1))
 
+    numberStations = station_id.shape[1]
+
     # Generate the dat files for the required timeframe
 
-    latitude.to_csv(os.path.join(curDir, "city_division.dat"), index = False, header = False, sep = " ")
+    cityDivisionFile = f"city_division_week{weekNumber}.dat"
+
+    latitude.to_csv(os.path.join(curDir, cityDivisionFile), index = False, header = False, sep = " ")
     longitude.to_csv(os.path.join(curDir, "longitude.dat"), index = False, header = False, sep = " ")
     net_flow_in.to_csv(os.path.join(curDir, "net_flow_in.dat"), index = False, header = False, sep = " ")
     net_flow_out.to_csv(os.path.join(curDir, "net_flow_out.dat"), index = False, header = False, sep = " ")
@@ -590,7 +604,7 @@ def CityDivision():
     f3 = open('net_flow_out.dat')
     f4 = open('station_id.dat')
 
-    with open("city_division.dat", "r+") as f:
+    with open(cityDivisionFile, "r+") as f:
         old = f.read() # read everything in the file
         longitude = f1.read()
         net_flow_in = f2.read()
@@ -614,7 +628,8 @@ def CityDivision():
     os.remove("net_flow_out.dat")
     os.remove("station_id.dat")
 
-    print("Created city_division.dat")
+    print(f"Created {cityDivisionFile}")
+    print(f"The number of stations are: {numberStations}")
 
     return 
 
